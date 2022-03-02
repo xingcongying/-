@@ -1,0 +1,2434 @@
+
+TRAIN_BATCH_SIZE = 64
+TEST_BATCH_SIZE = 64
+SAMPLE_FRAME_NUM = 10
+Epoch 1, Iteration 1's Loss: 1.701689600944519
+Epoch 1, Iteration 2's Loss: 1.4034935235977173
+Epoch 1, Iteration 3's Loss: 1.6910512447357178
+Epoch 1, Iteration 4's Loss: 2.2195851802825928
+Epoch 1, Iteration 5's Loss: 1.6851693391799927
+Epoch 1, Iteration 6's Loss: 1.6651185750961304
+Epoch 1's Accuracy: 30.555555555555557
+Epoch 2, Iteration 1's Loss: 1.0088392496109009
+Epoch 2, Iteration 2's Loss: 1.2274882793426514
+Epoch 2, Iteration 3's Loss: 1.4917874336242676
+Epoch 2, Iteration 4's Loss: 1.4927949905395508
+Epoch 2, Iteration 5's Loss: 1.6108741760253906
+Epoch 2, Iteration 6's Loss: 1.6300032138824463
+Epoch 2's Accuracy: 38.888888888888886
+Epoch 3, Iteration 1's Loss: 0.9559189677238464
+Epoch 3, Iteration 2's Loss: 1.2909473180770874
+Epoch 3, Iteration 3's Loss: 1.4635981321334839
+Epoch 3, Iteration 4's Loss: 1.3119388818740845
+Epoch 3, Iteration 5's Loss: 1.3229846954345703
+Epoch 3, Iteration 6's Loss: 1.3162778615951538
+Epoch 3's Accuracy: 45.833333333333336
+Epoch 4, Iteration 1's Loss: 1.021168828010559
+Epoch 4, Iteration 2's Loss: 1.350869059562683
+Epoch 4, Iteration 3's Loss: 1.4860907793045044
+Epoch 4, Iteration 4's Loss: 1.2750352621078491
+Epoch 4, Iteration 5's Loss: 1.06874418258667
+Epoch 4, Iteration 6's Loss: 1.0665446519851685
+Epoch 4's Accuracy: 48.611111111111114
+Epoch 5, Iteration 1's Loss: 0.9799571633338928
+Epoch 5, Iteration 2's Loss: 1.300504446029663
+Epoch 5, Iteration 3's Loss: 1.416175127029419
+Epoch 5, Iteration 4's Loss: 1.3124569654464722
+Epoch 5, Iteration 5's Loss: 1.0013949871063232
+Epoch 5, Iteration 6's Loss: 1.0081361532211304
+Epoch 5's Accuracy: 45.833333333333336
+Epoch 6, Iteration 1's Loss: 0.7858566045761108
+Epoch 6, Iteration 2's Loss: 1.1177352666854858
+Epoch 6, Iteration 3's Loss: 1.342740535736084
+Epoch 6, Iteration 4's Loss: 1.3229292631149292
+Epoch 6, Iteration 5's Loss: 1.0265380144119263
+Epoch 6, Iteration 6's Loss: 1.0502004623413086
+Epoch 6's Accuracy: 61.111111111111114
+Epoch 7, Iteration 1's Loss: 0.5604751706123352
+Epoch 7, Iteration 2's Loss: 0.9702282547950745
+Epoch 7, Iteration 3's Loss: 1.159613013267517
+Epoch 7, Iteration 4's Loss: 1.1743440628051758
+Epoch 7, Iteration 5's Loss: 1.065381407737732
+Epoch 7, Iteration 6's Loss: 1.0705465078353882
+Epoch 7's Accuracy: 61.111111111111114
+Epoch 8, Iteration 1's Loss: 0.5387372374534607
+Epoch 8, Iteration 2's Loss: 0.7837121486663818
+Epoch 8, Iteration 3's Loss: 1.0216456651687622
+Epoch 8, Iteration 4's Loss: 1.0930359363555908
+Epoch 8, Iteration 5's Loss: 0.9638988971710205
+Epoch 8, Iteration 6's Loss: 1.0135209560394287
+Epoch 8's Accuracy: 68.05555555555556
+Epoch 9, Iteration 1's Loss: 0.31869372725486755
+Epoch 9, Iteration 2's Loss: 0.6383339166641235
+Epoch 9, Iteration 3's Loss: 0.8446305990219116
+Epoch 9, Iteration 4's Loss: 1.0408668518066406
+Epoch 9, Iteration 5's Loss: 0.9477214813232422
+Epoch 9, Iteration 6's Loss: 0.8698034882545471
+Epoch 9's Accuracy: 72.22222222222223
+Epoch 10, Iteration 1's Loss: 0.24630174040794373
+Epoch 10, Iteration 2's Loss: 0.5714832544326782
+Epoch 10, Iteration 3's Loss: 0.8531681299209595
+Epoch 10, Iteration 4's Loss: 0.96968013048172
+Epoch 10, Iteration 5's Loss: 0.8710038661956787
+Epoch 10, Iteration 6's Loss: 0.8156647086143494
+Epoch 10's Accuracy: 70.83333333333333
+Epoch 11, Iteration 1's Loss: 0.29319053888320923
+Epoch 11, Iteration 2's Loss: 0.5225140452384949
+Epoch 11, Iteration 3's Loss: 0.5531048774719238
+Epoch 11, Iteration 4's Loss: 0.9248537421226501
+Epoch 11, Iteration 5's Loss: 0.8831808567047119
+Epoch 11, Iteration 6's Loss: 0.8320903182029724
+Epoch 11's Accuracy: 76.38888888888889
+Epoch 12, Iteration 1's Loss: 0.19122278690338135
+Epoch 12, Iteration 2's Loss: 0.3161110579967499
+Epoch 12, Iteration 3's Loss: 0.5621280670166016
+Epoch 12, Iteration 4's Loss: 0.8582482933998108
+Epoch 12, Iteration 5's Loss: 0.7376425266265869
+Epoch 12, Iteration 6's Loss: 0.6851348876953125
+Epoch 12's Accuracy: 72.22222222222223
+Epoch 13, Iteration 1's Loss: 0.1196393370628357
+Epoch 13, Iteration 2's Loss: 0.3372880816459656
+Epoch 13, Iteration 3's Loss: 0.537345826625824
+Epoch 13, Iteration 4's Loss: 0.8616625666618347
+Epoch 13, Iteration 5's Loss: 0.7863208055496216
+Epoch 13, Iteration 6's Loss: 0.5982534885406494
+Epoch 13's Accuracy: 83.33333333333333
+Epoch 14, Iteration 1's Loss: 0.13309484720230103
+Epoch 14, Iteration 2's Loss: 0.22712337970733643
+Epoch 14, Iteration 3's Loss: 0.33841097354888916
+Epoch 14, Iteration 4's Loss: 0.5494799017906189
+Epoch 14, Iteration 5's Loss: 0.930987536907196
+Epoch 14, Iteration 6's Loss: 0.8646938800811768
+Epoch 14's Accuracy: 81.94444444444444
+Epoch 15, Iteration 1's Loss: 0.13918699324131012
+Epoch 15, Iteration 2's Loss: 0.2545467019081116
+Epoch 15, Iteration 3's Loss: 0.5557583570480347
+Epoch 15, Iteration 4's Loss: 0.9844449162483215
+Epoch 15, Iteration 5's Loss: 0.6819688677787781
+Epoch 15, Iteration 6's Loss: 0.5234715938568115
+Epoch 15's Accuracy: 76.38888888888889
+Epoch 16, Iteration 1's Loss: 0.14082753658294678
+Epoch 16, Iteration 2's Loss: 0.24926070868968964
+Epoch 16, Iteration 3's Loss: 0.31602150201797485
+Epoch 16, Iteration 4's Loss: 0.568983256816864
+Epoch 16, Iteration 5's Loss: 0.8806751370429993
+Epoch 16, Iteration 6's Loss: 0.7293447852134705
+Epoch 16's Accuracy: 84.72222222222223
+Epoch 17, Iteration 1's Loss: 0.08843785524368286
+Epoch 17, Iteration 2's Loss: 0.14007455110549927
+Epoch 17, Iteration 3's Loss: 0.4168078601360321
+Epoch 17, Iteration 4's Loss: 0.9775989055633545
+Epoch 17, Iteration 5's Loss: 0.6225050091743469
+Epoch 17, Iteration 6's Loss: 0.4518492817878723
+Epoch 17's Accuracy: 81.94444444444444
+Epoch 18, Iteration 1's Loss: 0.16141299903392792
+Epoch 18, Iteration 2's Loss: 0.238909050822258
+Epoch 18, Iteration 3's Loss: 0.24157263338565826
+Epoch 18, Iteration 4's Loss: 0.49608439207077026
+Epoch 18, Iteration 5's Loss: 0.9402275681495667
+Epoch 18, Iteration 6's Loss: 0.7478517889976501
+Epoch 18's Accuracy: 77.77777777777777
+Epoch 19, Iteration 1's Loss: 0.09306365251541138
+Epoch 19, Iteration 2's Loss: 0.10983824729919434
+Epoch 19, Iteration 3's Loss: 0.5891698002815247
+Epoch 19, Iteration 4's Loss: 1.246894121170044
+Epoch 19, Iteration 5's Loss: 0.5997816324234009
+Epoch 19, Iteration 6's Loss: 0.45033329725265503
+Epoch 19's Accuracy: 77.77777777777777
+Epoch 20, Iteration 1's Loss: 0.20208299160003662
+Epoch 20, Iteration 2's Loss: 0.18394328653812408
+Epoch 20, Iteration 3's Loss: 0.22015894949436188
+Epoch 20, Iteration 4's Loss: 0.36180222034454346
+Epoch 20, Iteration 5's Loss: 0.8883965015411377
+Epoch 20, Iteration 6's Loss: 0.6253315806388855
+Epoch 20's Accuracy: 84.72222222222223
+Epoch 21, Iteration 1's Loss: 0.06525839120149612
+Epoch 21, Iteration 2's Loss: 0.09436753392219543
+Epoch 21, Iteration 3's Loss: 0.4582538902759552
+Epoch 21, Iteration 4's Loss: 1.3307771682739258
+Epoch 21, Iteration 5's Loss: 0.6507533192634583
+Epoch 21, Iteration 6's Loss: 0.3373976945877075
+Epoch 21's Accuracy: 75.0
+Epoch 22, Iteration 1's Loss: 0.08223076164722443
+Epoch 22, Iteration 2's Loss: 0.049706801772117615
+Epoch 22, Iteration 3's Loss: 0.17085494101047516
+Epoch 22, Iteration 4's Loss: 0.2694476842880249
+Epoch 22, Iteration 5's Loss: 1.0545790195465088
+Epoch 22, Iteration 6's Loss: 0.5884915590286255
+Epoch 22's Accuracy: 80.55555555555556
+Epoch 23, Iteration 1's Loss: 0.09209109842777252
+Epoch 23, Iteration 2's Loss: 0.1395593136548996
+Epoch 23, Iteration 3's Loss: 0.49701154232025146
+Epoch 23, Iteration 4's Loss: 1.3124033212661743
+Epoch 23, Iteration 5's Loss: 0.40833693742752075
+Epoch 23, Iteration 6's Loss: 0.22568096220493317
+Epoch 23's Accuracy: 77.77777777777777
+Epoch 24, Iteration 1's Loss: 0.04662021994590759
+Epoch 24, Iteration 2's Loss: 0.07928811013698578
+Epoch 24, Iteration 3's Loss: 0.19409525394439697
+Epoch 24, Iteration 4's Loss: 0.17867246270179749
+Epoch 24, Iteration 5's Loss: 1.0072336196899414
+Epoch 24, Iteration 6's Loss: 0.596232533454895
+Epoch 24's Accuracy: 80.55555555555556
+Epoch 25, Iteration 1's Loss: 0.024385325610637665
+Epoch 25, Iteration 2's Loss: 0.0732124000787735
+Epoch 25, Iteration 3's Loss: 0.4342411458492279
+Epoch 25, Iteration 4's Loss: 1.2375843524932861
+Epoch 25, Iteration 5's Loss: 0.3972899615764618
+Epoch 25, Iteration 6's Loss: 0.24117349088191986
+Epoch 25's Accuracy: 76.38888888888889
+Epoch 26, Iteration 1's Loss: 0.06999251246452332
+Epoch 26, Iteration 2's Loss: 0.10526468604803085
+Epoch 26, Iteration 3's Loss: 0.12819254398345947
+Epoch 26, Iteration 4's Loss: 0.2884485721588135
+Epoch 26, Iteration 5's Loss: 0.9274585247039795
+Epoch 26, Iteration 6's Loss: 0.6678950786590576
+Epoch 26's Accuracy: 79.16666666666667
+Epoch 27, Iteration 1's Loss: 0.09040042757987976
+Epoch 27, Iteration 2's Loss: 0.05147440358996391
+Epoch 27, Iteration 3's Loss: 0.2567578852176666
+Epoch 27, Iteration 4's Loss: 0.9357733130455017
+Epoch 27, Iteration 5's Loss: 0.38919785618782043
+Epoch 27, Iteration 6's Loss: 0.18400874733924866
+Epoch 27's Accuracy: 80.55555555555556
+Epoch 28, Iteration 1's Loss: 0.05487489700317383
+Epoch 28, Iteration 2's Loss: 0.0394168458878994
+Epoch 28, Iteration 3's Loss: 0.12485136836767197
+Epoch 28, Iteration 4's Loss: 0.26493334770202637
+Epoch 28, Iteration 5's Loss: 0.7669135332107544
+Epoch 28, Iteration 6's Loss: 0.46130841970443726
+Epoch 28's Accuracy: 81.94444444444444
+Epoch 29, Iteration 1's Loss: 0.025023140013217926
+Epoch 29, Iteration 2's Loss: 0.05972244217991829
+Epoch 29, Iteration 3's Loss: 0.40359798073768616
+Epoch 29, Iteration 4's Loss: 0.5478628873825073
+Epoch 29, Iteration 5's Loss: 0.39421379566192627
+Epoch 29, Iteration 6's Loss: 0.2017664611339569
+Epoch 29's Accuracy: 83.33333333333333
+Epoch 30, Iteration 1's Loss: 0.0545634962618351
+Epoch 30, Iteration 2's Loss: 0.0642504021525383
+Epoch 30, Iteration 3's Loss: 0.1478320211172104
+Epoch 30, Iteration 4's Loss: 0.16614869236946106
+Epoch 30, Iteration 5's Loss: 0.7346760630607605
+Epoch 30, Iteration 6's Loss: 0.38856998085975647
+Epoch 30's Accuracy: 75.0
+Epoch 31, Iteration 1's Loss: 0.06639575213193893
+Epoch 31, Iteration 2's Loss: 0.06861220300197601
+Epoch 31, Iteration 3's Loss: 0.38714975118637085
+Epoch 31, Iteration 4's Loss: 1.2363591194152832
+Epoch 31, Iteration 5's Loss: 0.4249890446662903
+Epoch 31, Iteration 6's Loss: 0.25338906049728394
+Epoch 31's Accuracy: 84.72222222222223
+Epoch 32, Iteration 1's Loss: 0.025875534862279892
+Epoch 32, Iteration 2's Loss: 0.08728930354118347
+Epoch 32, Iteration 3's Loss: 0.10695870965719223
+Epoch 32, Iteration 4's Loss: 0.08441892266273499
+Epoch 32, Iteration 5's Loss: 1.3070974349975586
+Epoch 32, Iteration 6's Loss: 0.3865787088871002
+Epoch 32's Accuracy: 80.55555555555556
+Epoch 33, Iteration 1's Loss: 0.029819615185260773
+Epoch 33, Iteration 2's Loss: 0.042568691074848175
+Epoch 33, Iteration 3's Loss: 0.5290240049362183
+Epoch 33, Iteration 4's Loss: 1.6271096467971802
+Epoch 33, Iteration 5's Loss: 0.42658543586730957
+Epoch 33, Iteration 6's Loss: 0.1444348692893982
+Epoch 33's Accuracy: 77.77777777777777
+Epoch 34, Iteration 1's Loss: 0.04462131857872009
+Epoch 34, Iteration 2's Loss: 0.027377143502235413
+Epoch 34, Iteration 3's Loss: 0.11688856780529022
+Epoch 34, Iteration 4's Loss: 0.18512672185897827
+Epoch 34, Iteration 5's Loss: 1.1030371189117432
+Epoch 34, Iteration 6's Loss: 0.5890181064605713
+Epoch 34's Accuracy: 79.16666666666667
+Epoch 35, Iteration 1's Loss: 0.06974390149116516
+Epoch 35, Iteration 2's Loss: 0.0445077046751976
+Epoch 35, Iteration 3's Loss: 0.22583991289138794
+Epoch 35, Iteration 4's Loss: 0.7173338532447815
+Epoch 35, Iteration 5's Loss: 0.30053791403770447
+Epoch 35, Iteration 6's Loss: 0.09049435704946518
+Epoch 35's Accuracy: 76.38888888888889
+Epoch 36, Iteration 1's Loss: 0.014829970896244049
+Epoch 36, Iteration 2's Loss: 0.09885801374912262
+Epoch 36, Iteration 3's Loss: 0.18082061409950256
+Epoch 36, Iteration 4's Loss: 0.206949844956398
+Epoch 36, Iteration 5's Loss: 0.5814226865768433
+Epoch 36, Iteration 6's Loss: 0.2403574287891388
+Epoch 36's Accuracy: 79.16666666666667
+Epoch 37, Iteration 1's Loss: 0.02960284799337387
+Epoch 37, Iteration 2's Loss: 0.035951122641563416
+Epoch 37, Iteration 3's Loss: 0.19185873866081238
+Epoch 37, Iteration 4's Loss: 0.3268647789955139
+Epoch 37, Iteration 5's Loss: 0.5168997049331665
+Epoch 37, Iteration 6's Loss: 0.20687110722064972
+Epoch 37's Accuracy: 84.72222222222223
+Epoch 38, Iteration 1's Loss: 0.024546321481466293
+Epoch 38, Iteration 2's Loss: 0.04539394751191139
+Epoch 38, Iteration 3's Loss: 0.19196118414402008
+Epoch 38, Iteration 4's Loss: 0.3106197714805603
+Epoch 38, Iteration 5's Loss: 0.40297889709472656
+Epoch 38, Iteration 6's Loss: 0.14002013206481934
+Epoch 38's Accuracy: 80.55555555555556
+Epoch 39, Iteration 1's Loss: 0.05931677669286728
+Epoch 39, Iteration 2's Loss: 0.09447994828224182
+Epoch 39, Iteration 3's Loss: 0.14442937076091766
+Epoch 39, Iteration 4's Loss: 0.23455411195755005
+Epoch 39, Iteration 5's Loss: 0.3702240586280823
+Epoch 39, Iteration 6's Loss: 0.2405897080898285
+Epoch 39's Accuracy: 81.94444444444444
+Epoch 40, Iteration 1's Loss: 0.034263379871845245
+Epoch 40, Iteration 2's Loss: 0.02042892575263977
+Epoch 40, Iteration 3's Loss: 0.1294499784708023
+Epoch 40, Iteration 4's Loss: 0.48599255084991455
+Epoch 40, Iteration 5's Loss: 0.3856697678565979
+Epoch 40, Iteration 6's Loss: 0.11561408638954163
+Epoch 40's Accuracy: 75.0
+Epoch 41, Iteration 1's Loss: 0.021037694066762924
+Epoch 41, Iteration 2's Loss: 0.029803670942783356
+Epoch 41, Iteration 3's Loss: 0.08271492272615433
+Epoch 41, Iteration 4's Loss: 0.1689775288105011
+Epoch 41, Iteration 5's Loss: 0.5236444473266602
+Epoch 41, Iteration 6's Loss: 0.09921900928020477
+Epoch 41's Accuracy: 84.72222222222223
+Epoch 42, Iteration 1's Loss: 0.027683593332767487
+Epoch 42, Iteration 2's Loss: 0.013227969408035278
+Epoch 42, Iteration 3's Loss: 0.16269230842590332
+Epoch 42, Iteration 4's Loss: 0.4968928396701813
+Epoch 42, Iteration 5's Loss: 0.3358530104160309
+Epoch 42, Iteration 6's Loss: 0.08380618691444397
+Epoch 42's Accuracy: 80.55555555555556
+Epoch 43, Iteration 1's Loss: 0.01830267161130905
+Epoch 43, Iteration 2's Loss: 0.020303163677453995
+Epoch 43, Iteration 3's Loss: 0.06253039091825485
+Epoch 43, Iteration 4's Loss: 0.055903561413288116
+Epoch 43, Iteration 5's Loss: 0.7044727802276611
+Epoch 43, Iteration 6's Loss: 0.13443532586097717
+Epoch 43's Accuracy: 70.83333333333333
+Epoch 44, Iteration 1's Loss: 0.012189514935016632
+Epoch 44, Iteration 2's Loss: 0.014902487397193909
+Epoch 44, Iteration 3's Loss: 0.49690350890159607
+Epoch 44, Iteration 4's Loss: 0.5930416584014893
+Epoch 44, Iteration 5's Loss: 0.1884479820728302
+Epoch 44, Iteration 6's Loss: 0.1270899772644043
+Epoch 44's Accuracy: 80.55555555555556
+Epoch 45, Iteration 1's Loss: 0.03485207259654999
+Epoch 45, Iteration 2's Loss: 0.08597815781831741
+Epoch 45, Iteration 3's Loss: 0.03660695254802704
+Epoch 45, Iteration 4's Loss: 0.025430291891098022
+Epoch 45, Iteration 5's Loss: 1.6238478422164917
+Epoch 45, Iteration 6's Loss: 0.2518884837627411
+Epoch 45's Accuracy: 73.61111111111111
+Epoch 46, Iteration 1's Loss: 0.014618515968322754
+Epoch 46, Iteration 2's Loss: 0.011276833713054657
+Epoch 46, Iteration 3's Loss: 0.8451645970344543
+Epoch 46, Iteration 4's Loss: 3.042393445968628
+Epoch 46, Iteration 5's Loss: 0.2922414541244507
+Epoch 46, Iteration 6's Loss: 0.09095034003257751
+Epoch 46's Accuracy: 80.55555555555556
+Epoch 47, Iteration 1's Loss: 0.13066567480564117
+Epoch 47, Iteration 2's Loss: 0.07686035335063934
+Epoch 47, Iteration 3's Loss: 0.06767011433839798
+Epoch 47, Iteration 4's Loss: 0.06334125995635986
+Epoch 47, Iteration 5's Loss: 2.10650372505188
+Epoch 47, Iteration 6's Loss: 1.4011286497116089
+Epoch 47's Accuracy: 76.38888888888889
+Epoch 48, Iteration 1's Loss: 0.38274821639060974
+Epoch 48, Iteration 2's Loss: 0.17679643630981445
+Epoch 48, Iteration 3's Loss: 0.2386283576488495
+Epoch 48, Iteration 4's Loss: 0.7204806804656982
+Epoch 48, Iteration 5's Loss: 0.4788433611392975
+Epoch 48, Iteration 6's Loss: 0.14348898828029633
+Epoch 48's Accuracy: 68.05555555555556
+Epoch 49, Iteration 1's Loss: 0.1050691306591034
+Epoch 49, Iteration 2's Loss: 0.08745352923870087
+Epoch 49, Iteration 3's Loss: 0.5387977361679077
+Epoch 49, Iteration 4's Loss: 1.190355896949768
+Epoch 49, Iteration 5's Loss: 0.3545023202896118
+Epoch 49, Iteration 6's Loss: 0.2598550617694855
+Epoch 49's Accuracy: 76.38888888888889
+Epoch 50, Iteration 1's Loss: 0.0317094512283802
+Epoch 50, Iteration 2's Loss: 0.07296615839004517
+Epoch 50, Iteration 3's Loss: 0.20317740738391876
+Epoch 50, Iteration 4's Loss: 0.26740562915802
+Epoch 50, Iteration 5's Loss: 0.5415245294570923
+Epoch 50, Iteration 6's Loss: 0.48727577924728394
+Epoch 50's Accuracy: 80.55555555555556
+Epoch 51, Iteration 1's Loss: 0.03379444032907486
+Epoch 51, Iteration 2's Loss: 0.03969753533601761
+Epoch 51, Iteration 3's Loss: 0.15449732542037964
+Epoch 51, Iteration 4's Loss: 0.1727067530155182
+Epoch 51, Iteration 5's Loss: 0.6761572957038879
+Epoch 51, Iteration 6's Loss: 0.34788528084754944
+Epoch 51's Accuracy: 76.38888888888889
+Epoch 52, Iteration 1's Loss: 0.05014028772711754
+Epoch 52, Iteration 2's Loss: 0.06482641398906708
+Epoch 52, Iteration 3's Loss: 0.20685739815235138
+Epoch 52, Iteration 4's Loss: 0.38197922706604004
+Epoch 52, Iteration 5's Loss: 0.2814671993255615
+Epoch 52, Iteration 6's Loss: 0.11567814648151398
+Epoch 52's Accuracy: 79.16666666666667
+Epoch 53, Iteration 1's Loss: 0.03718465939164162
+Epoch 53, Iteration 2's Loss: 0.0413656160235405
+Epoch 53, Iteration 3's Loss: 0.16219311952590942
+Epoch 53, Iteration 4's Loss: 0.3253028392791748
+Epoch 53, Iteration 5's Loss: 0.3112609386444092
+Epoch 53, Iteration 6's Loss: 0.18486571311950684
+Epoch 53's Accuracy: 86.11111111111111
+Epoch 54, Iteration 1's Loss: 0.0316847562789917
+Epoch 54, Iteration 2's Loss: 0.020250514149665833
+Epoch 54, Iteration 3's Loss: 0.10492724180221558
+Epoch 54, Iteration 4's Loss: 0.14636072516441345
+Epoch 54, Iteration 5's Loss: 0.30562877655029297
+Epoch 54, Iteration 6's Loss: 0.13006749749183655
+Epoch 54's Accuracy: 79.16666666666667
+Epoch 55, Iteration 1's Loss: 0.012502539902925491
+Epoch 55, Iteration 2's Loss: 0.019565612077713013
+Epoch 55, Iteration 3's Loss: 0.0929066613316536
+Epoch 55, Iteration 4's Loss: 0.16074107587337494
+Epoch 55, Iteration 5's Loss: 0.3005201816558838
+Epoch 55, Iteration 6's Loss: 0.04408693313598633
+Epoch 55's Accuracy: 77.77777777777777
+Epoch 56, Iteration 1's Loss: 0.014995917677879333
+Epoch 56, Iteration 2's Loss: 0.008196618407964706
+Epoch 56, Iteration 3's Loss: 0.10266155749559402
+Epoch 56, Iteration 4's Loss: 0.18194018304347992
+Epoch 56, Iteration 5's Loss: 0.27675145864486694
+Epoch 56, Iteration 6's Loss: 0.12148554623126984
+Epoch 56's Accuracy: 76.38888888888889
+Epoch 57, Iteration 1's Loss: 0.030419234186410904
+Epoch 57, Iteration 2's Loss: 0.02868780866265297
+Epoch 57, Iteration 3's Loss: 0.06950028985738754
+Epoch 57, Iteration 4's Loss: 0.12293311953544617
+Epoch 57, Iteration 5's Loss: 0.2815341055393219
+Epoch 57, Iteration 6's Loss: 0.09405110776424408
+Epoch 57's Accuracy: 79.16666666666667
+Epoch 58, Iteration 1's Loss: 0.0071425288915634155
+Epoch 58, Iteration 2's Loss: 0.037401098757982254
+Epoch 58, Iteration 3's Loss: 0.09213309735059738
+Epoch 58, Iteration 4's Loss: 0.2257886528968811
+Epoch 58, Iteration 5's Loss: 0.12248745560646057
+Epoch 58, Iteration 6's Loss: 0.032660629600286484
+Epoch 58's Accuracy: 83.33333333333333
+Epoch 59, Iteration 1's Loss: 0.00867905467748642
+Epoch 59, Iteration 2's Loss: 0.027123229578137398
+Epoch 59, Iteration 3's Loss: 0.033205367624759674
+Epoch 59, Iteration 4's Loss: 0.053692735731601715
+Epoch 59, Iteration 5's Loss: 0.4625188410282135
+Epoch 59, Iteration 6's Loss: 0.09480146318674088
+Epoch 59's Accuracy: 80.55555555555556
+Epoch 60, Iteration 1's Loss: 0.01754913479089737
+Epoch 60, Iteration 2's Loss: 0.00509759783744812
+Epoch 60, Iteration 3's Loss: 0.06284502148628235
+Epoch 60, Iteration 4's Loss: 0.2749848961830139
+Epoch 60, Iteration 5's Loss: 0.1406121402978897
+Epoch 60, Iteration 6's Loss: 0.02123645693063736
+Epoch 60's Accuracy: 81.94444444444444
+Epoch 61, Iteration 1's Loss: 0.03567979857325554
+Epoch 61, Iteration 2's Loss: 0.005425184965133667
+Epoch 61, Iteration 3's Loss: 0.05336754024028778
+Epoch 61, Iteration 4's Loss: 0.04895682632923126
+Epoch 61, Iteration 5's Loss: 0.18762490153312683
+Epoch 61, Iteration 6's Loss: 0.06607906520366669
+Epoch 61's Accuracy: 81.94444444444444
+Epoch 62, Iteration 1's Loss: 0.013357184827327728
+Epoch 62, Iteration 2's Loss: 0.004232883453369141
+Epoch 62, Iteration 3's Loss: 0.03780480846762657
+Epoch 62, Iteration 4's Loss: 0.0614408478140831
+Epoch 62, Iteration 5's Loss: 0.215627521276474
+Epoch 62, Iteration 6's Loss: 0.016549183055758476
+Epoch 62's Accuracy: 84.72222222222223
+Epoch 63, Iteration 1's Loss: 0.006915301084518433
+Epoch 63, Iteration 2's Loss: 0.0039308518171310425
+Epoch 63, Iteration 3's Loss: 0.10050603747367859
+Epoch 63, Iteration 4's Loss: 0.10306886583566666
+Epoch 63, Iteration 5's Loss: 0.1573311686515808
+Epoch 63, Iteration 6's Loss: 0.033618781715631485
+Epoch 63's Accuracy: 77.77777777777777
+Epoch 64, Iteration 1's Loss: 0.008238092064857483
+Epoch 64, Iteration 2's Loss: 0.0177232064306736
+Epoch 64, Iteration 3's Loss: 0.06909991800785065
+Epoch 64, Iteration 4's Loss: 0.07145677506923676
+Epoch 64, Iteration 5's Loss: 0.16808661818504333
+Epoch 64, Iteration 6's Loss: 0.04685785248875618
+Epoch 64's Accuracy: 83.33333333333333
+Epoch 65, Iteration 1's Loss: 0.005734667181968689
+Epoch 65, Iteration 2's Loss: 0.0066790468990802765
+Epoch 65, Iteration 3's Loss: 0.028979331254959106
+Epoch 65, Iteration 4's Loss: 0.05556351691484451
+Epoch 65, Iteration 5's Loss: 0.15907368063926697
+Epoch 65, Iteration 6's Loss: 0.013293706811964512
+Epoch 65's Accuracy: 80.55555555555556
+Epoch 66, Iteration 1's Loss: 0.009404599666595459
+Epoch 66, Iteration 2's Loss: 0.002967648208141327
+Epoch 66, Iteration 3's Loss: 0.09605979919433594
+Epoch 66, Iteration 4's Loss: 0.12410672008991241
+Epoch 66, Iteration 5's Loss: 0.06464700400829315
+Epoch 66, Iteration 6's Loss: 0.009984309785068035
+Epoch 66's Accuracy: 83.33333333333333
+Epoch 67, Iteration 1's Loss: 0.006369955837726593
+Epoch 67, Iteration 2's Loss: 0.012029960751533508
+Epoch 67, Iteration 3's Loss: 0.020522288978099823
+Epoch 67, Iteration 4's Loss: 0.041563741862773895
+Epoch 67, Iteration 5's Loss: 0.1689150184392929
+Epoch 67, Iteration 6's Loss: 0.024464698508381844
+Epoch 67's Accuracy: 84.72222222222223
+Epoch 68, Iteration 1's Loss: 0.007140345871448517
+Epoch 68, Iteration 2's Loss: 0.004988454282283783
+Epoch 68, Iteration 3's Loss: 0.06904441118240356
+Epoch 68, Iteration 4's Loss: 0.1181851327419281
+Epoch 68, Iteration 5's Loss: 0.06566038727760315
+Epoch 68, Iteration 6's Loss: 0.009990472346544266
+Epoch 68's Accuracy: 80.55555555555556
+Epoch 69, Iteration 1's Loss: 0.0024164244532585144
+Epoch 69, Iteration 2's Loss: 0.002950012683868408
+Epoch 69, Iteration 3's Loss: 0.014567434787750244
+Epoch 69, Iteration 4's Loss: 0.03760345280170441
+Epoch 69, Iteration 5's Loss: 0.22294017672538757
+Epoch 69, Iteration 6's Loss: 0.08032365888357162
+Epoch 69's Accuracy: 90.27777777777777
+Epoch 70, Iteration 1's Loss: 0.0054612234234809875
+Epoch 70, Iteration 2's Loss: 0.001608528196811676
+Epoch 70, Iteration 3's Loss: 0.10719461739063263
+Epoch 70, Iteration 4's Loss: 0.1880088746547699
+Epoch 70, Iteration 5's Loss: 0.08579762279987335
+Epoch 70, Iteration 6's Loss: 0.009543382562696934
+Epoch 70's Accuracy: 80.55555555555556
+Epoch 71, Iteration 1's Loss: 0.004413090646266937
+Epoch 71, Iteration 2's Loss: 0.003188304603099823
+Epoch 71, Iteration 3's Loss: 0.0024640560150146484
+Epoch 71, Iteration 4's Loss: 0.0042400360107421875
+Epoch 71, Iteration 5's Loss: 0.5117019414901733
+Epoch 71, Iteration 6's Loss: 0.038616035133600235
+Epoch 71's Accuracy: 80.55555555555556
+Epoch 72, Iteration 1's Loss: 0.0071228668093681335
+Epoch 72, Iteration 2's Loss: 0.012845642864704132
+Epoch 72, Iteration 3's Loss: 0.11411111056804657
+Epoch 72, Iteration 4's Loss: 0.5401901602745056
+Epoch 72, Iteration 5's Loss: 0.06322450190782547
+Epoch 72, Iteration 6's Loss: 0.007235050201416016
+Epoch 72's Accuracy: 90.27777777777777
+Epoch 73, Iteration 1's Loss: 0.012573286890983582
+Epoch 73, Iteration 2's Loss: 0.00693155825138092
+Epoch 73, Iteration 3's Loss: 0.007908783853054047
+Epoch 73, Iteration 4's Loss: 0.0027821362018585205
+Epoch 73, Iteration 5's Loss: 1.1845853328704834
+Epoch 73, Iteration 6's Loss: 0.11035669595003128
+Epoch 73's Accuracy: 72.22222222222223
+Epoch 74, Iteration 1's Loss: 0.011470139026641846
+Epoch 74, Iteration 2's Loss: 0.011135861277580261
+Epoch 74, Iteration 3's Loss: 0.961164653301239
+Epoch 74, Iteration 4's Loss: 1.2075893878936768
+Epoch 74, Iteration 5's Loss: 0.1272546350955963
+Epoch 74, Iteration 6's Loss: 0.11410687863826752
+Epoch 74's Accuracy: 83.33333333333333
+Epoch 75, Iteration 1's Loss: 0.08434887230396271
+Epoch 75, Iteration 2's Loss: 0.11498123407363892
+Epoch 75, Iteration 3's Loss: 0.06471265107393265
+Epoch 75, Iteration 4's Loss: 0.011614248156547546
+Epoch 75, Iteration 5's Loss: 2.547738552093506
+Epoch 75, Iteration 6's Loss: 1.086808443069458
+Epoch 75's Accuracy: 79.16666666666667
+Epoch 76, Iteration 1's Loss: 0.137566938996315
+Epoch 76, Iteration 2's Loss: 0.1516561508178711
+Epoch 76, Iteration 3's Loss: 0.8560816049575806
+Epoch 76, Iteration 4's Loss: 3.188176155090332
+Epoch 76, Iteration 5's Loss: 0.6037672758102417
+Epoch 76, Iteration 6's Loss: 0.13497784733772278
+Epoch 76's Accuracy: 69.44444444444444
+Epoch 77, Iteration 1's Loss: 0.02703527733683586
+Epoch 77, Iteration 2's Loss: 0.1024477481842041
+Epoch 77, Iteration 3's Loss: 0.5897326469421387
+Epoch 77, Iteration 4's Loss: 1.1577767133712769
+Epoch 77, Iteration 5's Loss: 0.7431835532188416
+Epoch 77, Iteration 6's Loss: 0.2534428834915161
+Epoch 77's Accuracy: 81.94444444444444
+Epoch 78, Iteration 1's Loss: 0.09695553034543991
+Epoch 78, Iteration 2's Loss: 0.17528817057609558
+Epoch 78, Iteration 3's Loss: 0.2660800814628601
+Epoch 78, Iteration 4's Loss: 0.27588123083114624
+Epoch 78, Iteration 5's Loss: 0.5730535984039307
+Epoch 78, Iteration 6's Loss: 0.44906237721443176
+Epoch 78's Accuracy: 80.55555555555556
+Epoch 79, Iteration 1's Loss: 0.14672985672950745
+Epoch 79, Iteration 2's Loss: 0.14808544516563416
+Epoch 79, Iteration 3's Loss: 0.1437646448612213
+Epoch 79, Iteration 4's Loss: 0.2537679672241211
+Epoch 79, Iteration 5's Loss: 0.45551273226737976
+Epoch 79, Iteration 6's Loss: 0.20463286340236664
+Epoch 79's Accuracy: 87.5
+Epoch 80, Iteration 1's Loss: 0.07306157052516937
+Epoch 80, Iteration 2's Loss: 0.02937978133559227
+Epoch 80, Iteration 3's Loss: 0.08393828570842743
+Epoch 80, Iteration 4's Loss: 0.26118776202201843
+Epoch 80, Iteration 5's Loss: 0.2437143623828888
+Epoch 80, Iteration 6's Loss: 0.09175217151641846
+Epoch 80's Accuracy: 83.33333333333333
+Epoch 81, Iteration 1's Loss: 0.03973816707730293
+Epoch 81, Iteration 2's Loss: 0.027584629133343697
+Epoch 81, Iteration 3's Loss: 0.14343678951263428
+Epoch 81, Iteration 4's Loss: 0.27741891145706177
+Epoch 81, Iteration 5's Loss: 0.2668275237083435
+Epoch 81, Iteration 6's Loss: 0.12231957912445068
+Epoch 81's Accuracy: 77.77777777777777
+Epoch 82, Iteration 1's Loss: 0.026600681245326996
+Epoch 82, Iteration 2's Loss: 0.05081284046173096
+Epoch 82, Iteration 3's Loss: 0.09509707242250443
+Epoch 82, Iteration 4's Loss: 0.11413805186748505
+Epoch 82, Iteration 5's Loss: 0.24706950783729553
+Epoch 82, Iteration 6's Loss: 0.06565268337726593
+Epoch 82's Accuracy: 84.72222222222223
+Epoch 83, Iteration 1's Loss: 0.018670424818992615
+Epoch 83, Iteration 2's Loss: 0.025512829422950745
+Epoch 83, Iteration 3's Loss: 0.10440172255039215
+Epoch 83, Iteration 4's Loss: 0.1135188564658165
+Epoch 83, Iteration 5's Loss: 0.14984019100666046
+Epoch 83, Iteration 6's Loss: 0.08045860379934311
+Epoch 83's Accuracy: 79.16666666666667
+Epoch 84, Iteration 1's Loss: 0.03146393597126007
+Epoch 84, Iteration 2's Loss: 0.020147942006587982
+Epoch 84, Iteration 3's Loss: 0.08442166447639465
+Epoch 84, Iteration 4's Loss: 0.16991223394870758
+Epoch 84, Iteration 5's Loss: 0.13813790678977966
+Epoch 84, Iteration 6's Loss: 0.02916392870247364
+Epoch 84's Accuracy: 81.94444444444444
+Epoch 85, Iteration 1's Loss: 0.0033886730670928955
+Epoch 85, Iteration 2's Loss: 0.02263643592596054
+Epoch 85, Iteration 3's Loss: 0.07035578787326813
+Epoch 85, Iteration 4's Loss: 0.1282845437526703
+Epoch 85, Iteration 5's Loss: 0.2354070246219635
+Epoch 85, Iteration 6's Loss: 0.046353816986083984
+Epoch 85's Accuracy: 86.11111111111111
+Epoch 86, Iteration 1's Loss: 0.0035276785492897034
+Epoch 86, Iteration 2's Loss: 0.005408823490142822
+Epoch 86, Iteration 3's Loss: 0.0367281511425972
+Epoch 86, Iteration 4's Loss: 0.0703044906258583
+Epoch 86, Iteration 5's Loss: 0.09221835434436798
+Epoch 86, Iteration 6's Loss: 0.026619506999850273
+Epoch 86's Accuracy: 81.94444444444444
+Epoch 87, Iteration 1's Loss: 0.024626746773719788
+Epoch 87, Iteration 2's Loss: 0.03335363790392876
+Epoch 87, Iteration 3's Loss: 0.026744864881038666
+Epoch 87, Iteration 4's Loss: 0.06241000443696976
+Epoch 87, Iteration 5's Loss: 0.0720335990190506
+Epoch 87, Iteration 6's Loss: 0.06508712470531464
+Epoch 87's Accuracy: 84.72222222222223
+Epoch 88, Iteration 1's Loss: 0.014253683388233185
+Epoch 88, Iteration 2's Loss: 0.004998374730348587
+Epoch 88, Iteration 3's Loss: 0.049444396048784256
+Epoch 88, Iteration 4's Loss: 0.05472356081008911
+Epoch 88, Iteration 5's Loss: 0.17850930988788605
+Epoch 88, Iteration 6's Loss: 0.033928871154785156
+Epoch 88's Accuracy: 79.16666666666667
+Epoch 89, Iteration 1's Loss: 0.007666371762752533
+Epoch 89, Iteration 2's Loss: 0.015940390527248383
+Epoch 89, Iteration 3's Loss: 0.044264502823352814
+Epoch 89, Iteration 4's Loss: 0.10586158186197281
+Epoch 89, Iteration 5's Loss: 0.07439342886209488
+Epoch 89, Iteration 6's Loss: 0.018460988998413086
+Epoch 89's Accuracy: 81.94444444444444
+Epoch 90, Iteration 1's Loss: 0.012595519423484802
+Epoch 90, Iteration 2's Loss: 0.008951861411333084
+Epoch 90, Iteration 3's Loss: 0.02617766335606575
+Epoch 90, Iteration 4's Loss: 0.028746023774147034
+Epoch 90, Iteration 5's Loss: 0.074625164270401
+Epoch 90, Iteration 6's Loss: 0.032301757484674454
+Epoch 90's Accuracy: 81.94444444444444
+Epoch 91, Iteration 1's Loss: 0.005088634788990021
+Epoch 91, Iteration 2's Loss: 0.01906389370560646
+Epoch 91, Iteration 3's Loss: 0.01921912282705307
+Epoch 91, Iteration 4's Loss: 0.03255051374435425
+Epoch 91, Iteration 5's Loss: 0.06517878919839859
+Epoch 91, Iteration 6's Loss: 0.009091505780816078
+Epoch 91's Accuracy: 86.11111111111111
+Epoch 92, Iteration 1's Loss: 0.010116629302501678
+Epoch 92, Iteration 2's Loss: 0.004676751792430878
+Epoch 92, Iteration 3's Loss: 0.04541158303618431
+Epoch 92, Iteration 4's Loss: 0.04852239042520523
+Epoch 92, Iteration 5's Loss: 0.05524231493473053
+Epoch 92, Iteration 6's Loss: 0.008552826009690762
+Epoch 92's Accuracy: 86.11111111111111
+Epoch 93, Iteration 1's Loss: 0.004295475780963898
+Epoch 93, Iteration 2's Loss: 0.0016346201300621033
+Epoch 93, Iteration 3's Loss: 0.00986672192811966
+Epoch 93, Iteration 4's Loss: 0.019785501062870026
+Epoch 93, Iteration 5's Loss: 0.08390052616596222
+Epoch 93, Iteration 6's Loss: 0.011378581635653973
+Epoch 93's Accuracy: 84.72222222222223
+Epoch 94, Iteration 1's Loss: 0.003846891224384308
+Epoch 94, Iteration 2's Loss: 0.0020561963319778442
+Epoch 94, Iteration 3's Loss: 0.03853795677423477
+Epoch 94, Iteration 4's Loss: 0.03600715845823288
+Epoch 94, Iteration 5's Loss: 0.046103380620479584
+Epoch 94, Iteration 6's Loss: 0.025354843586683273
+Epoch 94's Accuracy: 80.55555555555556
+Epoch 95, Iteration 1's Loss: 0.00450926274061203
+Epoch 95, Iteration 2's Loss: 0.0021778270602226257
+Epoch 95, Iteration 3's Loss: 0.011419303715229034
+Epoch 95, Iteration 4's Loss: 0.029103189706802368
+Epoch 95, Iteration 5's Loss: 0.04400436580181122
+Epoch 95, Iteration 6's Loss: 0.015035886317491531
+Epoch 95's Accuracy: 81.94444444444444
+Epoch 96, Iteration 1's Loss: 0.01546325534582138
+Epoch 96, Iteration 2's Loss: 0.0023679733276367188
+Epoch 96, Iteration 3's Loss: 0.04486998915672302
+Epoch 96, Iteration 4's Loss: 0.014850422739982605
+Epoch 96, Iteration 5's Loss: 0.03980486840009689
+Epoch 96, Iteration 6's Loss: 0.007191254757344723
+Epoch 96's Accuracy: 76.38888888888889
+Epoch 97, Iteration 1's Loss: 0.0023557692766189575
+Epoch 97, Iteration 2's Loss: 0.003818690776824951
+Epoch 97, Iteration 3's Loss: 0.054922107607126236
+Epoch 97, Iteration 4's Loss: 0.018305867910385132
+Epoch 97, Iteration 5's Loss: 0.07261078804731369
+Epoch 97, Iteration 6's Loss: 0.004431467968970537
+Epoch 97's Accuracy: 79.16666666666667
+Epoch 98, Iteration 1's Loss: 0.001102834939956665
+Epoch 98, Iteration 2's Loss: 0.0011080056428909302
+Epoch 98, Iteration 3's Loss: 0.01755085587501526
+Epoch 98, Iteration 4's Loss: 0.062344036996364594
+Epoch 98, Iteration 5's Loss: 0.048738911747932434
+Epoch 98, Iteration 6's Loss: 0.008053266443312168
+Epoch 98's Accuracy: 84.72222222222223
+Epoch 99, Iteration 1's Loss: 0.0019862204790115356
+Epoch 99, Iteration 2's Loss: 0.0035209134221076965
+Epoch 99, Iteration 3's Loss: 0.0034052059054374695
+Epoch 99, Iteration 4's Loss: 0.01760917901992798
+Epoch 99, Iteration 5's Loss: 0.12318155169487
+Epoch 99, Iteration 6's Loss: 0.060778435319662094
+Epoch 99's Accuracy: 79.16666666666667
+Epoch 100, Iteration 1's Loss: 0.0027916431427001953
+Epoch 100, Iteration 2's Loss: 0.00497262179851532
+Epoch 100, Iteration 3's Loss: 0.033731527626514435
+Epoch 100, Iteration 4's Loss: 0.04603177309036255
+Epoch 100, Iteration 5's Loss: 0.05431804805994034
+Epoch 100, Iteration 6's Loss: 0.0006906802882440388
+Epoch 100's Accuracy: 83.33333333333333
+Epoch 1, Iteration 1's Loss: 1.213639259338379
+Epoch 1, Iteration 2's Loss: 1.4718536138534546
+Epoch 1, Iteration 3's Loss: 1.7676584720611572
+Epoch 1's Accuracy: 38.888888888888886
+Epoch 2, Iteration 1's Loss: 1.1944105625152588
+Epoch 2, Iteration 2's Loss: 1.5758455991744995
+Epoch 2, Iteration 3's Loss: 1.5337194204330444
+Epoch 2's Accuracy: 36.111111111111114
+Epoch 3, Iteration 1's Loss: 1.1665571928024292
+Epoch 3, Iteration 2's Loss: 1.496778130531311
+Epoch 3, Iteration 3's Loss: 1.4416612386703491
+Epoch 3's Accuracy: 44.44444444444444
+Epoch 4, Iteration 1's Loss: 1.1873520612716675
+Epoch 4, Iteration 2's Loss: 1.4375615119934082
+Epoch 4, Iteration 3's Loss: 1.412590503692627
+Epoch 4's Accuracy: 41.666666666666664
+Epoch 5, Iteration 1's Loss: 1.1454799175262451
+Epoch 5, Iteration 2's Loss: 1.3679410219192505
+Epoch 5, Iteration 3's Loss: 1.328337550163269
+Epoch 5's Accuracy: 45.833333333333336
+Epoch 6, Iteration 1's Loss: 1.1583789587020874
+Epoch 6, Iteration 2's Loss: 1.2938698530197144
+Epoch 6, Iteration 3's Loss: 1.217702865600586
+Epoch 6's Accuracy: 41.666666666666664
+Epoch 7, Iteration 1's Loss: 1.1169424057006836
+Epoch 7, Iteration 2's Loss: 1.2604044675827026
+Epoch 7, Iteration 3's Loss: 1.195202112197876
+Epoch 7's Accuracy: 44.44444444444444
+Epoch 8, Iteration 1's Loss: 1.0764697790145874
+Epoch 8, Iteration 2's Loss: 1.215646743774414
+Epoch 8, Iteration 3's Loss: 1.1709834337234497
+Epoch 8's Accuracy: 48.611111111111114
+Epoch 9, Iteration 1's Loss: 1.0072726011276245
+Epoch 9, Iteration 2's Loss: 1.218929648399353
+Epoch 9, Iteration 3's Loss: 1.1633044481277466
+Epoch 9's Accuracy: 51.388888888888886
+Epoch 10, Iteration 1's Loss: 0.8904898762702942
+Epoch 10, Iteration 2's Loss: 1.1993616819381714
+Epoch 10, Iteration 3's Loss: 1.1277722120285034
+Epoch 10's Accuracy: 41.666666666666664
+Epoch 11, Iteration 1's Loss: 0.8384963274002075
+Epoch 11, Iteration 2's Loss: 1.187552571296692
+Epoch 11, Iteration 3's Loss: 1.086083173751831
+Epoch 11's Accuracy: 52.77777777777778
+Epoch 12, Iteration 1's Loss: 0.7746407985687256
+Epoch 12, Iteration 2's Loss: 1.19144868850708
+Epoch 12, Iteration 3's Loss: 1.0582174062728882
+Epoch 12's Accuracy: 54.166666666666664
+Epoch 13, Iteration 1's Loss: 0.6257591247558594
+Epoch 13, Iteration 2's Loss: 1.1302478313446045
+Epoch 13, Iteration 3's Loss: 1.0626914501190186
+Epoch 13's Accuracy: 69.44444444444444
+Epoch 14, Iteration 1's Loss: 0.58927983045578
+Epoch 14, Iteration 2's Loss: 1.0876414775848389
+Epoch 14, Iteration 3's Loss: 1.044044017791748
+Epoch 14's Accuracy: 65.27777777777777
+Epoch 15, Iteration 1's Loss: 0.5475702285766602
+Epoch 15, Iteration 2's Loss: 1.0145925283432007
+Epoch 15, Iteration 3's Loss: 1.0108195543289185
+Epoch 15's Accuracy: 70.83333333333333
+Epoch 16, Iteration 1's Loss: 0.5646706223487854
+Epoch 16, Iteration 2's Loss: 0.9331010580062866
+Epoch 16, Iteration 3's Loss: 0.9856289625167847
+Epoch 16's Accuracy: 75.0
+Epoch 17, Iteration 1's Loss: 0.47557833790779114
+Epoch 17, Iteration 2's Loss: 0.8795763850212097
+Epoch 17, Iteration 3's Loss: 0.9445416927337646
+Epoch 17's Accuracy: 81.94444444444444
+Epoch 18, Iteration 1's Loss: 0.43808943033218384
+Epoch 18, Iteration 2's Loss: 0.8482884168624878
+Epoch 18, Iteration 3's Loss: 0.9483867287635803
+Epoch 18's Accuracy: 72.22222222222223
+Epoch 19, Iteration 1's Loss: 0.3860050141811371
+Epoch 19, Iteration 2's Loss: 0.8338811993598938
+Epoch 19, Iteration 3's Loss: 0.8784276247024536
+Epoch 19's Accuracy: 77.77777777777777
+Epoch 20, Iteration 1's Loss: 0.33140358328819275
+Epoch 20, Iteration 2's Loss: 0.828981339931488
+Epoch 20, Iteration 3's Loss: 0.8841075301170349
+Epoch 20's Accuracy: 83.33333333333333
+Epoch 21, Iteration 1's Loss: 0.33388277888298035
+Epoch 21, Iteration 2's Loss: 0.7572575211524963
+Epoch 21, Iteration 3's Loss: 0.8350778222084045
+Epoch 21's Accuracy: 76.38888888888889
+Epoch 22, Iteration 1's Loss: 0.3054579198360443
+Epoch 22, Iteration 2's Loss: 0.7334140539169312
+Epoch 22, Iteration 3's Loss: 0.8638959527015686
+Epoch 22's Accuracy: 73.61111111111111
+Epoch 23, Iteration 1's Loss: 0.25842297077178955
+Epoch 23, Iteration 2's Loss: 0.6355343461036682
+Epoch 23, Iteration 3's Loss: 0.8363115191459656
+Epoch 23's Accuracy: 79.16666666666667
+Epoch 24, Iteration 1's Loss: 0.23198235034942627
+Epoch 24, Iteration 2's Loss: 0.680963933467865
+Epoch 24, Iteration 3's Loss: 0.7027844786643982
+Epoch 24's Accuracy: 75.0
+Epoch 25, Iteration 1's Loss: 0.24955743551254272
+Epoch 25, Iteration 2's Loss: 0.6412533521652222
+Epoch 25, Iteration 3's Loss: 0.7470126748085022
+Epoch 25's Accuracy: 77.77777777777777
+Epoch 26, Iteration 1's Loss: 0.18591873347759247
+Epoch 26, Iteration 2's Loss: 0.558623194694519
+Epoch 26, Iteration 3's Loss: 0.7563594579696655
+Epoch 26's Accuracy: 79.16666666666667
+Epoch 27, Iteration 1's Loss: 0.17806635797023773
+Epoch 27, Iteration 2's Loss: 0.5614750981330872
+Epoch 27, Iteration 3's Loss: 0.6517632603645325
+Epoch 27's Accuracy: 81.94444444444444
+Epoch 28, Iteration 1's Loss: 0.20995257794857025
+Epoch 28, Iteration 2's Loss: 0.5651347041130066
+Epoch 28, Iteration 3's Loss: 0.6653882265090942
+Epoch 28's Accuracy: 79.16666666666667
+Epoch 29, Iteration 1's Loss: 0.14771945774555206
+Epoch 29, Iteration 2's Loss: 0.605113685131073
+Epoch 29, Iteration 3's Loss: 0.5889695286750793
+Epoch 29's Accuracy: 77.77777777777777
+Epoch 30, Iteration 1's Loss: 0.1427326500415802
+Epoch 30, Iteration 2's Loss: 0.5326691269874573
+Epoch 30, Iteration 3's Loss: 0.718583345413208
+Epoch 30's Accuracy: 83.33333333333333
+Epoch 31, Iteration 1's Loss: 0.1444445103406906
+Epoch 31, Iteration 2's Loss: 0.492484986782074
+Epoch 31, Iteration 3's Loss: 0.6356348395347595
+Epoch 31's Accuracy: 76.38888888888889
+Epoch 32, Iteration 1's Loss: 0.11264888942241669
+Epoch 32, Iteration 2's Loss: 0.4614134728908539
+Epoch 32, Iteration 3's Loss: 0.6307116746902466
+Epoch 32's Accuracy: 75.0
+Epoch 33, Iteration 1's Loss: 0.13082419335842133
+Epoch 33, Iteration 2's Loss: 0.509967029094696
+Epoch 33, Iteration 3's Loss: 0.5313567519187927
+Epoch 33's Accuracy: 76.38888888888889
+Epoch 34, Iteration 1's Loss: 0.07873625308275223
+Epoch 34, Iteration 2's Loss: 0.4085170328617096
+Epoch 34, Iteration 3's Loss: 0.6354402899742126
+Epoch 34's Accuracy: 83.33333333333333
+Epoch 35, Iteration 1's Loss: 0.07345941662788391
+Epoch 35, Iteration 2's Loss: 0.4544355273246765
+Epoch 35, Iteration 3's Loss: 0.5123523473739624
+Epoch 35's Accuracy: 84.72222222222223
+Epoch 36, Iteration 1's Loss: 0.0979391559958458
+Epoch 36, Iteration 2's Loss: 0.36063700914382935
+Epoch 36, Iteration 3's Loss: 0.47984805703163147
+Epoch 36's Accuracy: 79.16666666666667
+Epoch 37, Iteration 1's Loss: 0.06025046110153198
+Epoch 37, Iteration 2's Loss: 0.6335877776145935
+Epoch 37, Iteration 3's Loss: 0.5208240151405334
+Epoch 37's Accuracy: 81.94444444444444
+Epoch 38, Iteration 1's Loss: 0.07783619314432144
+Epoch 38, Iteration 2's Loss: 0.3835976719856262
+Epoch 38, Iteration 3's Loss: 0.582278847694397
+Epoch 38's Accuracy: 79.16666666666667
+Epoch 39, Iteration 1's Loss: 0.03906110301613808
+Epoch 39, Iteration 2's Loss: 0.3982469141483307
+Epoch 39, Iteration 3's Loss: 0.5225374698638916
+Epoch 39's Accuracy: 76.38888888888889
+Epoch 40, Iteration 1's Loss: 0.05157207325100899
+Epoch 40, Iteration 2's Loss: 0.5334031581878662
+Epoch 40, Iteration 3's Loss: 0.4435345232486725
+Epoch 40's Accuracy: 81.94444444444444
+Epoch 41, Iteration 1's Loss: 0.04748937487602234
+Epoch 41, Iteration 2's Loss: 0.41100358963012695
+Epoch 41, Iteration 3's Loss: 0.4715135395526886
+Epoch 41's Accuracy: 79.16666666666667
+Epoch 42, Iteration 1's Loss: 0.15689408779144287
+Epoch 42, Iteration 2's Loss: 0.3820050358772278
+Epoch 42, Iteration 3's Loss: 0.46351194381713867
+Epoch 42's Accuracy: 80.55555555555556
+Epoch 43, Iteration 1's Loss: 0.09696763753890991
+Epoch 43, Iteration 2's Loss: 0.42233097553253174
+Epoch 43, Iteration 3's Loss: 0.4326099455356598
+Epoch 43's Accuracy: 81.94444444444444
+Epoch 44, Iteration 1's Loss: 0.07167718559503555
+Epoch 44, Iteration 2's Loss: 0.40408825874328613
+Epoch 44, Iteration 3's Loss: 0.43238842487335205
+Epoch 44's Accuracy: 76.38888888888889
+Epoch 45, Iteration 1's Loss: 0.12560510635375977
+Epoch 45, Iteration 2's Loss: 0.3530709147453308
+Epoch 45, Iteration 3's Loss: 0.4390948712825775
+Epoch 45's Accuracy: 76.38888888888889
+Epoch 46, Iteration 1's Loss: 0.03946663439273834
+Epoch 46, Iteration 2's Loss: 0.32643479108810425
+Epoch 46, Iteration 3's Loss: 0.38987401127815247
+Epoch 46's Accuracy: 79.16666666666667
+Epoch 47, Iteration 1's Loss: 0.05674628168344498
+Epoch 47, Iteration 2's Loss: 0.48629286885261536
+Epoch 47, Iteration 3's Loss: 0.28358951210975647
+Epoch 47's Accuracy: 83.33333333333333
+Epoch 48, Iteration 1's Loss: 0.02082887850701809
+Epoch 48, Iteration 2's Loss: 0.20510658621788025
+Epoch 48, Iteration 3's Loss: 0.5694310069084167
+Epoch 48's Accuracy: 81.94444444444444
+Epoch 49, Iteration 1's Loss: 0.08737524598836899
+Epoch 49, Iteration 2's Loss: 0.37813714146614075
+Epoch 49, Iteration 3's Loss: 0.2966485023498535
+Epoch 49's Accuracy: 76.38888888888889
+Epoch 50, Iteration 1's Loss: 0.04088790342211723
+Epoch 50, Iteration 2's Loss: 0.38261887431144714
+Epoch 50, Iteration 3's Loss: 0.3283723294734955
+Epoch 50's Accuracy: 76.38888888888889
+Epoch 51, Iteration 1's Loss: 0.06024964898824692
+Epoch 51, Iteration 2's Loss: 0.16862095892429352
+Epoch 51, Iteration 3's Loss: 0.49196192622184753
+Epoch 51's Accuracy: 81.94444444444444
+Epoch 52, Iteration 1's Loss: 0.052645597606897354
+Epoch 52, Iteration 2's Loss: 0.4777829051017761
+Epoch 52, Iteration 3's Loss: 0.21039831638336182
+Epoch 52's Accuracy: 81.94444444444444
+Epoch 53, Iteration 1's Loss: 0.01184174045920372
+Epoch 53, Iteration 2's Loss: 0.25965580344200134
+Epoch 53, Iteration 3's Loss: 0.4101852476596832
+Epoch 53's Accuracy: 80.55555555555556
+Epoch 54, Iteration 1's Loss: 0.05416646599769592
+Epoch 54, Iteration 2's Loss: 0.2392832189798355
+Epoch 54, Iteration 3's Loss: 0.3236258327960968
+Epoch 54's Accuracy: 80.55555555555556
+Epoch 55, Iteration 1's Loss: 0.019775573164224625
+Epoch 55, Iteration 2's Loss: 0.28964319825172424
+Epoch 55, Iteration 3's Loss: 0.2318286895751953
+Epoch 55's Accuracy: 77.77777777777777
+Epoch 56, Iteration 1's Loss: 0.032625582069158554
+Epoch 56, Iteration 2's Loss: 0.16770696640014648
+Epoch 56, Iteration 3's Loss: 0.213430255651474
+Epoch 56's Accuracy: 83.33333333333333
+Epoch 57, Iteration 1's Loss: 0.09943372756242752
+Epoch 57, Iteration 2's Loss: 0.19091051816940308
+Epoch 57, Iteration 3's Loss: 0.3205423355102539
+Epoch 57's Accuracy: 80.55555555555556
+Epoch 58, Iteration 1's Loss: 0.019839823246002197
+Epoch 58, Iteration 2's Loss: 0.272405743598938
+Epoch 58, Iteration 3's Loss: 0.20365339517593384
+Epoch 58's Accuracy: 81.94444444444444
+Epoch 59, Iteration 1's Loss: 0.042389459908008575
+Epoch 59, Iteration 2's Loss: 0.14393964409828186
+Epoch 59, Iteration 3's Loss: 0.2882325053215027
+Epoch 59's Accuracy: 80.55555555555556
+Epoch 60, Iteration 1's Loss: 0.03978316858410835
+Epoch 60, Iteration 2's Loss: 0.26347243785858154
+Epoch 60, Iteration 3's Loss: 0.15428785979747772
+Epoch 60's Accuracy: 80.55555555555556
+Epoch 61, Iteration 1's Loss: 0.009732961654663086
+Epoch 61, Iteration 2's Loss: 0.14873787760734558
+Epoch 61, Iteration 3's Loss: 0.24463322758674622
+Epoch 61's Accuracy: 87.5
+Epoch 62, Iteration 1's Loss: 0.03008129447698593
+Epoch 62, Iteration 2's Loss: 0.2507747411727905
+Epoch 62, Iteration 3's Loss: 0.18822906911373138
+Epoch 62's Accuracy: 88.88888888888889
+Epoch 63, Iteration 1's Loss: 0.04050689935684204
+Epoch 63, Iteration 2's Loss: 0.15678343176841736
+Epoch 63, Iteration 3's Loss: 0.2125152200460434
+Epoch 63's Accuracy: 81.94444444444444
+Epoch 64, Iteration 1's Loss: 0.03210935741662979
+Epoch 64, Iteration 2's Loss: 0.15795662999153137
+Epoch 64, Iteration 3's Loss: 0.22343847155570984
+Epoch 64's Accuracy: 80.55555555555556
+Epoch 65, Iteration 1's Loss: 0.014988545328378677
+Epoch 65, Iteration 2's Loss: 0.17904943227767944
+Epoch 65, Iteration 3's Loss: 0.3325679302215576
+Epoch 65's Accuracy: 81.94444444444444
+Epoch 66, Iteration 1's Loss: 0.025441698729991913
+Epoch 66, Iteration 2's Loss: 0.30964934825897217
+Epoch 66, Iteration 3's Loss: 0.13252457976341248
+Epoch 66's Accuracy: 79.16666666666667
+Epoch 67, Iteration 1's Loss: 0.006869930773973465
+Epoch 67, Iteration 2's Loss: 0.13657668232917786
+Epoch 67, Iteration 3's Loss: 0.2722582519054413
+Epoch 67's Accuracy: 86.11111111111111
+Epoch 68, Iteration 1's Loss: 0.02585490792989731
+Epoch 68, Iteration 2's Loss: 0.20132195949554443
+Epoch 68, Iteration 3's Loss: 0.166320338845253
+Epoch 68's Accuracy: 83.33333333333333
+Epoch 69, Iteration 1's Loss: 0.049658533185720444
+Epoch 69, Iteration 2's Loss: 0.09980718046426773
+Epoch 69, Iteration 3's Loss: 0.1669289767742157
+Epoch 69's Accuracy: 84.72222222222223
+Epoch 70, Iteration 1's Loss: 0.008197519928216934
+Epoch 70, Iteration 2's Loss: 0.1485394537448883
+Epoch 70, Iteration 3's Loss: 0.11075547337532043
+Epoch 70's Accuracy: 84.72222222222223
+Epoch 71, Iteration 1's Loss: 0.01993616297841072
+Epoch 71, Iteration 2's Loss: 0.11508352309465408
+Epoch 71, Iteration 3's Loss: 0.1662774235010147
+Epoch 71's Accuracy: 83.33333333333333
+Epoch 72, Iteration 1's Loss: 0.020252712070941925
+Epoch 72, Iteration 2's Loss: 0.11785471439361572
+Epoch 72, Iteration 3's Loss: 0.11780090630054474
+Epoch 72's Accuracy: 83.33333333333333
+Epoch 73, Iteration 1's Loss: 0.004133500158786774
+Epoch 73, Iteration 2's Loss: 0.16827717423439026
+Epoch 73, Iteration 3's Loss: 0.1160387247800827
+Epoch 73's Accuracy: 81.94444444444444
+Epoch 74, Iteration 1's Loss: 0.07772251963615417
+Epoch 74, Iteration 2's Loss: 0.0440218411386013
+Epoch 74, Iteration 3's Loss: 0.223632350564003
+Epoch 74's Accuracy: 83.33333333333333
+Epoch 75, Iteration 1's Loss: 0.006756149232387543
+Epoch 75, Iteration 2's Loss: 0.3065958619117737
+Epoch 75, Iteration 3's Loss: 0.05739473178982735
+Epoch 75's Accuracy: 83.33333333333333
+Epoch 76, Iteration 1's Loss: 0.03158967196941376
+Epoch 76, Iteration 2's Loss: 0.019561775028705597
+Epoch 76, Iteration 3's Loss: 0.5487383604049683
+Epoch 76's Accuracy: 77.77777777777777
+Epoch 77, Iteration 1's Loss: 0.01689670979976654
+Epoch 77, Iteration 2's Loss: 1.105447769165039
+Epoch 77, Iteration 3's Loss: 0.10463659465312958
+Epoch 77's Accuracy: 75.0
+Epoch 78, Iteration 1's Loss: 0.013164348900318146
+Epoch 78, Iteration 2's Loss: 0.016171254217624664
+Epoch 78, Iteration 3's Loss: 1.7680901288986206
+Epoch 78's Accuracy: 79.16666666666667
+Epoch 79, Iteration 1's Loss: 0.04796258360147476
+Epoch 79, Iteration 2's Loss: 0.9926382303237915
+Epoch 79, Iteration 3's Loss: 0.21294377744197845
+Epoch 79's Accuracy: 68.05555555555556
+Epoch 80, Iteration 1's Loss: 0.05346275493502617
+Epoch 80, Iteration 2's Loss: 0.8803563117980957
+Epoch 80, Iteration 3's Loss: 0.1216452419757843
+Epoch 80's Accuracy: 80.55555555555556
+Epoch 81, Iteration 1's Loss: 0.10315869748592377
+Epoch 81, Iteration 2's Loss: 0.07970082759857178
+Epoch 81, Iteration 3's Loss: 1.0847276449203491
+Epoch 81's Accuracy: 80.55555555555556
+Epoch 82, Iteration 1's Loss: 0.049476802349090576
+Epoch 82, Iteration 2's Loss: 0.12402354925870895
+Epoch 82, Iteration 3's Loss: 0.5337061285972595
+Epoch 82's Accuracy: 80.55555555555556
+Epoch 83, Iteration 1's Loss: 0.026169585064053535
+Epoch 83, Iteration 2's Loss: 0.4598785638809204
+Epoch 83, Iteration 3's Loss: 0.20759302377700806
+Epoch 83's Accuracy: 76.38888888888889
+Epoch 84, Iteration 1's Loss: 0.11609117686748505
+Epoch 84, Iteration 2's Loss: 0.34780293703079224
+Epoch 84, Iteration 3's Loss: 0.1423109620809555
+Epoch 84's Accuracy: 80.55555555555556
+Epoch 85, Iteration 1's Loss: 0.08583313971757889
+Epoch 85, Iteration 2's Loss: 0.1416195034980774
+Epoch 85, Iteration 3's Loss: 0.2808011770248413
+Epoch 85's Accuracy: 86.11111111111111
+Epoch 86, Iteration 1's Loss: 0.0309487022459507
+Epoch 86, Iteration 2's Loss: 0.07577244937419891
+Epoch 86, Iteration 3's Loss: 0.2760513126850128
+Epoch 86's Accuracy: 84.72222222222223
+Epoch 87, Iteration 1's Loss: 0.020773090422153473
+Epoch 87, Iteration 2's Loss: 0.20879299938678741
+Epoch 87, Iteration 3's Loss: 0.18086713552474976
+Epoch 87's Accuracy: 84.72222222222223
+Epoch 88, Iteration 1's Loss: 0.021161366254091263
+Epoch 88, Iteration 2's Loss: 0.15098434686660767
+Epoch 88, Iteration 3's Loss: 0.19697225093841553
+Epoch 88's Accuracy: 86.11111111111111
+Epoch 89, Iteration 1's Loss: 0.027235807850956917
+Epoch 89, Iteration 2's Loss: 0.12063562870025635
+Epoch 89, Iteration 3's Loss: 0.10814432799816132
+Epoch 89's Accuracy: 81.94444444444444
+Epoch 90, Iteration 1's Loss: 0.04538045823574066
+Epoch 90, Iteration 2's Loss: 0.13083724677562714
+Epoch 90, Iteration 3's Loss: 0.12750914692878723
+Epoch 90's Accuracy: 84.72222222222223
+Epoch 91, Iteration 1's Loss: 0.03408077359199524
+Epoch 91, Iteration 2's Loss: 0.08482978492975235
+Epoch 91, Iteration 3's Loss: 0.1231611967086792
+Epoch 91's Accuracy: 79.16666666666667
+Epoch 92, Iteration 1's Loss: 0.0302792489528656
+Epoch 92, Iteration 2's Loss: 0.13284844160079956
+Epoch 92, Iteration 3's Loss: 0.11334037780761719
+Epoch 92's Accuracy: 83.33333333333333
+Epoch 93, Iteration 1's Loss: 0.015079095959663391
+Epoch 93, Iteration 2's Loss: 0.08411373198032379
+Epoch 93, Iteration 3's Loss: 0.11735174059867859
+Epoch 93's Accuracy: 77.77777777777777
+Epoch 94, Iteration 1's Loss: 0.007651709020137787
+Epoch 94, Iteration 2's Loss: 0.044583238661289215
+Epoch 94, Iteration 3's Loss: 0.18943405151367188
+Epoch 94's Accuracy: 83.33333333333333
+Epoch 95, Iteration 1's Loss: 0.011273402720689774
+Epoch 95, Iteration 2's Loss: 0.10380257666110992
+Epoch 95, Iteration 3's Loss: 0.07294970750808716
+Epoch 95's Accuracy: 81.94444444444444
+Epoch 96, Iteration 1's Loss: 0.014394894242286682
+Epoch 96, Iteration 2's Loss: 0.12960633635520935
+Epoch 96, Iteration 3's Loss: 0.058019008487463
+Epoch 96's Accuracy: 87.5
+Epoch 97, Iteration 1's Loss: 0.022888589650392532
+Epoch 97, Iteration 2's Loss: 0.07481870800256729
+Epoch 97, Iteration 3's Loss: 0.08403143286705017
+Epoch 97's Accuracy: 83.33333333333333
+Epoch 98, Iteration 1's Loss: 0.009404029697179794
+Epoch 98, Iteration 2's Loss: 0.03166966885328293
+Epoch 98, Iteration 3's Loss: 0.11958198249340057
+Epoch 98's Accuracy: 86.11111111111111
+Epoch 99, Iteration 1's Loss: 0.00723743811249733
+Epoch 99, Iteration 2's Loss: 0.06705132126808167
+Epoch 99, Iteration 3's Loss: 0.0614611990749836
+Epoch 99's Accuracy: 81.94444444444444
+Epoch 100, Iteration 1's Loss: 0.007195215672254562
+Epoch 100, Iteration 2's Loss: 0.09379050880670547
+Epoch 100, Iteration 3's Loss: 0.04033791273832321
+Epoch 100's Accuracy: 83.33333333333333
+
+
+TRAIN_BATCH_SIZE = 32
+TEST_BATCH_SIZE = 32
+SAMPLE_FRAME_NUM = 10
+Epoch 1, Iteration 1's Loss: 0.8270421624183655
+Epoch 1, Iteration 2's Loss: 1.2438691854476929
+Epoch 1, Iteration 3's Loss: 1.900678038597107
+Epoch 1, Iteration 4's Loss: 2.0565059185028076
+Epoch 1, Iteration 5's Loss: 1.9031389951705933
+Epoch 1, Iteration 6's Loss: 1.8482979536056519
+Epoch 1's Accuracy: 27.77777777777778
+Epoch 2, Iteration 1's Loss: 1.2180757522583008
+Epoch 2, Iteration 2's Loss: 1.4265570640563965
+Epoch 2, Iteration 3's Loss: 1.5767614841461182
+Epoch 2, Iteration 4's Loss: 1.222403883934021
+Epoch 2, Iteration 5's Loss: 1.529738426208496
+Epoch 2, Iteration 6's Loss: 1.5622835159301758
+Epoch 2's Accuracy: 36.111111111111114
+Epoch 3, Iteration 1's Loss: 1.3635590076446533
+Epoch 3, Iteration 2's Loss: 1.4564580917358398
+Epoch 3, Iteration 3's Loss: 1.4826003313064575
+Epoch 3, Iteration 4's Loss: 1.214762806892395
+Epoch 3, Iteration 5's Loss: 1.3029260635375977
+Epoch 3, Iteration 6's Loss: 1.331882119178772
+Epoch 3's Accuracy: 37.5
+Epoch 4, Iteration 1's Loss: 1.2940185070037842
+Epoch 4, Iteration 2's Loss: 1.4241657257080078
+Epoch 4, Iteration 3's Loss: 1.4537463188171387
+Epoch 4, Iteration 4's Loss: 1.2578562498092651
+Epoch 4, Iteration 5's Loss: 1.146009087562561
+Epoch 4, Iteration 6's Loss: 1.1409035921096802
+Epoch 4's Accuracy: 37.5
+Epoch 5, Iteration 1's Loss: 1.086066722869873
+Epoch 5, Iteration 2's Loss: 1.2784579992294312
+Epoch 5, Iteration 3's Loss: 1.4072805643081665
+Epoch 5, Iteration 4's Loss: 1.3097116947174072
+Epoch 5, Iteration 5's Loss: 1.1379104852676392
+Epoch 5, Iteration 6's Loss: 1.1022340059280396
+Epoch 5's Accuracy: 52.77777777777778
+Epoch 6, Iteration 1's Loss: 0.7656558752059937
+Epoch 6, Iteration 2's Loss: 1.0712300539016724
+Epoch 6, Iteration 3's Loss: 1.3142406940460205
+Epoch 6, Iteration 4's Loss: 1.286994457244873
+Epoch 6, Iteration 5's Loss: 1.131759524345398
+Epoch 6, Iteration 6's Loss: 1.15860915184021
+Epoch 6's Accuracy: 54.166666666666664
+Epoch 7, Iteration 1's Loss: 0.5769771933555603
+Epoch 7, Iteration 2's Loss: 0.8888996243476868
+Epoch 7, Iteration 3's Loss: 1.258143663406372
+Epoch 7, Iteration 4's Loss: 1.1009441614151
+Epoch 7, Iteration 5's Loss: 1.1178802251815796
+Epoch 7, Iteration 6's Loss: 1.174723505973816
+Epoch 7's Accuracy: 69.44444444444444
+Epoch 8, Iteration 1's Loss: 0.4170868992805481
+Epoch 8, Iteration 2's Loss: 0.846733033657074
+Epoch 8, Iteration 3's Loss: 1.1005421876907349
+Epoch 8, Iteration 4's Loss: 1.0074232816696167
+Epoch 8, Iteration 5's Loss: 1.0293314456939697
+Epoch 8, Iteration 6's Loss: 1.0735808610916138
+Epoch 8's Accuracy: 58.333333333333336
+Epoch 9, Iteration 1's Loss: 0.4555281698703766
+Epoch 9, Iteration 2's Loss: 0.674172043800354
+Epoch 9, Iteration 3's Loss: 0.9530723094940186
+Epoch 9, Iteration 4's Loss: 1.0667496919631958
+Epoch 9, Iteration 5's Loss: 0.9986886978149414
+Epoch 9, Iteration 6's Loss: 1.0399783849716187
+Epoch 9's Accuracy: 66.66666666666667
+Epoch 10, Iteration 1's Loss: 0.31399449706077576
+Epoch 10, Iteration 2's Loss: 0.5746821165084839
+Epoch 10, Iteration 3's Loss: 0.8312450647354126
+Epoch 10, Iteration 4's Loss: 1.037788987159729
+Epoch 10, Iteration 5's Loss: 0.8957943916320801
+Epoch 10, Iteration 6's Loss: 1.024544358253479
+Epoch 10's Accuracy: 75.0
+Epoch 11, Iteration 1's Loss: 0.3028874397277832
+Epoch 11, Iteration 2's Loss: 0.39947327971458435
+Epoch 11, Iteration 3's Loss: 0.7077770829200745
+Epoch 11, Iteration 4's Loss: 0.9170433878898621
+Epoch 11, Iteration 5's Loss: 0.8848562836647034
+Epoch 11, Iteration 6's Loss: 0.9667276740074158
+Epoch 11's Accuracy: 76.38888888888889
+Epoch 12, Iteration 1's Loss: 0.1638028621673584
+Epoch 12, Iteration 2's Loss: 0.27080827951431274
+Epoch 12, Iteration 3's Loss: 0.546769380569458
+Epoch 12, Iteration 4's Loss: 0.8071557879447937
+Epoch 12, Iteration 5's Loss: 0.83537757396698
+Epoch 12, Iteration 6's Loss: 0.8890284895896912
+Epoch 12's Accuracy: 69.44444444444444
+Epoch 13, Iteration 1's Loss: 0.23747985064983368
+Epoch 13, Iteration 2's Loss: 0.23164057731628418
+Epoch 13, Iteration 3's Loss: 0.6486185789108276
+Epoch 13, Iteration 4's Loss: 1.0938392877578735
+Epoch 13, Iteration 5's Loss: 0.6777613162994385
+Epoch 13, Iteration 6's Loss: 0.65300452709198
+Epoch 13's Accuracy: 76.38888888888889
+Epoch 14, Iteration 1's Loss: 0.2810267210006714
+Epoch 14, Iteration 2's Loss: 0.27698665857315063
+Epoch 14, Iteration 3's Loss: 0.35180413722991943
+Epoch 14, Iteration 4's Loss: 0.6026087403297424
+Epoch 14, Iteration 5's Loss: 0.9519676566123962
+Epoch 14, Iteration 6's Loss: 0.8456867337226868
+Epoch 14's Accuracy: 80.55555555555556
+Epoch 15, Iteration 1's Loss: 0.09564097225666046
+Epoch 15, Iteration 2's Loss: 0.21041712164878845
+Epoch 15, Iteration 3's Loss: 0.4183361530303955
+Epoch 15, Iteration 4's Loss: 0.8766518235206604
+Epoch 15, Iteration 5's Loss: 0.6994810104370117
+Epoch 15, Iteration 6's Loss: 0.6120096445083618
+Epoch 15's Accuracy: 75.0
+Epoch 16, Iteration 1's Loss: 0.14512687921524048
+Epoch 16, Iteration 2's Loss: 0.2541074752807617
+Epoch 16, Iteration 3's Loss: 0.3419569730758667
+Epoch 16, Iteration 4's Loss: 0.5955162048339844
+Epoch 16, Iteration 5's Loss: 0.7210132479667664
+Epoch 16, Iteration 6's Loss: 0.6966232657432556
+Epoch 16's Accuracy: 87.5
+Epoch 17, Iteration 1's Loss: 0.117743119597435
+Epoch 17, Iteration 2's Loss: 0.13517114520072937
+Epoch 17, Iteration 3's Loss: 0.4359089732170105
+Epoch 17, Iteration 4's Loss: 0.9546365737915039
+Epoch 17, Iteration 5's Loss: 0.6096192598342896
+Epoch 17, Iteration 6's Loss: 0.6528764963150024
+Epoch 17's Accuracy: 81.94444444444444
+Epoch 18, Iteration 1's Loss: 0.05718909204006195
+Epoch 18, Iteration 2's Loss: 0.08772920817136765
+Epoch 18, Iteration 3's Loss: 0.25269266963005066
+Epoch 18, Iteration 4's Loss: 0.6474504470825195
+Epoch 18, Iteration 5's Loss: 0.6502954363822937
+Epoch 18, Iteration 6's Loss: 0.557609498500824
+Epoch 18's Accuracy: 80.55555555555556
+Epoch 19, Iteration 1's Loss: 0.16407378017902374
+Epoch 19, Iteration 2's Loss: 0.1620798110961914
+Epoch 19, Iteration 3's Loss: 0.3174734115600586
+Epoch 19, Iteration 4's Loss: 0.8219484686851501
+Epoch 19, Iteration 5's Loss: 0.7125429511070251
+Epoch 19, Iteration 6's Loss: 0.5577553510665894
+Epoch 19's Accuracy: 76.38888888888889
+Epoch 20, Iteration 1's Loss: 0.028125155717134476
+Epoch 20, Iteration 2's Loss: 0.047108035534620285
+Epoch 20, Iteration 3's Loss: 0.38995906710624695
+Epoch 20, Iteration 4's Loss: 0.6550233364105225
+Epoch 20, Iteration 5's Loss: 0.617716908454895
+Epoch 20, Iteration 6's Loss: 0.543258547782898
+Epoch 20's Accuracy: 84.72222222222223
+Epoch 21, Iteration 1's Loss: 0.0709201917052269
+Epoch 21, Iteration 2's Loss: 0.0756593868136406
+Epoch 21, Iteration 3's Loss: 0.35811179876327515
+Epoch 21, Iteration 4's Loss: 0.622965931892395
+Epoch 21, Iteration 5's Loss: 0.6660770177841187
+Epoch 21, Iteration 6's Loss: 0.6622214913368225
+Epoch 21's Accuracy: 81.94444444444444
+Epoch 22, Iteration 1's Loss: 0.05419238284230232
+Epoch 22, Iteration 2's Loss: 0.05890877544879913
+Epoch 22, Iteration 3's Loss: 0.34928134083747864
+Epoch 22, Iteration 4's Loss: 0.59907066822052
+Epoch 22, Iteration 5's Loss: 0.5848703384399414
+Epoch 22, Iteration 6's Loss: 0.3704511821269989
+Epoch 22's Accuracy: 81.94444444444444
+Epoch 23, Iteration 1's Loss: 0.07888451963663101
+Epoch 23, Iteration 2's Loss: 0.05565258860588074
+Epoch 23, Iteration 3's Loss: 0.241061732172966
+Epoch 23, Iteration 4's Loss: 0.5294002294540405
+Epoch 23, Iteration 5's Loss: 0.6736293435096741
+Epoch 23, Iteration 6's Loss: 0.4051375687122345
+Epoch 23's Accuracy: 81.94444444444444
+Epoch 24, Iteration 1's Loss: 0.04392338544130325
+Epoch 24, Iteration 2's Loss: 0.048784419894218445
+Epoch 24, Iteration 3's Loss: 0.27486616373062134
+Epoch 24, Iteration 4's Loss: 0.6410568356513977
+Epoch 24, Iteration 5's Loss: 0.49564605951309204
+Epoch 24, Iteration 6's Loss: 0.4942099153995514
+Epoch 24's Accuracy: 83.33333333333333
+Epoch 25, Iteration 1's Loss: 0.024611525237560272
+Epoch 25, Iteration 2's Loss: 0.0569160170853138
+Epoch 25, Iteration 3's Loss: 0.2769862413406372
+Epoch 25, Iteration 4's Loss: 0.42602500319480896
+Epoch 25, Iteration 5's Loss: 0.6046164631843567
+Epoch 25, Iteration 6's Loss: 0.33983466029167175
+Epoch 25's Accuracy: 83.33333333333333
+Epoch 26, Iteration 1's Loss: 0.07722697407007217
+Epoch 26, Iteration 2's Loss: 0.06938411295413971
+Epoch 26, Iteration 3's Loss: 0.4106513261795044
+Epoch 26, Iteration 4's Loss: 0.818061888217926
+Epoch 26, Iteration 5's Loss: 0.5795031785964966
+Epoch 26, Iteration 6's Loss: 0.5613331198692322
+Epoch 26's Accuracy: 77.77777777777777
+Epoch 27, Iteration 1's Loss: 0.02461373805999756
+Epoch 27, Iteration 2's Loss: 0.020986683666706085
+Epoch 27, Iteration 3's Loss: 0.1287667453289032
+Epoch 27, Iteration 4's Loss: 0.26140448451042175
+Epoch 27, Iteration 5's Loss: 0.5150147676467896
+Epoch 27, Iteration 6's Loss: 0.2414439618587494
+Epoch 27's Accuracy: 84.72222222222223
+Epoch 28, Iteration 1's Loss: 0.025171369314193726
+Epoch 28, Iteration 2's Loss: 0.026849068701267242
+Epoch 28, Iteration 3's Loss: 0.31965672969818115
+Epoch 28, Iteration 4's Loss: 0.5884487628936768
+Epoch 28, Iteration 5's Loss: 0.4105644226074219
+Epoch 28, Iteration 6's Loss: 0.2716626524925232
+Epoch 28's Accuracy: 80.55555555555556
+Epoch 29, Iteration 1's Loss: 0.06087096408009529
+Epoch 29, Iteration 2's Loss: 0.05642043054103851
+Epoch 29, Iteration 3's Loss: 0.04783131927251816
+Epoch 29, Iteration 4's Loss: 0.09360251575708389
+Epoch 29, Iteration 5's Loss: 0.7565205097198486
+Epoch 29, Iteration 6's Loss: 0.24492742121219635
+Epoch 29's Accuracy: 73.61111111111111
+Epoch 30, Iteration 1's Loss: 0.020417094230651855
+Epoch 30, Iteration 2's Loss: 0.08190114796161652
+Epoch 30, Iteration 3's Loss: 0.7492856979370117
+Epoch 30, Iteration 4's Loss: 1.5834717750549316
+Epoch 30, Iteration 5's Loss: 0.4019913971424103
+Epoch 30, Iteration 6's Loss: 0.5017024874687195
+Epoch 30's Accuracy: 79.16666666666667
+Epoch 31, Iteration 1's Loss: 0.0814845860004425
+Epoch 31, Iteration 2's Loss: 0.13967958092689514
+Epoch 31, Iteration 3's Loss: 0.09528563916683197
+Epoch 31, Iteration 4's Loss: 0.043088316917419434
+Epoch 31, Iteration 5's Loss: 1.8326644897460938
+Epoch 31, Iteration 6's Loss: 1.3471146821975708
+Epoch 31's Accuracy: 83.33333333333333
+Epoch 32, Iteration 1's Loss: 0.09398936480283737
+Epoch 32, Iteration 2's Loss: 0.08999733626842499
+Epoch 32, Iteration 3's Loss: 1.0601118803024292
+Epoch 32, Iteration 4's Loss: 3.0564613342285156
+Epoch 32, Iteration 5's Loss: 0.5680181980133057
+Epoch 32, Iteration 6's Loss: 0.08909956365823746
+Epoch 32's Accuracy: 63.888888888888886
+Epoch 33, Iteration 1's Loss: 0.14747793972492218
+Epoch 33, Iteration 2's Loss: 0.0906151756644249
+Epoch 33, Iteration 3's Loss: 0.5088772773742676
+Epoch 33, Iteration 4's Loss: 1.1757657527923584
+Epoch 33, Iteration 5's Loss: 0.7645765542984009
+Epoch 33, Iteration 6's Loss: 0.6232971549034119
+Epoch 33's Accuracy: 76.38888888888889
+Epoch 34, Iteration 1's Loss: 0.07172003388404846
+Epoch 34, Iteration 2's Loss: 0.13972461223602295
+Epoch 34, Iteration 3's Loss: 0.1586192548274994
+Epoch 34, Iteration 4's Loss: 0.28132152557373047
+Epoch 34, Iteration 5's Loss: 0.9271265268325806
+Epoch 34, Iteration 6's Loss: 0.932378888130188
+Epoch 34's Accuracy: 80.55555555555556
+Epoch 35, Iteration 1's Loss: 0.14372679591178894
+Epoch 35, Iteration 2's Loss: 0.26450031995773315
+Epoch 35, Iteration 3's Loss: 0.2898828387260437
+Epoch 35, Iteration 4's Loss: 0.5350566506385803
+Epoch 35, Iteration 5's Loss: 0.59141606092453
+Epoch 35, Iteration 6's Loss: 0.3478872776031494
+Epoch 35's Accuracy: 77.77777777777777
+Epoch 36, Iteration 1's Loss: 0.01850154623389244
+Epoch 36, Iteration 2's Loss: 0.08380536735057831
+Epoch 36, Iteration 3's Loss: 0.2622583210468292
+Epoch 36, Iteration 4's Loss: 0.6220030188560486
+Epoch 36, Iteration 5's Loss: 0.5157852172851562
+Epoch 36, Iteration 6's Loss: 0.3368542492389679
+Epoch 36's Accuracy: 80.55555555555556
+Epoch 37, Iteration 1's Loss: 0.027891092002391815
+Epoch 37, Iteration 2's Loss: 0.04806380718946457
+Epoch 37, Iteration 3's Loss: 0.1867920309305191
+Epoch 37, Iteration 4's Loss: 0.4898947477340698
+Epoch 37, Iteration 5's Loss: 0.4656289219856262
+Epoch 37, Iteration 6's Loss: 0.3343799412250519
+Epoch 37's Accuracy: 81.94444444444444
+Epoch 38, Iteration 1's Loss: 0.02538125216960907
+Epoch 38, Iteration 2's Loss: 0.07028630375862122
+Epoch 38, Iteration 3's Loss: 0.16924354434013367
+Epoch 38, Iteration 4's Loss: 0.4737236499786377
+Epoch 38, Iteration 5's Loss: 0.48585009574890137
+Epoch 38, Iteration 6's Loss: 0.2393909990787506
+Epoch 38's Accuracy: 73.61111111111111
+Epoch 39, Iteration 1's Loss: 0.018385078758001328
+Epoch 39, Iteration 2's Loss: 0.03396537899971008
+Epoch 39, Iteration 3's Loss: 0.20921114087104797
+Epoch 39, Iteration 4's Loss: 0.3533446192741394
+Epoch 39, Iteration 5's Loss: 0.522834300994873
+Epoch 39, Iteration 6's Loss: 0.2831268608570099
+Epoch 39's Accuracy: 75.0
+Epoch 40, Iteration 1's Loss: 0.017026856541633606
+Epoch 40, Iteration 2's Loss: 0.027005895972251892
+Epoch 40, Iteration 3's Loss: 0.17796850204467773
+Epoch 40, Iteration 4's Loss: 0.3997341990470886
+Epoch 40, Iteration 5's Loss: 0.38877788186073303
+Epoch 40, Iteration 6's Loss: 0.15103961527347565
+Epoch 40's Accuracy: 79.16666666666667
+Epoch 41, Iteration 1's Loss: 0.030817031860351562
+Epoch 41, Iteration 2's Loss: 0.0159318745136261
+Epoch 41, Iteration 3's Loss: 0.11905176192522049
+Epoch 41, Iteration 4's Loss: 0.4514223635196686
+Epoch 41, Iteration 5's Loss: 0.5051300525665283
+Epoch 41, Iteration 6's Loss: 0.15864434838294983
+Epoch 41's Accuracy: 75.0
+Epoch 42, Iteration 1's Loss: 0.08167488873004913
+Epoch 42, Iteration 2's Loss: 0.04015067219734192
+Epoch 42, Iteration 3's Loss: 0.09069684147834778
+Epoch 42, Iteration 4's Loss: 0.3114778399467468
+Epoch 42, Iteration 5's Loss: 0.4766957461833954
+Epoch 42, Iteration 6's Loss: 0.11179370433092117
+Epoch 42's Accuracy: 76.38888888888889
+Epoch 43, Iteration 1's Loss: 0.022524647414684296
+Epoch 43, Iteration 2's Loss: 0.0037698373198509216
+Epoch 43, Iteration 3's Loss: 0.13715483248233795
+Epoch 43, Iteration 4's Loss: 0.41476839780807495
+Epoch 43, Iteration 5's Loss: 0.39974892139434814
+Epoch 43, Iteration 6's Loss: 0.29573726654052734
+Epoch 43's Accuracy: 77.77777777777777
+Epoch 44, Iteration 1's Loss: 0.012916795909404755
+Epoch 44, Iteration 2's Loss: 0.11062981188297272
+Epoch 44, Iteration 3's Loss: 0.08357798308134079
+Epoch 44, Iteration 4's Loss: 0.2042817324399948
+Epoch 44, Iteration 5's Loss: 0.4150281548500061
+Epoch 44, Iteration 6's Loss: 0.20514214038848877
+Epoch 44's Accuracy: 77.77777777777777
+Epoch 45, Iteration 1's Loss: 0.08460034430027008
+Epoch 45, Iteration 2's Loss: 0.14815804362297058
+Epoch 45, Iteration 3's Loss: 0.167379230260849
+Epoch 45, Iteration 4's Loss: 0.46241307258605957
+Epoch 45, Iteration 5's Loss: 0.31072482466697693
+Epoch 45, Iteration 6's Loss: 0.10115496069192886
+Epoch 45's Accuracy: 81.94444444444444
+Epoch 46, Iteration 1's Loss: 0.0016995668411254883
+Epoch 46, Iteration 2's Loss: 0.0015996694564819336
+Epoch 46, Iteration 3's Loss: 0.026520460844039917
+Epoch 46, Iteration 4's Loss: 0.05577773600816727
+Epoch 46, Iteration 5's Loss: 1.1421701908111572
+Epoch 46, Iteration 6's Loss: 0.10797994583845139
+Epoch 46's Accuracy: 76.38888888888889
+Epoch 47, Iteration 1's Loss: 0.030109919607639313
+Epoch 47, Iteration 2's Loss: 0.067799873650074
+Epoch 47, Iteration 3's Loss: 0.9141656160354614
+Epoch 47, Iteration 4's Loss: 1.6089732646942139
+Epoch 47, Iteration 5's Loss: 0.20865857601165771
+Epoch 47, Iteration 6's Loss: 0.36898788809776306
+Epoch 47's Accuracy: 75.0
+Epoch 48, Iteration 1's Loss: 0.18854694068431854
+Epoch 48, Iteration 2's Loss: 0.20439547300338745
+Epoch 48, Iteration 3's Loss: 0.11181550472974777
+Epoch 48, Iteration 4's Loss: 0.2592121362686157
+Epoch 48, Iteration 5's Loss: 1.2556612491607666
+Epoch 48, Iteration 6's Loss: 1.1873779296875
+Epoch 48's Accuracy: 73.61111111111111
+Epoch 49, Iteration 1's Loss: 0.03037188947200775
+Epoch 49, Iteration 2's Loss: 0.2984839081764221
+Epoch 49, Iteration 3's Loss: 0.7374007701873779
+Epoch 49, Iteration 4's Loss: 1.1366724967956543
+Epoch 49, Iteration 5's Loss: 0.7891747951507568
+Epoch 49, Iteration 6's Loss: 0.6208407282829285
+Epoch 49's Accuracy: 75.0
+Epoch 50, Iteration 1's Loss: 0.3523571491241455
+Epoch 50, Iteration 2's Loss: 0.13742996752262115
+Epoch 50, Iteration 3's Loss: 0.21123278141021729
+Epoch 50, Iteration 4's Loss: 0.629070520401001
+Epoch 50, Iteration 5's Loss: 0.5285816788673401
+Epoch 50, Iteration 6's Loss: 0.28393641114234924
+Epoch 50's Accuracy: 75.0
+Epoch 51, Iteration 1's Loss: 0.18147076666355133
+Epoch 51, Iteration 2's Loss: 0.20968830585479736
+Epoch 51, Iteration 3's Loss: 0.30349695682525635
+Epoch 51, Iteration 4's Loss: 0.5338788032531738
+Epoch 51, Iteration 5's Loss: 0.628398060798645
+Epoch 51, Iteration 6's Loss: 0.4563397765159607
+Epoch 51's Accuracy: 83.33333333333333
+Epoch 52, Iteration 1's Loss: 0.06976792961359024
+Epoch 52, Iteration 2's Loss: 0.067899689078331
+Epoch 52, Iteration 3's Loss: 0.17022378742694855
+Epoch 52, Iteration 4's Loss: 0.3959115147590637
+Epoch 52, Iteration 5's Loss: 0.46583929657936096
+Epoch 52, Iteration 6's Loss: 0.31021764874458313
+Epoch 52's Accuracy: 84.72222222222223
+Epoch 53, Iteration 1's Loss: 0.026577480137348175
+Epoch 53, Iteration 2's Loss: 0.027351349592208862
+Epoch 53, Iteration 3's Loss: 0.20013251900672913
+Epoch 53, Iteration 4's Loss: 0.44013655185699463
+Epoch 53, Iteration 5's Loss: 0.3580286502838135
+Epoch 53, Iteration 6's Loss: 0.1416962891817093
+Epoch 53's Accuracy: 81.94444444444444
+Epoch 54, Iteration 1's Loss: 0.05150270834565163
+Epoch 54, Iteration 2's Loss: 0.03766749054193497
+Epoch 54, Iteration 3's Loss: 0.12969987094402313
+Epoch 54, Iteration 4's Loss: 0.22015595436096191
+Epoch 54, Iteration 5's Loss: 0.481697678565979
+Epoch 54, Iteration 6's Loss: 0.15055039525032043
+Epoch 54's Accuracy: 77.77777777777777
+Epoch 55, Iteration 1's Loss: 0.01583566889166832
+Epoch 55, Iteration 2's Loss: 0.0024905502796173096
+Epoch 55, Iteration 3's Loss: 0.13509154319763184
+Epoch 55, Iteration 4's Loss: 0.2820991277694702
+Epoch 55, Iteration 5's Loss: 0.27029669284820557
+Epoch 55, Iteration 6's Loss: 0.07346180826425552
+Epoch 55's Accuracy: 84.72222222222223
+Epoch 56, Iteration 1's Loss: 0.011330671608448029
+Epoch 56, Iteration 2's Loss: 0.001661062240600586
+Epoch 56, Iteration 3's Loss: 0.08232314884662628
+Epoch 56, Iteration 4's Loss: 0.1827419102191925
+Epoch 56, Iteration 5's Loss: 0.43168526887893677
+Epoch 56, Iteration 6's Loss: 0.0978611558675766
+Epoch 56's Accuracy: 81.94444444444444
+Epoch 57, Iteration 1's Loss: 0.021588854491710663
+Epoch 57, Iteration 2's Loss: 0.02465861290693283
+Epoch 57, Iteration 3's Loss: 0.06885087490081787
+Epoch 57, Iteration 4's Loss: 0.22245070338249207
+Epoch 57, Iteration 5's Loss: 0.2440338283777237
+Epoch 57, Iteration 6's Loss: 0.09233408421278
+Epoch 57's Accuracy: 84.72222222222223
+Epoch 58, Iteration 1's Loss: 0.005009666085243225
+Epoch 58, Iteration 2's Loss: 0.005752786993980408
+Epoch 58, Iteration 3's Loss: 0.1608196645975113
+Epoch 58, Iteration 4's Loss: 0.13148009777069092
+Epoch 58, Iteration 5's Loss: 0.2134544849395752
+Epoch 58, Iteration 6's Loss: 0.03487227484583855
+Epoch 58's Accuracy: 90.27777777777777
+Epoch 59, Iteration 1's Loss: 0.022136442363262177
+Epoch 59, Iteration 2's Loss: 0.0015581101179122925
+Epoch 59, Iteration 3's Loss: 0.03206860274076462
+Epoch 59, Iteration 4's Loss: 0.07187876850366592
+Epoch 59, Iteration 5's Loss: 0.5363321304321289
+Epoch 59, Iteration 6's Loss: 0.07723663747310638
+Epoch 59's Accuracy: 79.16666666666667
+Epoch 60, Iteration 1's Loss: 0.006550408899784088
+Epoch 60, Iteration 2's Loss: 0.006440646946430206
+Epoch 60, Iteration 3's Loss: 0.31754112243652344
+Epoch 60, Iteration 4's Loss: 0.5678189396858215
+Epoch 60, Iteration 5's Loss: 0.10597719252109528
+Epoch 60, Iteration 6's Loss: 0.042978186160326004
+Epoch 60's Accuracy: 80.55555555555556
+Epoch 61, Iteration 1's Loss: 0.011423662304878235
+Epoch 61, Iteration 2's Loss: 0.08280837535858154
+Epoch 61, Iteration 3's Loss: 0.05037224292755127
+Epoch 61, Iteration 4's Loss: 0.007961317896842957
+Epoch 61, Iteration 5's Loss: 1.376673698425293
+Epoch 61, Iteration 6's Loss: 0.16766619682312012
+Epoch 61's Accuracy: 79.16666666666667
+Epoch 62, Iteration 1's Loss: 0.00837705284357071
+Epoch 62, Iteration 2's Loss: 0.0020121634006500244
+Epoch 62, Iteration 3's Loss: 0.8466578722000122
+Epoch 62, Iteration 4's Loss: 2.098531484603882
+Epoch 62, Iteration 5's Loss: 0.1871945858001709
+Epoch 62, Iteration 6's Loss: 0.12606926262378693
+Epoch 62's Accuracy: 79.16666666666667
+Epoch 63, Iteration 1's Loss: 0.07182447612285614
+Epoch 63, Iteration 2's Loss: 0.14039091765880585
+Epoch 63, Iteration 3's Loss: 0.118259496986866
+Epoch 63, Iteration 4's Loss: 0.017779991030693054
+Epoch 63, Iteration 5's Loss: 2.307722568511963
+Epoch 63, Iteration 6's Loss: 1.6378620862960815
+Epoch 63's Accuracy: 77.77777777777777
+Epoch 64, Iteration 1's Loss: 0.040462370961904526
+Epoch 64, Iteration 2's Loss: 0.0583643764257431
+Epoch 64, Iteration 3's Loss: 0.3609938621520996
+Epoch 64, Iteration 4's Loss: 1.1008620262145996
+Epoch 64, Iteration 5's Loss: 0.35336384177207947
+Epoch 64, Iteration 6's Loss: 0.05279610678553581
+Epoch 64's Accuracy: 68.05555555555556
+Epoch 65, Iteration 1's Loss: 0.07311035692691803
+Epoch 65, Iteration 2's Loss: 0.045494407415390015
+Epoch 65, Iteration 3's Loss: 0.5738378167152405
+Epoch 65, Iteration 4's Loss: 1.4585561752319336
+Epoch 65, Iteration 5's Loss: 0.4349066913127899
+Epoch 65, Iteration 6's Loss: 0.12448655068874359
+Epoch 65's Accuracy: 80.55555555555556
+Epoch 66, Iteration 1's Loss: 0.024457663297653198
+Epoch 66, Iteration 2's Loss: 0.03980351239442825
+Epoch 66, Iteration 3's Loss: 0.14979048073291779
+Epoch 66, Iteration 4's Loss: 0.2742149829864502
+Epoch 66, Iteration 5's Loss: 0.7572782635688782
+Epoch 66, Iteration 6's Loss: 0.8436107635498047
+Epoch 66's Accuracy: 83.33333333333333
+Epoch 67, Iteration 1's Loss: 0.06905155628919601
+Epoch 67, Iteration 2's Loss: 0.0598604753613472
+Epoch 67, Iteration 3's Loss: 0.09350398182868958
+Epoch 67, Iteration 4's Loss: 0.20024695992469788
+Epoch 67, Iteration 5's Loss: 0.5447608232498169
+Epoch 67, Iteration 6's Loss: 0.3895319998264313
+Epoch 67's Accuracy: 84.72222222222223
+Epoch 68, Iteration 1's Loss: 0.0289502814412117
+Epoch 68, Iteration 2's Loss: 0.05569235607981682
+Epoch 68, Iteration 3's Loss: 0.24453088641166687
+Epoch 68, Iteration 4's Loss: 0.37087374925613403
+Epoch 68, Iteration 5's Loss: 0.32295700907707214
+Epoch 68, Iteration 6's Loss: 0.11918294429779053
+Epoch 68's Accuracy: 73.61111111111111
+Epoch 69, Iteration 1's Loss: 0.026002846658229828
+Epoch 69, Iteration 2's Loss: 0.040335219353437424
+Epoch 69, Iteration 3's Loss: 0.16380104422569275
+Epoch 69, Iteration 4's Loss: 0.5443910956382751
+Epoch 69, Iteration 5's Loss: 0.33870595693588257
+Epoch 69, Iteration 6's Loss: 0.19880683720111847
+Epoch 69's Accuracy: 76.38888888888889
+Epoch 70, Iteration 1's Loss: 0.013905428349971771
+Epoch 70, Iteration 2's Loss: 0.016379162669181824
+Epoch 70, Iteration 3's Loss: 0.06446550786495209
+Epoch 70, Iteration 4's Loss: 0.2506093680858612
+Epoch 70, Iteration 5's Loss: 0.46384763717651367
+Epoch 70, Iteration 6's Loss: 0.15522919595241547
+Epoch 70's Accuracy: 83.33333333333333
+Epoch 71, Iteration 1's Loss: 0.022968612611293793
+Epoch 71, Iteration 2's Loss: 0.021138153970241547
+Epoch 71, Iteration 3's Loss: 0.06162219122052193
+Epoch 71, Iteration 4's Loss: 0.20001760125160217
+Epoch 71, Iteration 5's Loss: 0.31223487854003906
+Epoch 71, Iteration 6's Loss: 0.1082003116607666
+Epoch 71's Accuracy: 84.72222222222223
+Epoch 72, Iteration 1's Loss: 0.0697007104754448
+Epoch 72, Iteration 2's Loss: 0.013996906578540802
+Epoch 72, Iteration 3's Loss: 0.13899290561676025
+Epoch 72, Iteration 4's Loss: 0.22460362315177917
+Epoch 72, Iteration 5's Loss: 0.24397966265678406
+Epoch 72, Iteration 6's Loss: 0.14196249842643738
+Epoch 72's Accuracy: 84.72222222222223
+Epoch 73, Iteration 1's Loss: 0.004390642046928406
+Epoch 73, Iteration 2's Loss: 0.006006978452205658
+Epoch 73, Iteration 3's Loss: 0.07022400945425034
+Epoch 73, Iteration 4's Loss: 0.1970917135477066
+Epoch 73, Iteration 5's Loss: 0.2710326910018921
+Epoch 73, Iteration 6's Loss: 0.09208275377750397
+Epoch 73's Accuracy: 76.38888888888889
+Epoch 74, Iteration 1's Loss: 0.002684295177459717
+Epoch 74, Iteration 2's Loss: 0.005200177431106567
+Epoch 74, Iteration 3's Loss: 0.04361911118030548
+Epoch 74, Iteration 4's Loss: 0.1821145862340927
+Epoch 74, Iteration 5's Loss: 0.2194356471300125
+Epoch 74, Iteration 6's Loss: 0.04592117294669151
+Epoch 74's Accuracy: 80.55555555555556
+Epoch 75, Iteration 1's Loss: 0.007970288395881653
+Epoch 75, Iteration 2's Loss: 0.007051654160022736
+Epoch 75, Iteration 3's Loss: 0.07128480821847916
+Epoch 75, Iteration 4's Loss: 0.07267136126756668
+Epoch 75, Iteration 5's Loss: 0.31452202796936035
+Epoch 75, Iteration 6's Loss: 0.11881397664546967
+Epoch 75's Accuracy: 77.77777777777777
+Epoch 76, Iteration 1's Loss: 0.01044435054063797
+Epoch 76, Iteration 2's Loss: 0.004505544900894165
+Epoch 76, Iteration 3's Loss: 0.06955529749393463
+Epoch 76, Iteration 4's Loss: 0.1436907947063446
+Epoch 76, Iteration 5's Loss: 0.1260049194097519
+Epoch 76, Iteration 6's Loss: 0.026472773402929306
+Epoch 76's Accuracy: 76.38888888888889
+Epoch 77, Iteration 1's Loss: 0.002902671694755554
+Epoch 77, Iteration 2's Loss: 0.0014952272176742554
+Epoch 77, Iteration 3's Loss: 0.04596772789955139
+Epoch 77, Iteration 4's Loss: 0.1479182094335556
+Epoch 77, Iteration 5's Loss: 0.16915929317474365
+Epoch 77, Iteration 6's Loss: 0.036095958203077316
+Epoch 77's Accuracy: 80.55555555555556
+Epoch 78, Iteration 1's Loss: 0.004337430000305176
+Epoch 78, Iteration 2's Loss: 0.001414671540260315
+Epoch 78, Iteration 3's Loss: 0.06096750125288963
+Epoch 78, Iteration 4's Loss: 0.07726569473743439
+Epoch 78, Iteration 5's Loss: 0.23263296484947205
+Epoch 78, Iteration 6's Loss: 0.09666042774915695
+Epoch 78's Accuracy: 80.55555555555556
+Epoch 79, Iteration 1's Loss: 0.005124285817146301
+Epoch 79, Iteration 2's Loss: 0.0021652281284332275
+Epoch 79, Iteration 3's Loss: 0.06027258560061455
+Epoch 79, Iteration 4's Loss: 0.09400299936532974
+Epoch 79, Iteration 5's Loss: 0.09546536952257156
+Epoch 79, Iteration 6's Loss: 0.026349714025855064
+Epoch 79's Accuracy: 87.5
+Epoch 80, Iteration 1's Loss: 0.011476889252662659
+Epoch 80, Iteration 2's Loss: 0.0007306486368179321
+Epoch 80, Iteration 3's Loss: 0.029778145253658295
+Epoch 80, Iteration 4's Loss: 0.1278005987405777
+Epoch 80, Iteration 5's Loss: 0.12119567394256592
+Epoch 80, Iteration 6's Loss: 0.03380417823791504
+Epoch 80's Accuracy: 80.55555555555556
+Epoch 81, Iteration 1's Loss: 0.009716160595417023
+Epoch 81, Iteration 2's Loss: 0.001662909984588623
+Epoch 81, Iteration 3's Loss: 0.01692834496498108
+Epoch 81, Iteration 4's Loss: 0.057450927793979645
+Epoch 81, Iteration 5's Loss: 0.1375354379415512
+Epoch 81, Iteration 6's Loss: 0.010591745376586914
+Epoch 81's Accuracy: 80.55555555555556
+Epoch 82, Iteration 1's Loss: 0.011076793074607849
+Epoch 82, Iteration 2's Loss: 0.0019242018461227417
+Epoch 82, Iteration 3's Loss: 0.09774757921695709
+Epoch 82, Iteration 4's Loss: 0.11465734243392944
+Epoch 82, Iteration 5's Loss: 0.12102439999580383
+Epoch 82, Iteration 6's Loss: 0.017464807257056236
+Epoch 82's Accuracy: 81.94444444444444
+Epoch 83, Iteration 1's Loss: 0.0007601678371429443
+Epoch 83, Iteration 2's Loss: 0.0004377514123916626
+Epoch 83, Iteration 3's Loss: 0.07626490294933319
+Epoch 83, Iteration 4's Loss: 0.08168135583400726
+Epoch 83, Iteration 5's Loss: 0.1030401661992073
+Epoch 83, Iteration 6's Loss: 0.008196353912353516
+Epoch 83's Accuracy: 76.38888888888889
+Epoch 84, Iteration 1's Loss: 0.003105074167251587
+Epoch 84, Iteration 2's Loss: 0.0035374462604522705
+Epoch 84, Iteration 3's Loss: 0.029294773936271667
+Epoch 84, Iteration 4's Loss: 0.08203133195638657
+Epoch 84, Iteration 5's Loss: 0.09941970556974411
+Epoch 84, Iteration 6's Loss: 0.03468853980302811
+Epoch 84's Accuracy: 81.94444444444444
+Epoch 85, Iteration 1's Loss: 0.003293663263320923
+Epoch 85, Iteration 2's Loss: 0.0018308758735656738
+Epoch 85, Iteration 3's Loss: 0.004545390605926514
+Epoch 85, Iteration 4's Loss: 0.0653742104768753
+Epoch 85, Iteration 5's Loss: 0.08479781448841095
+Epoch 85, Iteration 6's Loss: 0.01580122485756874
+Epoch 85's Accuracy: 73.61111111111111
+Epoch 86, Iteration 1's Loss: 0.004524156451225281
+Epoch 86, Iteration 2's Loss: 0.003968328237533569
+Epoch 86, Iteration 3's Loss: 0.06569485366344452
+Epoch 86, Iteration 4's Loss: 0.04095149040222168
+Epoch 86, Iteration 5's Loss: 0.12151135504245758
+Epoch 86, Iteration 6's Loss: 0.008843694813549519
+Epoch 86's Accuracy: 81.94444444444444
+Epoch 87, Iteration 1's Loss: 0.006807684898376465
+Epoch 87, Iteration 2's Loss: 0.0006423145532608032
+Epoch 87, Iteration 3's Loss: 0.030391141772270203
+Epoch 87, Iteration 4's Loss: 0.09553340077400208
+Epoch 87, Iteration 5's Loss: 0.18594400584697723
+Epoch 87, Iteration 6's Loss: 0.009219476021826267
+Epoch 87's Accuracy: 77.77777777777777
+Epoch 88, Iteration 1's Loss: 0.007472530007362366
+Epoch 88, Iteration 2's Loss: 0.0007633566856384277
+Epoch 88, Iteration 3's Loss: 0.013698920607566833
+Epoch 88, Iteration 4's Loss: 0.03881391882896423
+Epoch 88, Iteration 5's Loss: 0.1394539475440979
+Epoch 88, Iteration 6's Loss: 0.009806394577026367
+Epoch 88's Accuracy: 83.33333333333333
+Epoch 89, Iteration 1's Loss: 0.009387031197547913
+Epoch 89, Iteration 2's Loss: 0.0016479790210723877
+Epoch 89, Iteration 3's Loss: 0.03657248616218567
+Epoch 89, Iteration 4's Loss: 0.09190596640110016
+Epoch 89, Iteration 5's Loss: 0.0551031157374382
+Epoch 89, Iteration 6's Loss: 0.024035045877099037
+Epoch 89's Accuracy: 83.33333333333333
+Epoch 90, Iteration 1's Loss: 0.00272446870803833
+Epoch 90, Iteration 2's Loss: 0.0010264962911605835
+Epoch 90, Iteration 3's Loss: 0.047481365501880646
+Epoch 90, Iteration 4's Loss: 0.03615398705005646
+Epoch 90, Iteration 5's Loss: 0.040207549929618835
+Epoch 90, Iteration 6's Loss: 0.037574052810668945
+Epoch 90's Accuracy: 79.16666666666667
+Epoch 91, Iteration 1's Loss: 0.0009022653102874756
+Epoch 91, Iteration 2's Loss: 0.000165596604347229
+Epoch 91, Iteration 3's Loss: 0.053224124014377594
+Epoch 91, Iteration 4's Loss: 0.009790748357772827
+Epoch 91, Iteration 5's Loss: 0.12671548128128052
+Epoch 91, Iteration 6's Loss: 0.006309100426733494
+Epoch 91's Accuracy: 84.72222222222223
+Epoch 92, Iteration 1's Loss: 0.0026243776082992554
+Epoch 92, Iteration 2's Loss: 0.0012434571981430054
+Epoch 92, Iteration 3's Loss: 0.04351848363876343
+Epoch 92, Iteration 4's Loss: 0.12085849046707153
+Epoch 92, Iteration 5's Loss: 0.024417057633399963
+Epoch 92, Iteration 6's Loss: 0.01291598565876484
+Epoch 92's Accuracy: 84.72222222222223
+Epoch 93, Iteration 1's Loss: 0.00213409960269928
+Epoch 93, Iteration 2's Loss: 0.013975217938423157
+Epoch 93, Iteration 3's Loss: 0.009570389986038208
+Epoch 93, Iteration 4's Loss: 0.02219843864440918
+Epoch 93, Iteration 5's Loss: 0.12996888160705566
+Epoch 93, Iteration 6's Loss: 0.009448562748730183
+Epoch 93's Accuracy: 80.55555555555556
+Epoch 94, Iteration 1's Loss: 0.004047602415084839
+Epoch 94, Iteration 2's Loss: 0.0010925233364105225
+Epoch 94, Iteration 3's Loss: 0.009742841124534607
+Epoch 94, Iteration 4's Loss: 0.03707288205623627
+Epoch 94, Iteration 5's Loss: 0.03945179283618927
+Epoch 94, Iteration 6's Loss: 0.01877559907734394
+Epoch 94's Accuracy: 79.16666666666667
+Epoch 95, Iteration 1's Loss: 0.008999332785606384
+Epoch 95, Iteration 2's Loss: 0.0008049309253692627
+Epoch 95, Iteration 3's Loss: 0.04359693080186844
+Epoch 95, Iteration 4's Loss: 0.04615457355976105
+Epoch 95, Iteration 5's Loss: 0.0661046952009201
+Epoch 95, Iteration 6's Loss: 0.004210710525512695
+Epoch 95's Accuracy: 77.77777777777777
+Epoch 96, Iteration 1's Loss: 0.0036521106958389282
+Epoch 96, Iteration 2's Loss: 0.0017145872116088867
+Epoch 96, Iteration 3's Loss: 0.02260860800743103
+Epoch 96, Iteration 4's Loss: 0.005999043583869934
+Epoch 96, Iteration 5's Loss: 0.13393040001392365
+Epoch 96, Iteration 6's Loss: 0.006125245708972216
+Epoch 96's Accuracy: 81.94444444444444
+Epoch 97, Iteration 1's Loss: 0.0018477588891983032
+Epoch 97, Iteration 2's Loss: 0.0007144659757614136
+Epoch 97, Iteration 3's Loss: 0.00428202748298645
+Epoch 97, Iteration 4's Loss: 0.07446537911891937
+Epoch 97, Iteration 5's Loss: 0.061251819133758545
+Epoch 97, Iteration 6's Loss: 0.005454335827380419
+Epoch 97's Accuracy: 81.94444444444444
+Epoch 98, Iteration 1's Loss: 0.008259698748588562
+Epoch 98, Iteration 2's Loss: 0.006117641925811768
+Epoch 98, Iteration 3's Loss: 0.015888333320617676
+Epoch 98, Iteration 4's Loss: 0.02705584466457367
+Epoch 98, Iteration 5's Loss: 0.04491408169269562
+Epoch 98, Iteration 6's Loss: 0.02561238780617714
+Epoch 98's Accuracy: 80.55555555555556
+Epoch 99, Iteration 1's Loss: 0.002772882580757141
+Epoch 99, Iteration 2's Loss: 0.00013868510723114014
+Epoch 99, Iteration 3's Loss: 0.0021285563707351685
+Epoch 99, Iteration 4's Loss: 0.09916937351226807
+Epoch 99, Iteration 5's Loss: 0.040436483919620514
+Epoch 99, Iteration 6's Loss: 0.010327475145459175
+Epoch 99's Accuracy: 83.33333333333333
+Epoch 100, Iteration 1's Loss: 0.0012878328561782837
+Epoch 100, Iteration 2's Loss: 0.0021910816431045532
+Epoch 100, Iteration 3's Loss: 0.004366025328636169
+Epoch 100, Iteration 4's Loss: 0.015026971697807312
+Epoch 100, Iteration 5's Loss: 0.05967085063457489
+Epoch 100, Iteration 6's Loss: 0.014888865873217583
+Epoch 100's Accuracy: 80.55555555555556
+Epoch 1, Iteration 1's Loss: 0.9747170805931091,rgb_Loss:1.3319239616394043,opticalFlow_Loss:1.2543971538543701
+Epoch 1, Iteration 2's Loss: 0.7774614095687866,rgb_Loss:1.3434514999389648,opticalFlow_Loss:1.257193922996521
+Epoch 1, Iteration 3's Loss: 0.448901891708374,rgb_Loss:1.3450236320495605,opticalFlow_Loss:1.2510294914245605
+Epoch 1, Iteration 4's Loss: 3.0319571495056152,rgb_Loss:1.351989984512329,opticalFlow_Loss:1.5511997938156128
+Epoch 1, Iteration 5's Loss: 2.875231981277466,rgb_Loss:1.3802343606948853,opticalFlow_Loss:1.5901007652282715
+Epoch 1, Iteration 6's Loss: 3.047309398651123,rgb_Loss:1.5002862215042114,opticalFlow_Loss:1.1954851150512695
+Epoch 1, Iteration 7's Loss: 3.0387215614318848,rgb_Loss:1.4978570938110352,opticalFlow_Loss:1.0677058696746826
+Epoch 1, Iteration 8's Loss: 2.5128021240234375,rgb_Loss:1.4956552982330322,opticalFlow_Loss:1.005589485168457
+Epoch 1, Iteration 9's Loss: 3.0393049716949463,rgb_Loss:1.3838481903076172,opticalFlow_Loss:1.640474796295166
+Epoch 1, Iteration 10's Loss: 4.270044803619385,rgb_Loss:1.3608555793762207,opticalFlow_Loss:2.1136114597320557
+Epoch 1, Iteration 11's Loss: 4.410251617431641,rgb_Loss:1.3624598979949951,opticalFlow_Loss:2.167417049407959
+Epoch 1's Accuracy: 29.166666666666668,rgb Accuracy:41.666666666666664,opticalFlow Accuracy:29.166666666666668
+Epoch 2, Iteration 1's Loss: 2.9405198097229004,rgb_Loss:1.1825335025787354,opticalFlow_Loss:1.4423084259033203
+Epoch 2, Iteration 2's Loss: 2.6543896198272705,rgb_Loss:1.203584909439087,opticalFlow_Loss:1.442118525505066
+Epoch 2, Iteration 3's Loss: 2.040928840637207,rgb_Loss:1.203749179840088,opticalFlow_Loss:1.4415526390075684
+Epoch 2, Iteration 4's Loss: 2.3712258338928223,rgb_Loss:1.3675193786621094,opticalFlow_Loss:1.6046879291534424
+Epoch 2, Iteration 5's Loss: 2.1801040172576904,rgb_Loss:1.3101924657821655,opticalFlow_Loss:1.6165374517440796
+Epoch 2, Iteration 6's Loss: 2.0150556564331055,rgb_Loss:1.5322446823120117,opticalFlow_Loss:1.3571680784225464
+Epoch 2, Iteration 7's Loss: 1.9885879755020142,rgb_Loss:1.6332086324691772,opticalFlow_Loss:1.240860939025879
+Epoch 2, Iteration 8's Loss: 1.642935037612915,rgb_Loss:1.5623167753219604,opticalFlow_Loss:1.2409833669662476
+Epoch 2, Iteration 9's Loss: 1.651097059249878,rgb_Loss:1.4355219602584839,opticalFlow_Loss:1.2700079679489136
+Epoch 2, Iteration 10's Loss: 1.866178274154663,rgb_Loss:1.354490041732788,opticalFlow_Loss:1.2893917560577393
+Epoch 2, Iteration 11's Loss: 1.595521330833435,rgb_Loss:1.3836097717285156,opticalFlow_Loss:1.291202425956726
+Epoch 2's Accuracy: 29.166666666666668,rgb Accuracy:43.05555555555556,opticalFlow Accuracy:29.166666666666668
+Epoch 3, Iteration 1's Loss: 2.0792031288146973,rgb_Loss:1.2048871517181396,opticalFlow_Loss:1.4427322149276733
+Epoch 3, Iteration 2's Loss: 1.9822593927383423,rgb_Loss:1.2006257772445679,opticalFlow_Loss:1.4419431686401367
+Epoch 3, Iteration 3's Loss: 1.638695240020752,rgb_Loss:1.1934123039245605,opticalFlow_Loss:1.4432789087295532
+Epoch 3, Iteration 4's Loss: 2.089776039123535,rgb_Loss:1.3949229717254639,opticalFlow_Loss:1.6061257123947144
+Epoch 3, Iteration 5's Loss: 2.1366186141967773,rgb_Loss:1.3502148389816284,opticalFlow_Loss:1.6173186302185059
+Epoch 3, Iteration 6's Loss: 1.9800381660461426,rgb_Loss:1.5200539827346802,opticalFlow_Loss:1.3581955432891846
+Epoch 3, Iteration 7's Loss: 1.9561954736709595,rgb_Loss:1.6379112005233765,opticalFlow_Loss:1.2411844730377197
+Epoch 3, Iteration 8's Loss: 1.4655287265777588,rgb_Loss:1.6384202241897583,opticalFlow_Loss:1.2407965660095215
+Epoch 3, Iteration 9's Loss: 1.6345444917678833,rgb_Loss:1.42218017578125,opticalFlow_Loss:1.2701669931411743
+Epoch 3, Iteration 10's Loss: 2.033726692199707,rgb_Loss:1.325386881828308,opticalFlow_Loss:1.290263056755066
+Epoch 3, Iteration 11's Loss: 1.7791252136230469,rgb_Loss:1.3827931880950928,opticalFlow_Loss:1.2919543981552124
+Epoch 3's Accuracy: 29.166666666666668,rgb Accuracy:41.666666666666664,opticalFlow Accuracy:29.166666666666668
+Epoch 4, Iteration 1's Loss: 2.0162553787231445,rgb_Loss:1.1909981966018677,opticalFlow_Loss:1.4441969394683838
+Epoch 4, Iteration 2's Loss: 1.989234447479248,rgb_Loss:1.248974084854126,opticalFlow_Loss:1.4426779747009277
+Epoch 4, Iteration 3's Loss: 1.6786047220230103,rgb_Loss:1.2186670303344727,opticalFlow_Loss:1.4420859813690186
+Epoch 4, Iteration 4's Loss: 1.9135726690292358,rgb_Loss:1.3687664270401,opticalFlow_Loss:1.6050755977630615
+Epoch 4, Iteration 5's Loss: 1.8773154020309448,rgb_Loss:1.3122150897979736,opticalFlow_Loss:1.617004632949829
+Epoch 4, Iteration 6's Loss: 1.5871626138687134,rgb_Loss:1.562410831451416,opticalFlow_Loss:1.3573423624038696
+Epoch 4, Iteration 7's Loss: 1.626434087753296,rgb_Loss:1.6369504928588867,opticalFlow_Loss:1.240976095199585
+Epoch 4, Iteration 8's Loss: 1.5533584356307983,rgb_Loss:1.6203606128692627,opticalFlow_Loss:1.240178108215332
+Epoch 4, Iteration 9's Loss: 1.6269457340240479,rgb_Loss:1.435582160949707,opticalFlow_Loss:1.2701791524887085
+Epoch 4, Iteration 10's Loss: 1.8274410963058472,rgb_Loss:1.3326301574707031,opticalFlow_Loss:1.2898242473602295
+Epoch 4, Iteration 11's Loss: 1.6758273839950562,rgb_Loss:1.3804374933242798,opticalFlow_Loss:1.2913423776626587
+Epoch 4's Accuracy: 52.77777777777778,rgb Accuracy:34.72222222222222,opticalFlow Accuracy:29.166666666666668
+Epoch 5, Iteration 1's Loss: 0.7108389139175415,rgb_Loss:1.1775907278060913,opticalFlow_Loss:1.4433648586273193
+Epoch 5, Iteration 2's Loss: 0.6311140656471252,rgb_Loss:1.1999495029449463,opticalFlow_Loss:1.4422954320907593
+Epoch 5, Iteration 3's Loss: 0.7800915241241455,rgb_Loss:1.2254842519760132,opticalFlow_Loss:1.4406415224075317
+Epoch 5, Iteration 4's Loss: 1.719520926475525,rgb_Loss:1.3496425151824951,opticalFlow_Loss:1.6055095195770264
+Epoch 5, Iteration 5's Loss: 1.759063482284546,rgb_Loss:1.3000131845474243,opticalFlow_Loss:1.616599202156067
+Epoch 5, Iteration 6's Loss: 1.4734313488006592,rgb_Loss:1.4706249237060547,opticalFlow_Loss:1.3585169315338135
+Epoch 5, Iteration 7's Loss: 1.532545566558838,rgb_Loss:1.6283714771270752,opticalFlow_Loss:1.2410050630569458
+Epoch 5, Iteration 8's Loss: 1.408442497253418,rgb_Loss:1.5450029373168945,opticalFlow_Loss:1.240349292755127
+Epoch 5, Iteration 9's Loss: 1.4557080268859863,rgb_Loss:1.4397437572479248,opticalFlow_Loss:1.2694200277328491
+Epoch 5, Iteration 10's Loss: 1.530893325805664,rgb_Loss:1.3253499269485474,opticalFlow_Loss:1.288740873336792
+Epoch 5, Iteration 11's Loss: 1.4395338296890259,rgb_Loss:1.3748042583465576,opticalFlow_Loss:1.2926186323165894
+Epoch 5's Accuracy: 51.388888888888886,rgb Accuracy:38.888888888888886,opticalFlow Accuracy:29.166666666666668
+Epoch 6, Iteration 1's Loss: 0.3691883683204651,rgb_Loss:1.1901456117630005,opticalFlow_Loss:1.4421035051345825
+Epoch 6, Iteration 2's Loss: 0.6113531589508057,rgb_Loss:1.1879191398620605,opticalFlow_Loss:1.4419872760772705
+Epoch 6, Iteration 3's Loss: 1.0235333442687988,rgb_Loss:1.2187559604644775,opticalFlow_Loss:1.4424294233322144
+Epoch 6, Iteration 4's Loss: 1.6666607856750488,rgb_Loss:1.3199710845947266,opticalFlow_Loss:1.6058344841003418
+Epoch 6, Iteration 5's Loss: 1.5760809183120728,rgb_Loss:1.3193509578704834,opticalFlow_Loss:1.6163363456726074
+Epoch 6, Iteration 6's Loss: 1.2516038417816162,rgb_Loss:1.4663556814193726,opticalFlow_Loss:1.3573228120803833
+Epoch 6, Iteration 7's Loss: 1.2856448888778687,rgb_Loss:1.624279260635376,opticalFlow_Loss:1.2401134967803955
+Epoch 6, Iteration 8's Loss: 1.15185546875,rgb_Loss:1.5683963298797607,opticalFlow_Loss:1.2404985427856445
+Epoch 6, Iteration 9's Loss: 1.4098472595214844,rgb_Loss:1.434457778930664,opticalFlow_Loss:1.269749641418457
+Epoch 6, Iteration 10's Loss: 1.703703761100769,rgb_Loss:1.362220287322998,opticalFlow_Loss:1.28939950466156
+Epoch 6, Iteration 11's Loss: 1.6697715520858765,rgb_Loss:1.4163587093353271,opticalFlow_Loss:1.2907570600509644
+Epoch 6's Accuracy: 56.94444444444444,rgb Accuracy:43.05555555555556,opticalFlow Accuracy:29.166666666666668
+Epoch 7, Iteration 1's Loss: 0.15223447978496552,rgb_Loss:1.2142821550369263,opticalFlow_Loss:1.4429538249969482
+Epoch 7, Iteration 2's Loss: 0.2512899935245514,rgb_Loss:1.2139099836349487,opticalFlow_Loss:1.4417368173599243
+Epoch 7, Iteration 3's Loss: 0.48566538095474243,rgb_Loss:1.2263314723968506,opticalFlow_Loss:1.4430267810821533
+Epoch 7, Iteration 4's Loss: 1.6163356304168701,rgb_Loss:1.408379077911377,opticalFlow_Loss:1.6069668531417847
+Epoch 7, Iteration 5's Loss: 1.609239935874939,rgb_Loss:1.3017083406448364,opticalFlow_Loss:1.616795539855957
+Epoch 7, Iteration 6's Loss: 1.1641247272491455,rgb_Loss:1.49126398563385,opticalFlow_Loss:1.3579052686691284
+Epoch 7, Iteration 7's Loss: 1.2067556381225586,rgb_Loss:1.6127238273620605,opticalFlow_Loss:1.2418017387390137
+Epoch 7, Iteration 8's Loss: 1.1384509801864624,rgb_Loss:1.6126314401626587,opticalFlow_Loss:1.2405407428741455
+Epoch 7, Iteration 9's Loss: 1.2972604036331177,rgb_Loss:1.4693877696990967,opticalFlow_Loss:1.2706202268600464
+Epoch 7, Iteration 10's Loss: 1.5218210220336914,rgb_Loss:1.365327000617981,opticalFlow_Loss:1.2892478704452515
+Epoch 7, Iteration 11's Loss: 1.493092656135559,rgb_Loss:1.4049122333526611,opticalFlow_Loss:1.2896010875701904
+Epoch 7's Accuracy: 68.05555555555556,rgb Accuracy:41.666666666666664,opticalFlow Accuracy:29.166666666666668
+Epoch 8, Iteration 1's Loss: 0.29287272691726685,rgb_Loss:1.1625218391418457,opticalFlow_Loss:1.4425934553146362
+Epoch 8, Iteration 2's Loss: 0.31973880529403687,rgb_Loss:1.219221830368042,opticalFlow_Loss:1.4424278736114502
+Epoch 8, Iteration 3's Loss: 0.415957510471344,rgb_Loss:1.2070198059082031,opticalFlow_Loss:1.441573977470398
+Epoch 8, Iteration 4's Loss: 1.2524772882461548,rgb_Loss:1.3232895135879517,opticalFlow_Loss:1.6046768426895142
+Epoch 8, Iteration 5's Loss: 1.2315982580184937,rgb_Loss:1.3454538583755493,opticalFlow_Loss:1.615665078163147
+Epoch 8, Iteration 6's Loss: 1.0709196329116821,rgb_Loss:1.5305880308151245,opticalFlow_Loss:1.3585340976715088
+Epoch 8, Iteration 7's Loss: 1.2005354166030884,rgb_Loss:1.619622826576233,opticalFlow_Loss:1.240724802017212
+Epoch 8, Iteration 8's Loss: 1.0948554277420044,rgb_Loss:1.5704652070999146,opticalFlow_Loss:1.2412822246551514
+Epoch 8, Iteration 9's Loss: 1.5806587934494019,rgb_Loss:1.434678077697754,opticalFlow_Loss:1.2708516120910645
+Epoch 8, Iteration 10's Loss: 1.5713286399841309,rgb_Loss:1.3307212591171265,opticalFlow_Loss:1.2896246910095215
+Epoch 8, Iteration 11's Loss: 1.5253660678863525,rgb_Loss:1.3804656267166138,opticalFlow_Loss:1.2907999753952026
+Epoch 8's Accuracy: 65.27777777777777,rgb Accuracy:41.666666666666664,opticalFlow Accuracy:29.166666666666668
+Epoch 9, Iteration 1's Loss: 0.20402291417121887,rgb_Loss:1.1774848699569702,opticalFlow_Loss:1.4418470859527588
+Epoch 9, Iteration 2's Loss: 0.45394933223724365,rgb_Loss:1.2158957719802856,opticalFlow_Loss:1.4421207904815674
+Epoch 9, Iteration 3's Loss: 0.5072917342185974,rgb_Loss:1.2296297550201416,opticalFlow_Loss:1.4424806833267212
+Epoch 9, Iteration 4's Loss: 1.0452176332473755,rgb_Loss:1.3558318614959717,opticalFlow_Loss:1.6042205095291138
+Epoch 9, Iteration 5's Loss: 1.1905936002731323,rgb_Loss:1.3543883562088013,opticalFlow_Loss:1.616714358329773
+Epoch 9, Iteration 6's Loss: 0.928663432598114,rgb_Loss:1.510484218597412,opticalFlow_Loss:1.3575230836868286
+Epoch 9, Iteration 7's Loss: 1.1394139528274536,rgb_Loss:1.6663521528244019,opticalFlow_Loss:1.2406983375549316
+Epoch 9, Iteration 8's Loss: 1.0668377876281738,rgb_Loss:1.6148933172225952,opticalFlow_Loss:1.2401043176651
+Epoch 9, Iteration 9's Loss: 1.3466767072677612,rgb_Loss:1.4430086612701416,opticalFlow_Loss:1.2707935571670532
+Epoch 9, Iteration 10's Loss: 1.4572656154632568,rgb_Loss:1.3625298738479614,opticalFlow_Loss:1.2892850637435913
+Epoch 9, Iteration 11's Loss: 1.3755253553390503,rgb_Loss:1.3473384380340576,opticalFlow_Loss:1.2914505004882812
+Epoch 9's Accuracy: 69.44444444444444,rgb Accuracy:37.5,opticalFlow Accuracy:29.166666666666668
+Epoch 10, Iteration 1's Loss: 0.283252090215683,rgb_Loss:1.2010242938995361,opticalFlow_Loss:1.4422931671142578
+Epoch 10, Iteration 2's Loss: 0.3160668611526489,rgb_Loss:1.18668794631958,opticalFlow_Loss:1.4426441192626953
+Epoch 10, Iteration 3's Loss: 0.28769585490226746,rgb_Loss:1.212863564491272,opticalFlow_Loss:1.4430018663406372
+Epoch 10, Iteration 4's Loss: 0.8881838917732239,rgb_Loss:1.3201044797897339,opticalFlow_Loss:1.6073594093322754
+Epoch 10, Iteration 5's Loss: 1.0043325424194336,rgb_Loss:1.3359620571136475,opticalFlow_Loss:1.6158154010772705
+Epoch 10, Iteration 6's Loss: 1.0704216957092285,rgb_Loss:1.50218665599823,opticalFlow_Loss:1.3571949005126953
+Epoch 10, Iteration 7's Loss: 1.198121190071106,rgb_Loss:1.6043167114257812,opticalFlow_Loss:1.2401319742202759
+Epoch 10, Iteration 8's Loss: 1.0501224994659424,rgb_Loss:1.563828706741333,opticalFlow_Loss:1.2413434982299805
+Epoch 10, Iteration 9's Loss: 1.4647849798202515,rgb_Loss:1.4444087743759155,opticalFlow_Loss:1.2705047130584717
+Epoch 10, Iteration 10's Loss: 1.4240707159042358,rgb_Loss:1.3713351488113403,opticalFlow_Loss:1.2898203134536743
+Epoch 10, Iteration 11's Loss: 1.3280736207962036,rgb_Loss:1.3706562519073486,opticalFlow_Loss:1.2906678915023804
+Epoch 10's Accuracy: 68.05555555555556,rgb Accuracy:43.05555555555556,opticalFlow Accuracy:29.166666666666668
+Epoch 11, Iteration 1's Loss: 0.18187320232391357,rgb_Loss:1.1837170124053955,opticalFlow_Loss:1.4413070678710938
+Epoch 11, Iteration 2's Loss: 0.430820494890213,rgb_Loss:1.2420508861541748,opticalFlow_Loss:1.4428558349609375
+Epoch 11, Iteration 3's Loss: 0.36474066972732544,rgb_Loss:1.186285376548767,opticalFlow_Loss:1.4428820610046387
+Epoch 11, Iteration 4's Loss: 0.7601322531700134,rgb_Loss:1.36250901222229,opticalFlow_Loss:1.6050586700439453
+Epoch 11, Iteration 5's Loss: 0.7662333250045776,rgb_Loss:1.3003171682357788,opticalFlow_Loss:1.6175873279571533
+Epoch 11, Iteration 6's Loss: 0.9119069576263428,rgb_Loss:1.540047526359558,opticalFlow_Loss:1.3570795059204102
+Epoch 11, Iteration 7's Loss: 1.0591174364089966,rgb_Loss:1.6105597019195557,opticalFlow_Loss:1.2407654523849487
+Epoch 11, Iteration 8's Loss: 1.0369055271148682,rgb_Loss:1.5692756175994873,opticalFlow_Loss:1.2408286333084106
+Epoch 11, Iteration 9's Loss: 1.619275450706482,rgb_Loss:1.4590928554534912,opticalFlow_Loss:1.2704524993896484
+Epoch 11, Iteration 10's Loss: 1.5817307233810425,rgb_Loss:1.375767707824707,opticalFlow_Loss:1.2901268005371094
+Epoch 11, Iteration 11's Loss: 1.3674794435501099,rgb_Loss:1.3830069303512573,opticalFlow_Loss:1.2923252582550049
+Epoch 11's Accuracy: 72.22222222222223,rgb Accuracy:36.111111111111114,opticalFlow Accuracy:29.166666666666668
+Epoch 12, Iteration 1's Loss: 0.34362760186195374,rgb_Loss:1.1788450479507446,opticalFlow_Loss:1.4412996768951416
+Epoch 12, Iteration 2's Loss: 0.2968516945838928,rgb_Loss:1.2274442911148071,opticalFlow_Loss:1.4427138566970825
+Epoch 12, Iteration 3's Loss: 0.513006329536438,rgb_Loss:1.1843602657318115,opticalFlow_Loss:1.442677617073059
+Epoch 12, Iteration 4's Loss: 1.2615474462509155,rgb_Loss:1.351143479347229,opticalFlow_Loss:1.6055347919464111
+Epoch 12, Iteration 5's Loss: 1.0206661224365234,rgb_Loss:1.3268117904663086,opticalFlow_Loss:1.6164343357086182
+Epoch 12, Iteration 6's Loss: 1.1602563858032227,rgb_Loss:1.5003079175949097,opticalFlow_Loss:1.3576340675354004
+Epoch 12, Iteration 7's Loss: 1.3378251791000366,rgb_Loss:1.6368305683135986,opticalFlow_Loss:1.240614891052246
+Epoch 12, Iteration 8's Loss: 1.219186544418335,rgb_Loss:1.6402254104614258,opticalFlow_Loss:1.2405173778533936
+Epoch 12, Iteration 9's Loss: 1.95417320728302,rgb_Loss:1.4146658182144165,opticalFlow_Loss:1.270881175994873
+Epoch 12, Iteration 10's Loss: 1.60439133644104,rgb_Loss:1.3418320417404175,opticalFlow_Loss:1.2908217906951904
+Epoch 12, Iteration 11's Loss: 1.7591066360473633,rgb_Loss:1.391254186630249,opticalFlow_Loss:1.29085373878479
+Epoch 12's Accuracy: 73.61111111111111,rgb Accuracy:33.333333333333336,opticalFlow Accuracy:29.166666666666668
+Epoch 13, Iteration 1's Loss: 0.198604553937912,rgb_Loss:1.1913474798202515,opticalFlow_Loss:1.4413260221481323
+Epoch 13, Iteration 2's Loss: 0.36120617389678955,rgb_Loss:1.2241572141647339,opticalFlow_Loss:1.4430257081985474
+Epoch 13, Iteration 3's Loss: 0.23538058996200562,rgb_Loss:1.1998939514160156,opticalFlow_Loss:1.444765567779541
+Epoch 13, Iteration 4's Loss: 0.7790619134902954,rgb_Loss:1.3429219722747803,opticalFlow_Loss:1.605163812637329
+Epoch 13, Iteration 5's Loss: 0.7654034495353699,rgb_Loss:1.33119535446167,opticalFlow_Loss:1.617189884185791
+Epoch 13, Iteration 6's Loss: 0.7492575645446777,rgb_Loss:1.4787405729293823,opticalFlow_Loss:1.3577743768692017
+Epoch 13, Iteration 7's Loss: 0.8496825695037842,rgb_Loss:1.6352959871292114,opticalFlow_Loss:1.241571068763733
+Epoch 13, Iteration 8's Loss: 0.7763285636901855,rgb_Loss:1.5833114385604858,opticalFlow_Loss:1.240588903427124
+Epoch 13, Iteration 9's Loss: 0.9823192358016968,rgb_Loss:1.4060505628585815,opticalFlow_Loss:1.2696943283081055
+Epoch 13, Iteration 10's Loss: 1.3484201431274414,rgb_Loss:1.3423285484313965,opticalFlow_Loss:1.2900758981704712
+Epoch 13, Iteration 11's Loss: 1.4157359600067139,rgb_Loss:1.4200533628463745,opticalFlow_Loss:1.2908345460891724
+Epoch 13's Accuracy: 73.61111111111111,rgb Accuracy:38.888888888888886,opticalFlow Accuracy:29.166666666666668
+Epoch 14, Iteration 1's Loss: 0.1169547438621521,rgb_Loss:1.1744974851608276,opticalFlow_Loss:1.4417051076889038
+Epoch 14, Iteration 2's Loss: 0.17837393283843994,rgb_Loss:1.248805284500122,opticalFlow_Loss:1.4420127868652344
+Epoch 14, Iteration 3's Loss: 0.19937187433242798,rgb_Loss:1.1744660139083862,opticalFlow_Loss:1.441859245300293
+Epoch 14, Iteration 4's Loss: 0.27194684743881226,rgb_Loss:1.350498080253601,opticalFlow_Loss:1.606004238128662
+Epoch 14, Iteration 5's Loss: 0.2538115978240967,rgb_Loss:1.3361974954605103,opticalFlow_Loss:1.6162729263305664
+Epoch 14, Iteration 6's Loss: 0.9181665182113647,rgb_Loss:1.5321184396743774,opticalFlow_Loss:1.3570597171783447
+Epoch 14, Iteration 7's Loss: 1.1676697731018066,rgb_Loss:1.6254520416259766,opticalFlow_Loss:1.241256594657898
+Epoch 14, Iteration 8's Loss: 1.0102932453155518,rgb_Loss:1.5881751775741577,opticalFlow_Loss:1.2409570217132568
+Epoch 14, Iteration 9's Loss: 0.9256998300552368,rgb_Loss:1.4740455150604248,opticalFlow_Loss:1.2705963850021362
+Epoch 14, Iteration 10's Loss: 1.1903167963027954,rgb_Loss:1.3557171821594238,opticalFlow_Loss:1.2900002002716064
+Epoch 14, Iteration 11's Loss: 1.254553198814392,rgb_Loss:1.371119737625122,opticalFlow_Loss:1.2918645143508911
+Epoch 14's Accuracy: 72.22222222222223,rgb Accuracy:37.5,opticalFlow Accuracy:29.166666666666668
+Epoch 15, Iteration 1's Loss: 0.28885868191719055,rgb_Loss:1.1878036260604858,opticalFlow_Loss:1.4418517351150513
+Epoch 15, Iteration 2's Loss: 0.23407956957817078,rgb_Loss:1.2126953601837158,opticalFlow_Loss:1.442488670349121
+Epoch 15, Iteration 3's Loss: 0.412678599357605,rgb_Loss:1.2182868719100952,opticalFlow_Loss:1.4427881240844727
+Epoch 15, Iteration 4's Loss: 0.12418162077665329,rgb_Loss:1.37848699092865,opticalFlow_Loss:1.606489896774292
+Epoch 15, Iteration 5's Loss: 0.09233944863080978,rgb_Loss:1.3085561990737915,opticalFlow_Loss:1.616230845451355
+Epoch 15, Iteration 6's Loss: 0.6164195537567139,rgb_Loss:1.4890398979187012,opticalFlow_Loss:1.3582251071929932
+Epoch 15, Iteration 7's Loss: 0.8839561939239502,rgb_Loss:1.6337753534317017,opticalFlow_Loss:1.2412359714508057
+Epoch 15, Iteration 8's Loss: 0.7978765964508057,rgb_Loss:1.5720384120941162,opticalFlow_Loss:1.2403223514556885
+Epoch 15, Iteration 9's Loss: 1.3021823167800903,rgb_Loss:1.4494470357894897,opticalFlow_Loss:1.2701846361160278
+Epoch 15, Iteration 10's Loss: 1.2114684581756592,rgb_Loss:1.3492426872253418,opticalFlow_Loss:1.2902132272720337
+Epoch 15, Iteration 11's Loss: 1.1030170917510986,rgb_Loss:1.4086772203445435,opticalFlow_Loss:1.2912766933441162
+Epoch 15's Accuracy: 75.0,rgb Accuracy:40.27777777777778,opticalFlow Accuracy:29.166666666666668
+Epoch 16, Iteration 1's Loss: 0.1843402236700058,rgb_Loss:1.1986619234085083,opticalFlow_Loss:1.44218111038208
+Epoch 16, Iteration 2's Loss: 0.4368218779563904,rgb_Loss:1.2515588998794556,opticalFlow_Loss:1.4436320066452026
+Epoch 16, Iteration 3's Loss: 0.5316098928451538,rgb_Loss:1.1767514944076538,opticalFlow_Loss:1.442697286605835
+Epoch 16, Iteration 4's Loss: 0.08779724687337875,rgb_Loss:1.387039065361023,opticalFlow_Loss:1.6047627925872803
+Epoch 16, Iteration 5's Loss: 0.025446072220802307,rgb_Loss:1.2926090955734253,opticalFlow_Loss:1.6163618564605713
+Epoch 16, Iteration 6's Loss: 1.1274980306625366,rgb_Loss:1.4945971965789795,opticalFlow_Loss:1.3586536645889282
+Epoch 16, Iteration 7's Loss: 1.4486234188079834,rgb_Loss:1.5877543687820435,opticalFlow_Loss:1.2404600381851196
+Epoch 16, Iteration 8's Loss: 1.13567054271698,rgb_Loss:1.6021573543548584,opticalFlow_Loss:1.2409546375274658
+Epoch 16, Iteration 9's Loss: 0.7320336699485779,rgb_Loss:1.4368093013763428,opticalFlow_Loss:1.270682692527771
+Epoch 16, Iteration 10's Loss: 1.0053846836090088,rgb_Loss:1.3554414510726929,opticalFlow_Loss:1.2886581420898438
+Epoch 16, Iteration 11's Loss: 1.138765573501587,rgb_Loss:1.3585617542266846,opticalFlow_Loss:1.291447639465332
+Epoch 16's Accuracy: 75.0,rgb Accuracy:36.111111111111114,opticalFlow Accuracy:29.166666666666668
+Epoch 17, Iteration 1's Loss: 0.18506459891796112,rgb_Loss:1.1712967157363892,opticalFlow_Loss:1.4419212341308594
+Epoch 17, Iteration 2's Loss: 0.147435262799263,rgb_Loss:1.2124083042144775,opticalFlow_Loss:1.4427329301834106
+Epoch 17, Iteration 3's Loss: 0.1329231858253479,rgb_Loss:1.1982522010803223,opticalFlow_Loss:1.4418781995773315
+Epoch 17, Iteration 4's Loss: 0.39108097553253174,rgb_Loss:1.3766605854034424,opticalFlow_Loss:1.6051239967346191
+Epoch 17, Iteration 5's Loss: 0.060598403215408325,rgb_Loss:1.2990844249725342,opticalFlow_Loss:1.6175936460494995
+Epoch 17, Iteration 6's Loss: 0.5210645198822021,rgb_Loss:1.5253534317016602,opticalFlow_Loss:1.357765793800354
+Epoch 17, Iteration 7's Loss: 0.5878199338912964,rgb_Loss:1.6212984323501587,opticalFlow_Loss:1.240615963935852
+Epoch 17, Iteration 8's Loss: 0.5160449743270874,rgb_Loss:1.5862305164337158,opticalFlow_Loss:1.2409214973449707
+Epoch 17, Iteration 9's Loss: 1.0022577047348022,rgb_Loss:1.4516067504882812,opticalFlow_Loss:1.2705997228622437
+Epoch 17, Iteration 10's Loss: 1.315606951713562,rgb_Loss:1.362984299659729,opticalFlow_Loss:1.2892217636108398
+Epoch 17, Iteration 11's Loss: 1.304426908493042,rgb_Loss:1.408433198928833,opticalFlow_Loss:1.2915641069412231
+Epoch 17's Accuracy: 72.22222222222223,rgb Accuracy:37.5,opticalFlow Accuracy:29.166666666666668
+Epoch 18, Iteration 1's Loss: 0.049726516008377075,rgb_Loss:1.1807225942611694,opticalFlow_Loss:1.4419801235198975
+Epoch 18, Iteration 2's Loss: 0.11782649159431458,rgb_Loss:1.25579035282135,opticalFlow_Loss:1.4416290521621704
+Epoch 18, Iteration 3's Loss: 0.09183266013860703,rgb_Loss:1.2189830541610718,opticalFlow_Loss:1.443444848060608
+Epoch 18, Iteration 4's Loss: 0.08614706993103027,rgb_Loss:1.376967191696167,opticalFlow_Loss:1.6061315536499023
+Epoch 18, Iteration 5's Loss: 0.005830526351928711,rgb_Loss:1.3058843612670898,opticalFlow_Loss:1.6174355745315552
+Epoch 18, Iteration 6's Loss: 0.936292290687561,rgb_Loss:1.5132768154144287,opticalFlow_Loss:1.3573633432388306
+Epoch 18, Iteration 7's Loss: 1.2413365840911865,rgb_Loss:1.59673011302948,opticalFlow_Loss:1.2410414218902588
+Epoch 18, Iteration 8's Loss: 1.0363305807113647,rgb_Loss:1.5986937284469604,opticalFlow_Loss:1.240797519683838
+Epoch 18, Iteration 9's Loss: 0.7767235040664673,rgb_Loss:1.4821357727050781,opticalFlow_Loss:1.270369291305542
+Epoch 18, Iteration 10's Loss: 0.8191882967948914,rgb_Loss:1.3194208145141602,opticalFlow_Loss:1.288918375968933
+Epoch 18, Iteration 11's Loss: 0.9656825065612793,rgb_Loss:1.359232783317566,opticalFlow_Loss:1.2924721240997314
+Epoch 18's Accuracy: 76.38888888888889,rgb Accuracy:43.05555555555556,opticalFlow Accuracy:29.166666666666668
+Epoch 19, Iteration 1's Loss: 0.12281031161546707,rgb_Loss:1.1777766942977905,opticalFlow_Loss:1.442460536956787
+Epoch 19, Iteration 2's Loss: 0.06017362326383591,rgb_Loss:1.195554256439209,opticalFlow_Loss:1.442468523979187
+Epoch 19, Iteration 3's Loss: 0.009231939911842346,rgb_Loss:1.1779963970184326,opticalFlow_Loss:1.4423644542694092
+Epoch 19, Iteration 4's Loss: 0.21381212770938873,rgb_Loss:1.3316650390625,opticalFlow_Loss:1.6051270961761475
+Epoch 19, Iteration 5's Loss: 0.22224989533424377,rgb_Loss:1.296970248222351,opticalFlow_Loss:1.6155191659927368
+Epoch 19, Iteration 6's Loss: 0.5329557657241821,rgb_Loss:1.5328160524368286,opticalFlow_Loss:1.3577871322631836
+Epoch 19, Iteration 7's Loss: 0.6873717904090881,rgb_Loss:1.642086148262024,opticalFlow_Loss:1.2408004999160767
+Epoch 19, Iteration 8's Loss: 0.5181864500045776,rgb_Loss:1.5872201919555664,opticalFlow_Loss:1.240834355354309
+Epoch 19, Iteration 9's Loss: 1.0535997152328491,rgb_Loss:1.455774188041687,opticalFlow_Loss:1.2706836462020874
+Epoch 19, Iteration 10's Loss: 1.139114499092102,rgb_Loss:1.342079758644104,opticalFlow_Loss:1.2900521755218506
+Epoch 19, Iteration 11's Loss: 1.232155203819275,rgb_Loss:1.3767329454421997,opticalFlow_Loss:1.2914146184921265
+Epoch 19's Accuracy: 73.61111111111111,rgb Accuracy:38.888888888888886,opticalFlow Accuracy:29.166666666666668
+Epoch 20, Iteration 1's Loss: 0.06632839143276215,rgb_Loss:1.1928260326385498,opticalFlow_Loss:1.4420369863510132
+Epoch 20, Iteration 2's Loss: 0.004164353013038635,rgb_Loss:1.2262847423553467,opticalFlow_Loss:1.4422264099121094
+Epoch 20, Iteration 3's Loss: 0.012766703963279724,rgb_Loss:1.2073980569839478,opticalFlow_Loss:1.4419100284576416
+Epoch 20, Iteration 4's Loss: 0.023618310689926147,rgb_Loss:1.3359800577163696,opticalFlow_Loss:1.6052371263504028
+Epoch 20, Iteration 5's Loss: 0.0003654360771179199,rgb_Loss:1.322593092918396,opticalFlow_Loss:1.6166317462921143
+Epoch 20, Iteration 6's Loss: 0.7062455415725708,rgb_Loss:1.5169541835784912,opticalFlow_Loss:1.3581593036651611
+Epoch 20, Iteration 7's Loss: 0.9956082701683044,rgb_Loss:1.6052457094192505,opticalFlow_Loss:1.2408913373947144
+Epoch 20, Iteration 8's Loss: 0.9763690829277039,rgb_Loss:1.6059010028839111,opticalFlow_Loss:1.240290880203247
+Epoch 20, Iteration 9's Loss: 0.693814218044281,rgb_Loss:1.4762980937957764,opticalFlow_Loss:1.2702041864395142
+Epoch 20, Iteration 10's Loss: 0.9263317584991455,rgb_Loss:1.3130515813827515,opticalFlow_Loss:1.289244294166565
+Epoch 20, Iteration 11's Loss: 0.9109591841697693,rgb_Loss:1.418515920639038,opticalFlow_Loss:1.2913564443588257
+Epoch 20's Accuracy: 81.94444444444444,rgb Accuracy:54.166666666666664,opticalFlow Accuracy:29.166666666666668
+Epoch 21, Iteration 1's Loss: 0.02246105670928955,rgb_Loss:1.171990990638733,opticalFlow_Loss:1.4425793886184692
+Epoch 21, Iteration 2's Loss: 0.04845345765352249,rgb_Loss:1.1951552629470825,opticalFlow_Loss:1.4423117637634277
+Epoch 21, Iteration 3's Loss: 0.04955093562602997,rgb_Loss:1.1825507879257202,opticalFlow_Loss:1.441878318786621
+Epoch 21, Iteration 4's Loss: 0.05127370357513428,rgb_Loss:1.3821412324905396,opticalFlow_Loss:1.6062567234039307
+Epoch 21, Iteration 5's Loss: 0.0033791065216064453,rgb_Loss:1.289546251296997,opticalFlow_Loss:1.6168828010559082
+Epoch 21, Iteration 6's Loss: 0.5581283569335938,rgb_Loss:1.4916434288024902,opticalFlow_Loss:1.3572404384613037
+Epoch 21, Iteration 7's Loss: 0.7714231014251709,rgb_Loss:1.613929271697998,opticalFlow_Loss:1.2411613464355469
+Epoch 21, Iteration 8's Loss: 0.6033226251602173,rgb_Loss:1.5665879249572754,opticalFlow_Loss:1.2403724193572998
+Epoch 21, Iteration 9's Loss: 0.8426885604858398,rgb_Loss:1.4636874198913574,opticalFlow_Loss:1.269600510597229
+Epoch 21, Iteration 10's Loss: 1.0562282800674438,rgb_Loss:1.337428331375122,opticalFlow_Loss:1.2897846698760986
+Epoch 21, Iteration 11's Loss: 1.0447204113006592,rgb_Loss:1.3963172435760498,opticalFlow_Loss:1.2906150817871094
+Epoch 21's Accuracy: 77.77777777777777,rgb Accuracy:38.888888888888886,opticalFlow Accuracy:29.166666666666668
+Epoch 22, Iteration 1's Loss: 0.016223877668380737,rgb_Loss:1.1541597843170166,opticalFlow_Loss:1.4425849914550781
+Epoch 22, Iteration 2's Loss: 0.004554182291030884,rgb_Loss:1.2043094635009766,opticalFlow_Loss:1.4428843259811401
+Epoch 22, Iteration 3's Loss: 0.010940715670585632,rgb_Loss:1.1746281385421753,opticalFlow_Loss:1.4434679746627808
+Epoch 22, Iteration 4's Loss: 0.01573224365711212,rgb_Loss:1.3618440628051758,opticalFlow_Loss:1.6070598363876343
+Epoch 22, Iteration 5's Loss: 0.00363805890083313,rgb_Loss:1.327826976776123,opticalFlow_Loss:1.6162539720535278
+Epoch 22, Iteration 6's Loss: 0.6621731519699097,rgb_Loss:1.5088953971862793,opticalFlow_Loss:1.3580154180526733
+Epoch 22, Iteration 7's Loss: 0.9153881669044495,rgb_Loss:1.6276459693908691,opticalFlow_Loss:1.240932822227478
+Epoch 22, Iteration 8's Loss: 0.6791144609451294,rgb_Loss:1.5955880880355835,opticalFlow_Loss:1.2412595748901367
+Epoch 22, Iteration 9's Loss: 0.6499264240264893,rgb_Loss:1.4568841457366943,opticalFlow_Loss:1.2718337774276733
+Epoch 22, Iteration 10's Loss: 0.8875643610954285,rgb_Loss:1.3657879829406738,opticalFlow_Loss:1.2900270223617554
+Epoch 22, Iteration 11's Loss: 0.8837321996688843,rgb_Loss:1.3765981197357178,opticalFlow_Loss:1.290858268737793
+Epoch 22's Accuracy: 77.77777777777777,rgb Accuracy:45.833333333333336,opticalFlow Accuracy:29.166666666666668
+Epoch 23, Iteration 1's Loss: 0.008074387907981873,rgb_Loss:1.173385500907898,opticalFlow_Loss:1.4416593313217163
+Epoch 23, Iteration 2's Loss: 0.027438625693321228,rgb_Loss:1.1783140897750854,opticalFlow_Loss:1.443367600440979
+Epoch 23, Iteration 3's Loss: 0.019521310925483704,rgb_Loss:1.1845085620880127,opticalFlow_Loss:1.4426350593566895
+Epoch 23, Iteration 4's Loss: 0.05506610870361328,rgb_Loss:1.371455430984497,opticalFlow_Loss:1.6054069995880127
+Epoch 23, Iteration 5's Loss: 0.013955384492874146,rgb_Loss:1.3048169612884521,opticalFlow_Loss:1.6171109676361084
+Epoch 23, Iteration 6's Loss: 0.5329136848449707,rgb_Loss:1.4906538724899292,opticalFlow_Loss:1.3580039739608765
+Epoch 23, Iteration 7's Loss: 0.6593337059020996,rgb_Loss:1.6655670404434204,opticalFlow_Loss:1.2417088747024536
+Epoch 23, Iteration 8's Loss: 0.4914742708206177,rgb_Loss:1.6125918626785278,opticalFlow_Loss:1.2411929368972778
+Epoch 23, Iteration 9's Loss: 0.8100660443305969,rgb_Loss:1.4291436672210693,opticalFlow_Loss:1.2698653936386108
+Epoch 23, Iteration 10's Loss: 0.9723945260047913,rgb_Loss:1.3369476795196533,opticalFlow_Loss:1.288649082183838
+Epoch 23, Iteration 11's Loss: 1.011286973953247,rgb_Loss:1.4048689603805542,opticalFlow_Loss:1.2902778387069702
+Epoch 23's Accuracy: 75.0,rgb Accuracy:41.666666666666664,opticalFlow Accuracy:29.166666666666668
+Epoch 24, Iteration 1's Loss: 0.0026490092277526855,rgb_Loss:1.1892576217651367,opticalFlow_Loss:1.4441791772842407
+Epoch 24, Iteration 2's Loss: 0.0014600157737731934,rgb_Loss:1.2359825372695923,opticalFlow_Loss:1.4423052072525024
+Epoch 24, Iteration 3's Loss: 0.006774216890335083,rgb_Loss:1.223880410194397,opticalFlow_Loss:1.4432406425476074
+Epoch 24, Iteration 4's Loss: 0.012822344899177551,rgb_Loss:1.3371049165725708,opticalFlow_Loss:1.6064749956130981
+Epoch 24, Iteration 5's Loss: 0.002715885639190674,rgb_Loss:1.2933964729309082,opticalFlow_Loss:1.6165094375610352
+Epoch 24, Iteration 6's Loss: 0.7667737603187561,rgb_Loss:1.4987422227859497,opticalFlow_Loss:1.3573588132858276
+Epoch 24, Iteration 7's Loss: 1.0746381282806396,rgb_Loss:1.6133065223693848,opticalFlow_Loss:1.2403773069381714
+Epoch 24, Iteration 8's Loss: 0.8157789707183838,rgb_Loss:1.5757713317871094,opticalFlow_Loss:1.2406632900238037
+Epoch 24, Iteration 9's Loss: 0.563811182975769,rgb_Loss:1.4341034889221191,opticalFlow_Loss:1.2702620029449463
+Epoch 24, Iteration 10's Loss: 0.8599772453308105,rgb_Loss:1.3341721296310425,opticalFlow_Loss:1.2896634340286255
+Epoch 24, Iteration 11's Loss: 0.7701782584190369,rgb_Loss:1.389675498008728,opticalFlow_Loss:1.2911789417266846
+Epoch 24's Accuracy: 77.77777777777777,rgb Accuracy:40.27777777777778,opticalFlow Accuracy:29.166666666666668
+Epoch 25, Iteration 1's Loss: 0.08225854486227036,rgb_Loss:1.1617177724838257,opticalFlow_Loss:1.4433029890060425
+Epoch 25, Iteration 2's Loss: 0.008417636156082153,rgb_Loss:1.2507407665252686,opticalFlow_Loss:1.4414900541305542
+Epoch 25, Iteration 3's Loss: 0.021453022956848145,rgb_Loss:1.1940193176269531,opticalFlow_Loss:1.443185567855835
+Epoch 25, Iteration 4's Loss: 0.005453139543533325,rgb_Loss:1.3258230686187744,opticalFlow_Loss:1.604899287223816
+Epoch 25, Iteration 5's Loss: 0.001243680715560913,rgb_Loss:1.319701075553894,opticalFlow_Loss:1.617425799369812
+Epoch 25, Iteration 6's Loss: 0.37271198630332947,rgb_Loss:1.4863749742507935,opticalFlow_Loss:1.3567731380462646
+Epoch 25, Iteration 7's Loss: 0.46094822883605957,rgb_Loss:1.640150547027588,opticalFlow_Loss:1.2415446043014526
+Epoch 25, Iteration 8's Loss: 0.363766074180603,rgb_Loss:1.5828579664230347,opticalFlow_Loss:1.2401108741760254
+Epoch 25, Iteration 9's Loss: 0.8636090755462646,rgb_Loss:1.4257515668869019,opticalFlow_Loss:1.2691199779510498
+Epoch 25, Iteration 10's Loss: 1.0807338953018188,rgb_Loss:1.354331135749817,opticalFlow_Loss:1.2896254062652588
+Epoch 25, Iteration 11's Loss: 0.8707674145698547,rgb_Loss:1.3937952518463135,opticalFlow_Loss:1.2912367582321167
+Epoch 25's Accuracy: 76.38888888888889,rgb Accuracy:37.5,opticalFlow Accuracy:29.166666666666668
+Epoch 26, Iteration 1's Loss: 0.01785115897655487,rgb_Loss:1.18033766746521,opticalFlow_Loss:1.4424031972885132
+Epoch 26, Iteration 2's Loss: 0.029597431421279907,rgb_Loss:1.201051115989685,opticalFlow_Loss:1.4420255422592163
+Epoch 26, Iteration 3's Loss: 0.01892527937889099,rgb_Loss:1.2140063047409058,opticalFlow_Loss:1.442772626876831
+Epoch 26, Iteration 4's Loss: 0.007658034563064575,rgb_Loss:1.3483189344406128,opticalFlow_Loss:1.6071839332580566
+Epoch 26, Iteration 5's Loss: 0.004503160715103149,rgb_Loss:1.2956304550170898,opticalFlow_Loss:1.6173579692840576
+Epoch 26, Iteration 6's Loss: 0.7996305227279663,rgb_Loss:1.5339080095291138,opticalFlow_Loss:1.358317255973816
+Epoch 26, Iteration 7's Loss: 1.1200464963912964,rgb_Loss:1.6528042554855347,opticalFlow_Loss:1.241511583328247
+Epoch 26, Iteration 8's Loss: 0.8527089357376099,rgb_Loss:1.592637300491333,opticalFlow_Loss:1.240796685218811
+Epoch 26, Iteration 9's Loss: 0.5412094593048096,rgb_Loss:1.4278514385223389,opticalFlow_Loss:1.270232915878296
+Epoch 26, Iteration 10's Loss: 0.7382283806800842,rgb_Loss:1.3438950777053833,opticalFlow_Loss:1.2903292179107666
+Epoch 26, Iteration 11's Loss: 0.7516594529151917,rgb_Loss:1.4193662405014038,opticalFlow_Loss:1.2911127805709839
+Epoch 26's Accuracy: 76.38888888888889,rgb Accuracy:38.888888888888886,opticalFlow Accuracy:29.166666666666668
+Epoch 27, Iteration 1's Loss: 0.02346840500831604,rgb_Loss:1.1788066625595093,opticalFlow_Loss:1.4428226947784424
+Epoch 27, Iteration 2's Loss: 0.03264431655406952,rgb_Loss:1.2707244157791138,opticalFlow_Loss:1.442385196685791
+Epoch 27, Iteration 3's Loss: 0.002738475799560547,rgb_Loss:1.199828863143921,opticalFlow_Loss:1.4423162937164307
+Epoch 27, Iteration 4's Loss: 0.013415127992630005,rgb_Loss:1.370288610458374,opticalFlow_Loss:1.605115294456482
+Epoch 27, Iteration 5's Loss: 0.001737445592880249,rgb_Loss:1.2807997465133667,opticalFlow_Loss:1.6165930032730103
+Epoch 27, Iteration 6's Loss: 0.22816070914268494,rgb_Loss:1.5180926322937012,opticalFlow_Loss:1.357991337776184
+Epoch 27, Iteration 7's Loss: 0.3675508201122284,rgb_Loss:1.67304265499115,opticalFlow_Loss:1.243175983428955
+Epoch 27, Iteration 8's Loss: 0.30076873302459717,rgb_Loss:1.6438413858413696,opticalFlow_Loss:1.240760326385498
+Epoch 27, Iteration 9's Loss: 0.7149094939231873,rgb_Loss:1.4066946506500244,opticalFlow_Loss:1.270018458366394
+Epoch 27, Iteration 10's Loss: 1.0320030450820923,rgb_Loss:1.3711403608322144,opticalFlow_Loss:1.2895166873931885
+Epoch 27, Iteration 11's Loss: 0.8678076863288879,rgb_Loss:1.3904873132705688,opticalFlow_Loss:1.2909929752349854
+Epoch 27's Accuracy: 76.38888888888889,rgb Accuracy:38.888888888888886,opticalFlow Accuracy:29.166666666666668
+Epoch 28, Iteration 1's Loss: 0.005219787359237671,rgb_Loss:1.106410264968872,opticalFlow_Loss:1.4417520761489868
+Epoch 28, Iteration 2's Loss: 0.0025703012943267822,rgb_Loss:1.1885907649993896,opticalFlow_Loss:1.4423625469207764
+Epoch 28, Iteration 3's Loss: 0.00018715858459472656,rgb_Loss:1.1911065578460693,opticalFlow_Loss:1.442096471786499
+Epoch 28, Iteration 4's Loss: 0.025371313095092773,rgb_Loss:1.3626911640167236,opticalFlow_Loss:1.6044056415557861
+Epoch 28, Iteration 5's Loss: 0.003947138786315918,rgb_Loss:1.294343113899231,opticalFlow_Loss:1.6163166761398315
+Epoch 28, Iteration 6's Loss: 0.8900858759880066,rgb_Loss:1.4543986320495605,opticalFlow_Loss:1.3575239181518555
+Epoch 28, Iteration 7's Loss: 1.2998263835906982,rgb_Loss:1.5981460809707642,opticalFlow_Loss:1.2414839267730713
+Epoch 28, Iteration 8's Loss: 0.8503124713897705,rgb_Loss:1.620326280593872,opticalFlow_Loss:1.2404651641845703
+Epoch 28, Iteration 9's Loss: 0.5110040903091431,rgb_Loss:1.4491595029830933,opticalFlow_Loss:1.2704722881317139
+Epoch 28, Iteration 10's Loss: 0.5822765827178955,rgb_Loss:1.3564995527267456,opticalFlow_Loss:1.2898931503295898
+Epoch 28, Iteration 11's Loss: 0.6506333947181702,rgb_Loss:1.384185552597046,opticalFlow_Loss:1.2917896509170532
+Epoch 28's Accuracy: 77.77777777777777,rgb Accuracy:41.666666666666664,opticalFlow Accuracy:29.166666666666668
+Epoch 29, Iteration 1's Loss: 0.012104332447052002,rgb_Loss:1.2205049991607666,opticalFlow_Loss:1.4423282146453857
+Epoch 29, Iteration 2's Loss: 0.0048997849225997925,rgb_Loss:1.2423689365386963,opticalFlow_Loss:1.4420688152313232
+Epoch 29, Iteration 3's Loss: 0.005051851272583008,rgb_Loss:1.2140519618988037,opticalFlow_Loss:1.442561149597168
+Epoch 29, Iteration 4's Loss: 0.008132904767990112,rgb_Loss:1.3500378131866455,opticalFlow_Loss:1.6060771942138672
+Epoch 29, Iteration 5's Loss: 0.0007774531841278076,rgb_Loss:1.308937668800354,opticalFlow_Loss:1.6175106763839722
+Epoch 29, Iteration 6's Loss: 0.15348713099956512,rgb_Loss:1.4845002889633179,opticalFlow_Loss:1.357492208480835
+Epoch 29, Iteration 7's Loss: 0.21526174247264862,rgb_Loss:1.559164047241211,opticalFlow_Loss:1.2405643463134766
+Epoch 29, Iteration 8's Loss: 0.23423214256763458,rgb_Loss:1.5684850215911865,opticalFlow_Loss:1.2411692142486572
+Epoch 29, Iteration 9's Loss: 0.9866297245025635,rgb_Loss:1.439648985862732,opticalFlow_Loss:1.2704956531524658
+Epoch 29, Iteration 10's Loss: 1.0645246505737305,rgb_Loss:1.3586241006851196,opticalFlow_Loss:1.2883758544921875
+Epoch 29, Iteration 11's Loss: 0.7330629229545593,rgb_Loss:1.3984864950180054,opticalFlow_Loss:1.2899912595748901
+Epoch 29's Accuracy: 77.77777777777777,rgb Accuracy:41.666666666666664,opticalFlow Accuracy:29.166666666666668
+Epoch 30, Iteration 1's Loss: 0.002794981002807617,rgb_Loss:1.1687194108963013,opticalFlow_Loss:1.442949891090393
+Epoch 30, Iteration 2's Loss: 0.029499933123588562,rgb_Loss:1.2256263494491577,opticalFlow_Loss:1.4415838718414307
+Epoch 30, Iteration 3's Loss: 0.06390392035245895,rgb_Loss:1.1942771673202515,opticalFlow_Loss:1.442885160446167
+Epoch 30, Iteration 4's Loss: 0.12961561977863312,rgb_Loss:1.3626712560653687,opticalFlow_Loss:1.6060179471969604
+Epoch 30, Iteration 5's Loss: 0.025185659527778625,rgb_Loss:1.2981219291687012,opticalFlow_Loss:1.6169484853744507
+Epoch 30, Iteration 6's Loss: 1.297329068183899,rgb_Loss:1.4977266788482666,opticalFlow_Loss:1.3576304912567139
+Epoch 30, Iteration 7's Loss: 1.785292387008667,rgb_Loss:1.6337250471115112,opticalFlow_Loss:1.2411315441131592
+Epoch 30, Iteration 8's Loss: 1.285134196281433,rgb_Loss:1.6376529932022095,opticalFlow_Loss:1.2417263984680176
+Epoch 30, Iteration 9's Loss: 0.5358456969261169,rgb_Loss:1.4122915267944336,opticalFlow_Loss:1.2694956064224243
+Epoch 30, Iteration 10's Loss: 0.560866117477417,rgb_Loss:1.3320080041885376,opticalFlow_Loss:1.2897752523422241
+Epoch 30, Iteration 11's Loss: 0.6772779226303101,rgb_Loss:1.4013702869415283,opticalFlow_Loss:1.2917968034744263
+Epoch 30's Accuracy: 77.77777777777777,rgb Accuracy:30.555555555555557,opticalFlow Accuracy:29.166666666666668
+Epoch 31, Iteration 1's Loss: 0.011052697896957397,rgb_Loss:1.152400016784668,opticalFlow_Loss:1.4432131052017212
+Epoch 31, Iteration 2's Loss: 0.012415841221809387,rgb_Loss:1.2476109266281128,opticalFlow_Loss:1.4434385299682617
+Epoch 31, Iteration 3's Loss: 0.0011223256587982178,rgb_Loss:1.1781607866287231,opticalFlow_Loss:1.4422836303710938
+Epoch 31, Iteration 4's Loss: 0.04675343632698059,rgb_Loss:1.3431705236434937,opticalFlow_Loss:1.606166124343872
+Epoch 31, Iteration 5's Loss: 0.026069313287734985,rgb_Loss:1.3211520910263062,opticalFlow_Loss:1.61647367477417
+Epoch 31, Iteration 6's Loss: 0.1745874285697937,rgb_Loss:1.4951245784759521,opticalFlow_Loss:1.3584551811218262
+Epoch 31, Iteration 7's Loss: 0.2488388568162918,rgb_Loss:1.6679688692092896,opticalFlow_Loss:1.2405714988708496
+Epoch 31, Iteration 8's Loss: 0.1333092898130417,rgb_Loss:1.5909669399261475,opticalFlow_Loss:1.2410537004470825
+Epoch 31, Iteration 9's Loss: 1.042973279953003,rgb_Loss:1.4329829216003418,opticalFlow_Loss:1.2694759368896484
+Epoch 31, Iteration 10's Loss: 1.3797707557678223,rgb_Loss:1.3354674577713013,opticalFlow_Loss:1.2902345657348633
+Epoch 31, Iteration 11's Loss: 1.1528164148330688,rgb_Loss:1.3773047924041748,opticalFlow_Loss:1.290991187095642
+Epoch 31's Accuracy: 81.94444444444444,rgb Accuracy:36.111111111111114,opticalFlow Accuracy:29.166666666666668
+Epoch 32, Iteration 1's Loss: 0.004447326064109802,rgb_Loss:1.1958255767822266,opticalFlow_Loss:1.440643072128296
+Epoch 32, Iteration 2's Loss: 0.00836925208568573,rgb_Loss:1.2510697841644287,opticalFlow_Loss:1.442520260810852
+Epoch 32, Iteration 3's Loss: 0.04856459051370621,rgb_Loss:1.2219825983047485,opticalFlow_Loss:1.441979169845581
+Epoch 32, Iteration 4's Loss: 0.007297500967979431,rgb_Loss:1.3896156549453735,opticalFlow_Loss:1.606211543083191
+Epoch 32, Iteration 5's Loss: 0.0120888352394104,rgb_Loss:1.302301049232483,opticalFlow_Loss:1.616623878479004
+Epoch 32, Iteration 6's Loss: 1.1327699422836304,rgb_Loss:1.542851448059082,opticalFlow_Loss:1.3575758934020996
+Epoch 32, Iteration 7's Loss: 1.5688714981079102,rgb_Loss:1.5859695672988892,opticalFlow_Loss:1.2404565811157227
+Epoch 32, Iteration 8's Loss: 1.1720380783081055,rgb_Loss:1.6257977485656738,opticalFlow_Loss:1.240354061126709
+Epoch 32, Iteration 9's Loss: 0.6119393110275269,rgb_Loss:1.4719455242156982,opticalFlow_Loss:1.2700327634811401
+Epoch 32, Iteration 10's Loss: 0.5379100441932678,rgb_Loss:1.3590738773345947,opticalFlow_Loss:1.289905071258545
+Epoch 32, Iteration 11's Loss: 0.5639010071754456,rgb_Loss:1.3562053442001343,opticalFlow_Loss:1.291278600692749
+Epoch 32's Accuracy: 75.0,rgb Accuracy:41.666666666666664,opticalFlow Accuracy:29.166666666666668
+Epoch 33, Iteration 1's Loss: 0.007335752248764038,rgb_Loss:1.1611666679382324,opticalFlow_Loss:1.4424821138381958
+Epoch 33, Iteration 2's Loss: 0.05818008631467819,rgb_Loss:1.229343056678772,opticalFlow_Loss:1.442819595336914
+Epoch 33, Iteration 3's Loss: 0.0021688640117645264,rgb_Loss:1.1781343221664429,opticalFlow_Loss:1.441261887550354
+Epoch 33, Iteration 4's Loss: 0.0034853070974349976,rgb_Loss:1.3713409900665283,opticalFlow_Loss:1.6042250394821167
+Epoch 33, Iteration 5's Loss: 0.001811295747756958,rgb_Loss:1.3087655305862427,opticalFlow_Loss:1.6179457902908325
+Epoch 33, Iteration 6's Loss: 0.24235886335372925,rgb_Loss:1.513898253440857,opticalFlow_Loss:1.3586883544921875
+Epoch 33, Iteration 7's Loss: 0.30400824546813965,rgb_Loss:1.6630580425262451,opticalFlow_Loss:1.2411788702011108
+Epoch 33, Iteration 8's Loss: 0.27551400661468506,rgb_Loss:1.616549015045166,opticalFlow_Loss:1.2416155338287354
+Epoch 33, Iteration 9's Loss: 0.7674902677536011,rgb_Loss:1.43826425075531,opticalFlow_Loss:1.2694758176803589
+Epoch 33, Iteration 10's Loss: 1.0808740854263306,rgb_Loss:1.343791127204895,opticalFlow_Loss:1.2890983819961548
+Epoch 33, Iteration 11's Loss: 1.0619933605194092,rgb_Loss:1.3618439435958862,opticalFlow_Loss:1.291574239730835
+Epoch 33's Accuracy: 76.38888888888889,rgb Accuracy:38.888888888888886,opticalFlow Accuracy:29.166666666666668
+Epoch 34, Iteration 1's Loss: 0.00039884448051452637,rgb_Loss:1.172394037246704,opticalFlow_Loss:1.4437085390090942
+Epoch 34, Iteration 2's Loss: 0.006394281983375549,rgb_Loss:1.244568109512329,opticalFlow_Loss:1.4426047801971436
+Epoch 34, Iteration 3's Loss: 0.0008277297019958496,rgb_Loss:1.2006779909133911,opticalFlow_Loss:1.4447909593582153
+Epoch 34, Iteration 4's Loss: 0.00555497407913208,rgb_Loss:1.3662984371185303,opticalFlow_Loss:1.6062613725662231
+Epoch 34, Iteration 5's Loss: 7.706880569458008e-05,rgb_Loss:1.3398061990737915,opticalFlow_Loss:1.6165273189544678
+Epoch 34, Iteration 6's Loss: 0.5050826072692871,rgb_Loss:1.4808013439178467,opticalFlow_Loss:1.3573434352874756
+Epoch 34, Iteration 7's Loss: 0.8035838603973389,rgb_Loss:1.6589041948318481,opticalFlow_Loss:1.240803599357605
+Epoch 34, Iteration 8's Loss: 0.5936585068702698,rgb_Loss:1.6121448278427124,opticalFlow_Loss:1.2408860921859741
+Epoch 34, Iteration 9's Loss: 0.49670669436454773,rgb_Loss:1.458993673324585,opticalFlow_Loss:1.269891381263733
+Epoch 34, Iteration 10's Loss: 0.5901854038238525,rgb_Loss:1.358572006225586,opticalFlow_Loss:1.2891433238983154
+Epoch 34, Iteration 11's Loss: 0.498237282037735,rgb_Loss:1.3821518421173096,opticalFlow_Loss:1.2904692888259888
+Epoch 34's Accuracy: 80.55555555555556,rgb Accuracy:38.888888888888886,opticalFlow Accuracy:29.166666666666668
+Epoch 35, Iteration 1's Loss: 0.027369216084480286,rgb_Loss:1.1945359706878662,opticalFlow_Loss:1.4420149326324463
+Epoch 35, Iteration 2's Loss: 0.006608307361602783,rgb_Loss:1.218791127204895,opticalFlow_Loss:1.4428642988204956
+Epoch 35, Iteration 3's Loss: 0.007153257727622986,rgb_Loss:1.2394641637802124,opticalFlow_Loss:1.4432077407836914
+Epoch 35, Iteration 4's Loss: 0.005799591541290283,rgb_Loss:1.34520423412323,opticalFlow_Loss:1.6056303977966309
+Epoch 35, Iteration 5's Loss: 0.002561897039413452,rgb_Loss:1.2893145084381104,opticalFlow_Loss:1.6162588596343994
+Epoch 35, Iteration 6's Loss: 0.28788480162620544,rgb_Loss:1.4958829879760742,opticalFlow_Loss:1.357896327972412
+Epoch 35, Iteration 7's Loss: 0.33016717433929443,rgb_Loss:1.565098524093628,opticalFlow_Loss:1.2405649423599243
+Epoch 35, Iteration 8's Loss: 0.3454868793487549,rgb_Loss:1.572566032409668,opticalFlow_Loss:1.241868495941162
+Epoch 35, Iteration 9's Loss: 0.6684921979904175,rgb_Loss:1.4396777153015137,opticalFlow_Loss:1.271177887916565
+Epoch 35, Iteration 10's Loss: 0.7602208256721497,rgb_Loss:1.3446474075317383,opticalFlow_Loss:1.2897775173187256
+Epoch 35, Iteration 11's Loss: 0.5764951705932617,rgb_Loss:1.3809229135513306,opticalFlow_Loss:1.291646122932434
+Epoch 35's Accuracy: 77.77777777777777,rgb Accuracy:38.888888888888886,opticalFlow Accuracy:29.166666666666668
+Epoch 36, Iteration 1's Loss: 0.00021797418594360352,rgb_Loss:1.1558139324188232,opticalFlow_Loss:1.4415538311004639
+Epoch 36, Iteration 2's Loss: 0.004560112953186035,rgb_Loss:1.1759005784988403,opticalFlow_Loss:1.4436064958572388
+Epoch 36, Iteration 3's Loss: 0.0011764466762542725,rgb_Loss:1.194288969039917,opticalFlow_Loss:1.4432730674743652
+Epoch 36, Iteration 4's Loss: 0.02509547770023346,rgb_Loss:1.3638067245483398,opticalFlow_Loss:1.6055179834365845
+Epoch 36, Iteration 5's Loss: 0.11859358102083206,rgb_Loss:1.3107389211654663,opticalFlow_Loss:1.6168395280838013
+Epoch 36, Iteration 6's Loss: 0.5186650156974792,rgb_Loss:1.5041375160217285,opticalFlow_Loss:1.3571466207504272
+Epoch 36, Iteration 7's Loss: 0.7204644680023193,rgb_Loss:1.6214462518692017,opticalFlow_Loss:1.2409892082214355
+Epoch 36, Iteration 8's Loss: 0.5701149106025696,rgb_Loss:1.596374750137329,opticalFlow_Loss:1.241256833076477
+Epoch 36, Iteration 9's Loss: 0.41193658113479614,rgb_Loss:1.454563856124878,opticalFlow_Loss:1.2696495056152344
+Epoch 36, Iteration 10's Loss: 0.4471776783466339,rgb_Loss:1.3236383199691772,opticalFlow_Loss:1.2887259721755981
+Epoch 36, Iteration 11's Loss: 0.46641889214515686,rgb_Loss:1.4016586542129517,opticalFlow_Loss:1.2901917695999146
+Epoch 36's Accuracy: 83.33333333333333,rgb Accuracy:40.27777777777778,opticalFlow Accuracy:29.166666666666668
+Epoch 37, Iteration 1's Loss: 0.0023115873336791992,rgb_Loss:1.199054479598999,opticalFlow_Loss:1.4417963027954102
+Epoch 37, Iteration 2's Loss: 0.009305447340011597,rgb_Loss:1.2006421089172363,opticalFlow_Loss:1.4422427415847778
+Epoch 37, Iteration 3's Loss: 0.0435214564204216,rgb_Loss:1.1756819486618042,opticalFlow_Loss:1.4429112672805786
+Epoch 37, Iteration 4's Loss: 0.0011669397354125977,rgb_Loss:1.372164249420166,opticalFlow_Loss:1.6059536933898926
+Epoch 37, Iteration 5's Loss: 0.0006323158740997314,rgb_Loss:1.2635188102722168,opticalFlow_Loss:1.6168532371520996
+Epoch 37, Iteration 6's Loss: 0.22452720999717712,rgb_Loss:1.5000977516174316,opticalFlow_Loss:1.3583539724349976
+Epoch 37, Iteration 7's Loss: 0.40568551421165466,rgb_Loss:1.655023217201233,opticalFlow_Loss:1.2417054176330566
+Epoch 37, Iteration 8's Loss: 0.2739352285861969,rgb_Loss:1.5554213523864746,opticalFlow_Loss:1.2404332160949707
+Epoch 37, Iteration 9's Loss: 0.42075514793395996,rgb_Loss:1.4544384479522705,opticalFlow_Loss:1.270917534828186
+Epoch 37, Iteration 10's Loss: 0.5486809611320496,rgb_Loss:1.3707525730133057,opticalFlow_Loss:1.2897911071777344
+Epoch 37, Iteration 11's Loss: 0.39551210403442383,rgb_Loss:1.378853440284729,opticalFlow_Loss:1.2916659116744995
+Epoch 37's Accuracy: 75.0,rgb Accuracy:38.888888888888886,opticalFlow Accuracy:29.166666666666668
+Epoch 38, Iteration 1's Loss: 0.007693573832511902,rgb_Loss:1.163007378578186,opticalFlow_Loss:1.4428703784942627
+Epoch 38, Iteration 2's Loss: 0.0020744502544403076,rgb_Loss:1.1876585483551025,opticalFlow_Loss:1.4422599077224731
+Epoch 38, Iteration 3's Loss: 0.0002449452877044678,rgb_Loss:1.1988515853881836,opticalFlow_Loss:1.4431684017181396
+Epoch 38, Iteration 4's Loss: 0.0023512542247772217,rgb_Loss:1.3031017780303955,opticalFlow_Loss:1.6063820123672485
+Epoch 38, Iteration 5's Loss: 0.007361024618148804,rgb_Loss:1.2698187828063965,opticalFlow_Loss:1.6186585426330566
+Epoch 38, Iteration 6's Loss: 0.36032286286354065,rgb_Loss:1.544772982597351,opticalFlow_Loss:1.3571977615356445
+Epoch 38, Iteration 7's Loss: 0.4424809515476227,rgb_Loss:1.5799071788787842,opticalFlow_Loss:1.2414300441741943
+Epoch 38, Iteration 8's Loss: 0.3961562216281891,rgb_Loss:1.5695288181304932,opticalFlow_Loss:1.2410109043121338
+Epoch 38, Iteration 9's Loss: 0.40296709537506104,rgb_Loss:1.471914291381836,opticalFlow_Loss:1.2691538333892822
+Epoch 38, Iteration 10's Loss: 0.5096104741096497,rgb_Loss:1.3838186264038086,opticalFlow_Loss:1.289308786392212
+Epoch 38, Iteration 11's Loss: 0.5761078596115112,rgb_Loss:1.3736828565597534,opticalFlow_Loss:1.2919321060180664
+Epoch 38's Accuracy: 79.16666666666667,rgb Accuracy:36.111111111111114,opticalFlow Accuracy:29.166666666666668
+Epoch 39, Iteration 1's Loss: 0.0020092129707336426,rgb_Loss:1.152852177619934,opticalFlow_Loss:1.441253662109375
+Epoch 39, Iteration 2's Loss: 0.0018877387046813965,rgb_Loss:1.221075177192688,opticalFlow_Loss:1.4414678812026978
+Epoch 39, Iteration 3's Loss: 0.00037300586700439453,rgb_Loss:1.2088754177093506,opticalFlow_Loss:1.4420822858810425
+Epoch 39, Iteration 4's Loss: 0.03436051309108734,rgb_Loss:1.3546473979949951,opticalFlow_Loss:1.605110764503479
+Epoch 39, Iteration 5's Loss: 0.00029349327087402344,rgb_Loss:1.310474157333374,opticalFlow_Loss:1.6171761751174927
+Epoch 39, Iteration 6's Loss: 0.3679404854774475,rgb_Loss:1.4913084506988525,opticalFlow_Loss:1.3570948839187622
+Epoch 39, Iteration 7's Loss: 0.4341684877872467,rgb_Loss:1.6325594186782837,opticalFlow_Loss:1.2410849332809448
+Epoch 39, Iteration 8's Loss: 0.2609490752220154,rgb_Loss:1.5722068548202515,opticalFlow_Loss:1.2400343418121338
+Epoch 39, Iteration 9's Loss: 0.28598552942276,rgb_Loss:1.4443308115005493,opticalFlow_Loss:1.2703821659088135
+Epoch 39, Iteration 10's Loss: 0.45260000228881836,rgb_Loss:1.344953179359436,opticalFlow_Loss:1.2887276411056519
+Epoch 39, Iteration 11's Loss: 0.3537217676639557,rgb_Loss:1.3809547424316406,opticalFlow_Loss:1.2908048629760742
+Epoch 39's Accuracy: 80.55555555555556,rgb Accuracy:43.05555555555556,opticalFlow Accuracy:29.166666666666668
+Epoch 40, Iteration 1's Loss: 0.013558745384216309,rgb_Loss:1.2022382020950317,opticalFlow_Loss:1.4415202140808105
+Epoch 40, Iteration 2's Loss: 0.0007960498332977295,rgb_Loss:1.2221256494522095,opticalFlow_Loss:1.4427076578140259
+Epoch 40, Iteration 3's Loss: 0.0003997683525085449,rgb_Loss:1.1588762998580933,opticalFlow_Loss:1.4438177347183228
+Epoch 40, Iteration 4's Loss: 0.00013759732246398926,rgb_Loss:1.3213857412338257,opticalFlow_Loss:1.6061155796051025
+Epoch 40, Iteration 5's Loss: 2.2232532501220703e-05,rgb_Loss:1.323264479637146,opticalFlow_Loss:1.6165783405303955
+Epoch 40, Iteration 6's Loss: 0.3226720988750458,rgb_Loss:1.5461838245391846,opticalFlow_Loss:1.3575809001922607
+Epoch 40, Iteration 7's Loss: 0.3228420317173004,rgb_Loss:1.604524850845337,opticalFlow_Loss:1.240778923034668
+Epoch 40, Iteration 8's Loss: 0.19041851162910461,rgb_Loss:1.6170375347137451,opticalFlow_Loss:1.2406857013702393
+Epoch 40, Iteration 9's Loss: 0.27974486351013184,rgb_Loss:1.4202110767364502,opticalFlow_Loss:1.2696540355682373
+Epoch 40, Iteration 10's Loss: 0.4458189904689789,rgb_Loss:1.355353832244873,opticalFlow_Loss:1.2885675430297852
+Epoch 40, Iteration 11's Loss: 0.26151949167251587,rgb_Loss:1.4195412397384644,opticalFlow_Loss:1.2922618389129639
+Epoch 40's Accuracy: 77.77777777777777,rgb Accuracy:41.666666666666664,opticalFlow Accuracy:29.166666666666668
+Epoch 41, Iteration 1's Loss: 0.01432238519191742,rgb_Loss:1.1484081745147705,opticalFlow_Loss:1.443395972251892
+Epoch 41, Iteration 2's Loss: 0.001002281904220581,rgb_Loss:1.227652668952942,opticalFlow_Loss:1.4439879655838013
+Epoch 41, Iteration 3's Loss: 0.0006475150585174561,rgb_Loss:1.1929895877838135,opticalFlow_Loss:1.4427474737167358
+Epoch 41, Iteration 4's Loss: 0.016026705503463745,rgb_Loss:1.34984290599823,opticalFlow_Loss:1.6060326099395752
+Epoch 41, Iteration 5's Loss: 0.0006746053695678711,rgb_Loss:1.2775967121124268,opticalFlow_Loss:1.6170871257781982
+Epoch 41, Iteration 6's Loss: 0.12390352785587311,rgb_Loss:1.5289607048034668,opticalFlow_Loss:1.3581852912902832
+Epoch 41, Iteration 7's Loss: 0.13036136329174042,rgb_Loss:1.5488039255142212,opticalFlow_Loss:1.24052095413208
+Epoch 41, Iteration 8's Loss: 0.14884769916534424,rgb_Loss:1.590778112411499,opticalFlow_Loss:1.2401823997497559
+Epoch 41, Iteration 9's Loss: 0.27881571650505066,rgb_Loss:1.4859766960144043,opticalFlow_Loss:1.2702512741088867
+Epoch 41, Iteration 10's Loss: 0.18742750585079193,rgb_Loss:1.3754005432128906,opticalFlow_Loss:1.290366530418396
+Epoch 41, Iteration 11's Loss: 0.13807952404022217,rgb_Loss:1.4312022924423218,opticalFlow_Loss:1.2910622358322144
+Epoch 41's Accuracy: 77.77777777777777,rgb Accuracy:33.333333333333336,opticalFlow Accuracy:29.166666666666668
+Epoch 42, Iteration 1's Loss: 0.0027123093605041504,rgb_Loss:1.2124258279800415,opticalFlow_Loss:1.4428483247756958
+Epoch 42, Iteration 2's Loss: 0.0017247796058654785,rgb_Loss:1.1746795177459717,opticalFlow_Loss:1.4424123764038086
+Epoch 42, Iteration 3's Loss: 0.00057181715965271,rgb_Loss:1.2294944524765015,opticalFlow_Loss:1.4426294565200806
+Epoch 42, Iteration 4's Loss: 0.0011529922485351562,rgb_Loss:1.3567967414855957,opticalFlow_Loss:1.6051337718963623
+Epoch 42, Iteration 5's Loss: 9.009242057800293e-05,rgb_Loss:1.2886732816696167,opticalFlow_Loss:1.6162643432617188
+Epoch 42, Iteration 6's Loss: 0.5394567847251892,rgb_Loss:1.4830608367919922,opticalFlow_Loss:1.3570599555969238
+Epoch 42, Iteration 7's Loss: 0.27921393513679504,rgb_Loss:1.6245782375335693,opticalFlow_Loss:1.2413285970687866
+Epoch 42, Iteration 8's Loss: 0.06456615030765533,rgb_Loss:1.6019667387008667,opticalFlow_Loss:1.2409390211105347
+Epoch 42, Iteration 9's Loss: 0.4649137854576111,rgb_Loss:1.413583517074585,opticalFlow_Loss:1.270207405090332
+Epoch 42, Iteration 10's Loss: 0.5306878685951233,rgb_Loss:1.3456710577011108,opticalFlow_Loss:1.2898259162902832
+Epoch 42, Iteration 11's Loss: 0.19500701129436493,rgb_Loss:1.3884793519973755,opticalFlow_Loss:1.2913042306900024
+Epoch 42's Accuracy: 73.61111111111111,rgb Accuracy:38.888888888888886,opticalFlow Accuracy:29.166666666666668
+Epoch 43, Iteration 1's Loss: 0.010829180479049683,rgb_Loss:1.1627781391143799,opticalFlow_Loss:1.4427542686462402
+Epoch 43, Iteration 2's Loss: 0.019849568605422974,rgb_Loss:1.2035939693450928,opticalFlow_Loss:1.4423084259033203
+Epoch 43, Iteration 3's Loss: 0.014288991689682007,rgb_Loss:1.2252740859985352,opticalFlow_Loss:1.4428799152374268
+Epoch 43, Iteration 4's Loss: 0.048724234104156494,rgb_Loss:1.3858320713043213,opticalFlow_Loss:1.6062159538269043
+Epoch 43, Iteration 5's Loss: 0.0597834438085556,rgb_Loss:1.2611908912658691,opticalFlow_Loss:1.6162140369415283
+Epoch 43, Iteration 6's Loss: 1.2969883680343628,rgb_Loss:1.5109554529190063,opticalFlow_Loss:1.35743248462677
+Epoch 43, Iteration 7's Loss: 0.9874094128608704,rgb_Loss:1.597178339958191,opticalFlow_Loss:1.240982174873352
+Epoch 43, Iteration 8's Loss: 0.13398230075836182,rgb_Loss:1.5809389352798462,opticalFlow_Loss:1.2410564422607422
+Epoch 43, Iteration 9's Loss: 0.5183291435241699,rgb_Loss:1.508202314376831,opticalFlow_Loss:1.2693047523498535
+Epoch 43, Iteration 10's Loss: 1.2043712139129639,rgb_Loss:1.3678522109985352,opticalFlow_Loss:1.2894160747528076
+Epoch 43, Iteration 11's Loss: 0.776487410068512,rgb_Loss:1.3768031597137451,opticalFlow_Loss:1.292345643043518
+Epoch 43's Accuracy: 77.77777777777777,rgb Accuracy:37.5,opticalFlow Accuracy:29.166666666666668
+Epoch 44, Iteration 1's Loss: 0.12641537189483643,rgb_Loss:1.1343814134597778,opticalFlow_Loss:1.441832423210144
+Epoch 44, Iteration 2's Loss: 0.12488789856433868,rgb_Loss:1.221132516860962,opticalFlow_Loss:1.4420076608657837
+Epoch 44, Iteration 3's Loss: 0.02223190665245056,rgb_Loss:1.217138409614563,opticalFlow_Loss:1.4428149461746216
+Epoch 44, Iteration 4's Loss: 0.06593437492847443,rgb_Loss:1.3483165502548218,opticalFlow_Loss:1.605684518814087
+Epoch 44, Iteration 5's Loss: 0.011379629373550415,rgb_Loss:1.3007992506027222,opticalFlow_Loss:1.617464303970337
+Epoch 44, Iteration 6's Loss: 1.1251425743103027,rgb_Loss:1.5112037658691406,opticalFlow_Loss:1.3582550287246704
+Epoch 44, Iteration 7's Loss: 1.2924120426177979,rgb_Loss:1.6237305402755737,opticalFlow_Loss:1.2414129972457886
+Epoch 44, Iteration 8's Loss: 0.47429358959198,rgb_Loss:1.5728919506072998,opticalFlow_Loss:1.2410554885864258
+Epoch 44, Iteration 9's Loss: 0.5135972499847412,rgb_Loss:1.457973599433899,opticalFlow_Loss:1.2691702842712402
+Epoch 44, Iteration 10's Loss: 1.0855963230133057,rgb_Loss:1.3405579328536987,opticalFlow_Loss:1.2891907691955566
+Epoch 44, Iteration 11's Loss: 0.8764816522598267,rgb_Loss:1.3717838525772095,opticalFlow_Loss:1.2896608114242554
+Epoch 44's Accuracy: 77.77777777777777,rgb Accuracy:30.555555555555557,opticalFlow Accuracy:29.166666666666668
+Epoch 45, Iteration 1's Loss: 0.5706391334533691,rgb_Loss:1.1731765270233154,opticalFlow_Loss:1.4440748691558838
+Epoch 45, Iteration 2's Loss: 0.5466530323028564,rgb_Loss:1.216546893119812,opticalFlow_Loss:1.4433715343475342
+Epoch 45, Iteration 3's Loss: 0.13333721458911896,rgb_Loss:1.2004880905151367,opticalFlow_Loss:1.4425679445266724
+Epoch 45, Iteration 4's Loss: 0.24285565316677094,rgb_Loss:1.3286211490631104,opticalFlow_Loss:1.6056163311004639
+Epoch 45, Iteration 5's Loss: 0.213510662317276,rgb_Loss:1.3489997386932373,opticalFlow_Loss:1.6164538860321045
+Epoch 45, Iteration 6's Loss: 0.45915845036506653,rgb_Loss:1.4856603145599365,opticalFlow_Loss:1.3578072786331177
+Epoch 45, Iteration 7's Loss: 0.6453874111175537,rgb_Loss:1.5963464975357056,opticalFlow_Loss:1.2406235933303833
+Epoch 45, Iteration 8's Loss: 0.8234014511108398,rgb_Loss:1.5589112043380737,opticalFlow_Loss:1.2404754161834717
+Epoch 45, Iteration 9's Loss: 1.5233144760131836,rgb_Loss:1.445951223373413,opticalFlow_Loss:1.2702999114990234
+Epoch 45, Iteration 10's Loss: 0.6623517870903015,rgb_Loss:1.3670291900634766,opticalFlow_Loss:1.2903000116348267
+Epoch 45, Iteration 11's Loss: 0.44548729062080383,rgb_Loss:1.3941503763198853,opticalFlow_Loss:1.2915979623794556
+Epoch 45's Accuracy: 79.16666666666667,rgb Accuracy:36.111111111111114,opticalFlow Accuracy:29.166666666666668
+Epoch 46, Iteration 1's Loss: 0.009712651371955872,rgb_Loss:1.2064628601074219,opticalFlow_Loss:1.4427402019500732
+Epoch 46, Iteration 2's Loss: 0.03959089517593384,rgb_Loss:1.1703592538833618,opticalFlow_Loss:1.4412709474563599
+Epoch 46, Iteration 3's Loss: 0.03746713697910309,rgb_Loss:1.2149797677993774,opticalFlow_Loss:1.442740797996521
+Epoch 46, Iteration 4's Loss: 0.6154727935791016,rgb_Loss:1.3599659204483032,opticalFlow_Loss:1.6058155298233032
+Epoch 46, Iteration 5's Loss: 0.09408740699291229,rgb_Loss:1.302489995956421,opticalFlow_Loss:1.6171315908432007
+Epoch 46, Iteration 6's Loss: 0.47545963525772095,rgb_Loss:1.5278321504592896,opticalFlow_Loss:1.357688307762146
+Epoch 46, Iteration 7's Loss: 0.6795969009399414,rgb_Loss:1.6077371835708618,opticalFlow_Loss:1.2411742210388184
+Epoch 46, Iteration 8's Loss: 0.8810287714004517,rgb_Loss:1.5584295988082886,opticalFlow_Loss:1.2405025959014893
+Epoch 46, Iteration 9's Loss: 0.5157952308654785,rgb_Loss:1.4793378114700317,opticalFlow_Loss:1.2709956169128418
+Epoch 46, Iteration 10's Loss: 0.5392336845397949,rgb_Loss:1.3491201400756836,opticalFlow_Loss:1.2907161712646484
+Epoch 46, Iteration 11's Loss: 0.6963682174682617,rgb_Loss:1.4005881547927856,opticalFlow_Loss:1.2913726568222046
+Epoch 46's Accuracy: 77.77777777777777,rgb Accuracy:36.111111111111114,opticalFlow Accuracy:29.166666666666668
+Epoch 47, Iteration 1's Loss: 0.03045007586479187,rgb_Loss:1.1467424631118774,opticalFlow_Loss:1.4423364400863647
+Epoch 47, Iteration 2's Loss: 0.03900720179080963,rgb_Loss:1.2240755558013916,opticalFlow_Loss:1.4421616792678833
+Epoch 47, Iteration 3's Loss: 0.04256926476955414,rgb_Loss:1.2151730060577393,opticalFlow_Loss:1.4450350999832153
+Epoch 47, Iteration 4's Loss: 0.6554751396179199,rgb_Loss:1.3241299390792847,opticalFlow_Loss:1.6053446531295776
+Epoch 47, Iteration 5's Loss: 0.15115776658058167,rgb_Loss:1.314455270767212,opticalFlow_Loss:1.6174964904785156
+Epoch 47, Iteration 6's Loss: 0.32782182097435,rgb_Loss:1.4730353355407715,opticalFlow_Loss:1.357608675956726
+Epoch 47, Iteration 7's Loss: 0.5717741250991821,rgb_Loss:1.619938850402832,opticalFlow_Loss:1.240464210510254
+Epoch 47, Iteration 8's Loss: 0.43826133012771606,rgb_Loss:1.62465500831604,opticalFlow_Loss:1.2412059307098389
+Epoch 47, Iteration 9's Loss: 1.0648043155670166,rgb_Loss:1.4631409645080566,opticalFlow_Loss:1.2702832221984863
+Epoch 47, Iteration 10's Loss: 0.8189979791641235,rgb_Loss:1.3705521821975708,opticalFlow_Loss:1.2897603511810303
+Epoch 47, Iteration 11's Loss: 0.5050676465034485,rgb_Loss:1.3983373641967773,opticalFlow_Loss:1.2896673679351807
+Epoch 47's Accuracy: 73.61111111111111,rgb Accuracy:37.5,opticalFlow Accuracy:29.166666666666668
+Epoch 48, Iteration 1's Loss: 0.011649638414382935,rgb_Loss:1.1404354572296143,opticalFlow_Loss:1.4431781768798828
+Epoch 48, Iteration 2's Loss: 0.005040913820266724,rgb_Loss:1.2734525203704834,opticalFlow_Loss:1.4418550729751587
+Epoch 48, Iteration 3's Loss: 0.005014240741729736,rgb_Loss:1.1933019161224365,opticalFlow_Loss:1.441841959953308
+Epoch 48, Iteration 4's Loss: 0.1553725004196167,rgb_Loss:1.3524658679962158,opticalFlow_Loss:1.6062980890274048
+Epoch 48, Iteration 5's Loss: 0.13081297278404236,rgb_Loss:1.3008432388305664,opticalFlow_Loss:1.6172778606414795
+Epoch 48, Iteration 6's Loss: 0.968399703502655,rgb_Loss:1.5057871341705322,opticalFlow_Loss:1.3582477569580078
+Epoch 48, Iteration 7's Loss: 1.498790979385376,rgb_Loss:1.6595052480697632,opticalFlow_Loss:1.240283727645874
+Epoch 48, Iteration 8's Loss: 1.044316291809082,rgb_Loss:1.6242425441741943,opticalFlow_Loss:1.240257978439331
+Epoch 48, Iteration 9's Loss: 0.5829563140869141,rgb_Loss:1.4348294734954834,opticalFlow_Loss:1.2709294557571411
+Epoch 48, Iteration 10's Loss: 0.6411596536636353,rgb_Loss:1.3377580642700195,opticalFlow_Loss:1.2892837524414062
+Epoch 48, Iteration 11's Loss: 0.7143637537956238,rgb_Loss:1.3684847354888916,opticalFlow_Loss:1.2926214933395386
+Epoch 48's Accuracy: 75.0,rgb Accuracy:50.0,opticalFlow Accuracy:29.166666666666668
+Epoch 49, Iteration 1's Loss: 0.15319094061851501,rgb_Loss:1.2106783390045166,opticalFlow_Loss:1.4425233602523804
+Epoch 49, Iteration 2's Loss: 0.23312678933143616,rgb_Loss:1.2300232648849487,opticalFlow_Loss:1.4428133964538574
+Epoch 49, Iteration 3's Loss: 0.5064787268638611,rgb_Loss:1.2049376964569092,opticalFlow_Loss:1.443157434463501
+Epoch 49, Iteration 4's Loss: 0.014076709747314453,rgb_Loss:1.3355278968811035,opticalFlow_Loss:1.6064163446426392
+Epoch 49, Iteration 5's Loss: 0.002131342887878418,rgb_Loss:1.3109017610549927,opticalFlow_Loss:1.6174521446228027
+Epoch 49, Iteration 6's Loss: 0.2520293593406677,rgb_Loss:1.4675315618515015,opticalFlow_Loss:1.3583269119262695
+Epoch 49, Iteration 7's Loss: 0.31532222032546997,rgb_Loss:1.5723904371261597,opticalFlow_Loss:1.2419744729995728
+Epoch 49, Iteration 8's Loss: 0.35891467332839966,rgb_Loss:1.5958830118179321,opticalFlow_Loss:1.2418707609176636
+Epoch 49, Iteration 9's Loss: 1.0027892589569092,rgb_Loss:1.4532067775726318,opticalFlow_Loss:1.2694085836410522
+Epoch 49, Iteration 10's Loss: 0.6660476326942444,rgb_Loss:1.3483964204788208,opticalFlow_Loss:1.288881540298462
+Epoch 49, Iteration 11's Loss: 0.5189861059188843,rgb_Loss:1.3372913599014282,opticalFlow_Loss:1.2911487817764282
+Epoch 49's Accuracy: 70.83333333333333,rgb Accuracy:44.44444444444444,opticalFlow Accuracy:29.166666666666668
+Epoch 50, Iteration 1's Loss: 0.009751349687576294,rgb_Loss:1.1992179155349731,opticalFlow_Loss:1.4414684772491455
+Epoch 50, Iteration 2's Loss: 0.13100914657115936,rgb_Loss:1.2429461479187012,opticalFlow_Loss:1.4418375492095947
+Epoch 50, Iteration 3's Loss: 0.09934177994728088,rgb_Loss:1.1958653926849365,opticalFlow_Loss:1.443384051322937
+Epoch 50, Iteration 4's Loss: 0.004967719316482544,rgb_Loss:1.3778647184371948,opticalFlow_Loss:1.6059471368789673
+Epoch 50, Iteration 5's Loss: 0.0006346404552459717,rgb_Loss:1.311923623085022,opticalFlow_Loss:1.618009090423584
+Epoch 50, Iteration 6's Loss: 0.6917335987091064,rgb_Loss:1.4799566268920898,opticalFlow_Loss:1.3579992055892944
+Epoch 50, Iteration 7's Loss: 0.7497900128364563,rgb_Loss:1.6103814840316772,opticalFlow_Loss:1.2409687042236328
+Epoch 50, Iteration 8's Loss: 0.37610775232315063,rgb_Loss:1.5835769176483154,opticalFlow_Loss:1.2408734560012817
+Epoch 50, Iteration 9's Loss: 0.4424077868461609,rgb_Loss:1.4449959993362427,opticalFlow_Loss:1.2701263427734375
+Epoch 50, Iteration 10's Loss: 0.6580036282539368,rgb_Loss:1.3212342262268066,opticalFlow_Loss:1.289106011390686
+Epoch 50, Iteration 11's Loss: 0.5363159775733948,rgb_Loss:1.3665711879730225,opticalFlow_Loss:1.291394829750061
+Epoch 50's Accuracy: 76.38888888888889,rgb Accuracy:36.111111111111114,opticalFlow Accuracy:29.166666666666668
+Epoch 51, Iteration 1's Loss: 0.01682955026626587,rgb_Loss:1.1775010824203491,opticalFlow_Loss:1.4416353702545166
+Epoch 51, Iteration 2's Loss: 0.008333191275596619,rgb_Loss:1.195217251777649,opticalFlow_Loss:1.443142056465149
+Epoch 51, Iteration 3's Loss: 0.002247154712677002,rgb_Loss:1.2114990949630737,opticalFlow_Loss:1.4428815841674805
+Epoch 51, Iteration 4's Loss: 0.015891581773757935,rgb_Loss:1.3646724224090576,opticalFlow_Loss:1.6056807041168213
+Epoch 51, Iteration 5's Loss: 0.0001423656940460205,rgb_Loss:1.2623380422592163,opticalFlow_Loss:1.6176055669784546
+Epoch 51, Iteration 6's Loss: 0.0432903915643692,rgb_Loss:1.5141587257385254,opticalFlow_Loss:1.3586074113845825
+Epoch 51, Iteration 7's Loss: 0.20564761757850647,rgb_Loss:1.5982633829116821,opticalFlow_Loss:1.2409411668777466
+Epoch 51, Iteration 8's Loss: 0.15664786100387573,rgb_Loss:1.5527139902114868,opticalFlow_Loss:1.24068021774292
+Epoch 51, Iteration 9's Loss: 0.4103519916534424,rgb_Loss:1.470098614692688,opticalFlow_Loss:1.2711671590805054
+Epoch 51, Iteration 10's Loss: 0.48778414726257324,rgb_Loss:1.345449447631836,opticalFlow_Loss:1.2901147603988647
+Epoch 51, Iteration 11's Loss: 0.3318719267845154,rgb_Loss:1.3911088705062866,opticalFlow_Loss:1.2907215356826782
+Epoch 51's Accuracy: 76.38888888888889,rgb Accuracy:36.111111111111114,opticalFlow Accuracy:29.166666666666668
+Epoch 52, Iteration 1's Loss: 0.00011390447616577148,rgb_Loss:1.1770248413085938,opticalFlow_Loss:1.441750168800354
+Epoch 52, Iteration 2's Loss: 0.0020718276500701904,rgb_Loss:1.1622799634933472,opticalFlow_Loss:1.4416570663452148
+Epoch 52, Iteration 3's Loss: 0.0006118118762969971,rgb_Loss:1.2217144966125488,opticalFlow_Loss:1.4422929286956787
+Epoch 52, Iteration 4's Loss: 0.00023108720779418945,rgb_Loss:1.4038323163986206,opticalFlow_Loss:1.6054954528808594
+Epoch 52, Iteration 5's Loss: 8.866190910339355e-05,rgb_Loss:1.2636440992355347,opticalFlow_Loss:1.6158233880996704
+Epoch 52, Iteration 6's Loss: 0.39420655369758606,rgb_Loss:1.4912002086639404,opticalFlow_Loss:1.3581881523132324
+Epoch 52, Iteration 7's Loss: 0.3068670630455017,rgb_Loss:1.6233693361282349,opticalFlow_Loss:1.2408515214920044
+Epoch 52, Iteration 8's Loss: 0.526856005191803,rgb_Loss:1.5481078624725342,opticalFlow_Loss:1.2412173748016357
+Epoch 52, Iteration 9's Loss: 0.22549258172512054,rgb_Loss:1.44336998462677,opticalFlow_Loss:1.2706586122512817
+Epoch 52, Iteration 10's Loss: 0.3459698557853699,rgb_Loss:1.326080560684204,opticalFlow_Loss:1.2892608642578125
+Epoch 52, Iteration 11's Loss: 0.2760538160800934,rgb_Loss:1.387709617614746,opticalFlow_Loss:1.2915589809417725
+Epoch 52's Accuracy: 77.77777777777777,rgb Accuracy:33.333333333333336,opticalFlow Accuracy:29.166666666666668
+Epoch 53, Iteration 1's Loss: 0.007012918591499329,rgb_Loss:1.1547534465789795,opticalFlow_Loss:1.442183017730713

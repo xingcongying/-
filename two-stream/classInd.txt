@@ -1,0 +1,4 @@
+1 eat
+2 lay
+3 stand
+4 walk
